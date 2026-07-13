@@ -1,0 +1,50 @@
+# KiCad .gitignore
+# Tracked as source: *.kicad_pro, *.kicad_sch, *.kicad_pcb, sym-lib-table, fp-lib-table,
+# and pcb/datasheets/*.pdf. Everything below is local, generated, or a fabrication output.
+
+# Editor lock files (created while a KiCad file is open)
+*.lck
+~*.lck
+
+# Auto-backups and autosaves
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+*~
+
+# Per-user project-local settings (window state, last layer, local plot dirs)
+*.kicad_prl
+
+# Cached footprint/symbol info
+fp-info-cache
+
+# Rule-check reports
+*.rpt
+
+# Netlists and BOM exports
+*.net
+*.xml
+
+# Autorouter interchange (Specctra)
+*.dsn
+*.ses
+
+# Fabrication / assembly outputs
+gerbers/
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*.d356
+
+# 3D / mechanical exports
+*.step
+*.stp
+*.wrl
+
+# OS cruft
+.DS_Store
+Thumbs.db
