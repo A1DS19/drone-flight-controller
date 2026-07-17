@@ -83,7 +83,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -8.89 5.08 0)
 				(length 2.54)
 				(name "DAT2"
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "CD/DAT3"
@@ -119,7 +119,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -8.89 0 0)
 				(length 2.54)
 				(name "CMD"
@@ -137,7 +137,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "VDD"
@@ -173,7 +173,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -7.62 0)
 				(length 2.54)
 				(name "VSS"
@@ -191,7 +191,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -8.89 -10.16 0)
 				(length 2.54)
 				(name "DAT0"
@@ -209,7 +209,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -8.89 -12.7 0)
 				(length 2.54)
 				(name "DAT1"
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "9"
@@ -245,7 +245,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "10"
@@ -263,7 +263,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "11"
@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 11.43 0 180)
 				(length 2.54)
 				(name "12"
