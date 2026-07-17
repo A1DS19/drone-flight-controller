@@ -1,96 +1,121 @@
 # Drone Flight Controller Design Review
 
-**Date:** 2026-07-11  
-**Design format:** KiCad 10, single-sheet schematic, nominal two-layer PCB  
-**Verdict:** Early capture only; not electrically complete and not ready for PCB layout or fabrication.
+**Date:** 2026-07-16
+**Design format:** KiCad 10, two-sheet hierarchical schematic, nominal two-layer PCB
+**Verdict:** Schematic capture is complete across both sheets. Not ready for PCB layout or
+fabrication: footprint/MPN coverage, the microSD symbol's pin types, `L1`, and a first native ERC run
+all stand in the way.
 
 ## Critical findings
 
 | Severity | Finding | Evidence |
 |---|---|---|
-| Blocker | The PCB contains no outline, footprints, nets, tracks, vias, or zones. All 10 schematic components are absent from the PCB. | Raw PCB and schematic/PCB cross-analysis |
-| Blocker | The design has no power input or 3.3 V regulator/source. `+3.3V` and `VDDA` are consumer-only rails. | Schematic topology analysis |
-| Blocker | `BOOT0` is floating, so the MCU startup mode is not explicitly defined. Add an external pull-down and expose a deliberate override if the ROM bootloader is required. | Raw schematic; STM32 datasheet section 2.3.8 |
-| Blocker | Nine of ten schematic components have no footprints, and no BOM line has a populated MPN. | Schematic BOM analysis |
-| Warning | `L1` is an inductor symbol whose value is `27nF`, an invalid inductance unit, and it has no footprint or MPN. The VDDA filter therefore has unresolved electrical intent. | Raw schematic lines 2740–2772 |
-| Warning | The design is not yet a flight controller: it lacks sensors, motor/ESC interfaces, receiver/telemetry I/O, SWD/programming access, clocks, protection, and a complete power tree. | Raw schematic component inventory |
+| Blocker | The PCB contains no outline, footprints, nets, tracks, vias, or zones. All ~158 schematic components are absent from the board. | `drone-flight-controller.kicad_pcb` (91 lines, defaults only) |
+| Blocker | Footprints are assigned only to the ten major ICs (`U1`–`U5`, `U7`, `U8`, `U10`, `U11`, `D3`). Every passive, connector, crystal, switch, and LED (~148 parts) has none, and LCSC/MPN coverage is a single part (`D3`, C20615829). | Schematic property scan |
+| Blocker | The custom microSD symbol declares all twelve pins as `input`. VDD/VSS should be `power_in`, the data pins `bidirectional`, the shell pins `passive`. ERC results are unreliable until fixed. | `pcb/libs/custom-symbols.kicad_sym` |
+| Blocker | Native ERC has never run. The installed `kicad-cli` 9.0.9 fails with "Failed to load" on the KiCad 10 files; a KiCad 10 CLI is required. | `kicad-cli sch erc` exit 3 |
+| Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
+| Warning | No `PWR_FLAG` exists on any rail, so ERC will report every power input as undriven even where the topology is correct. | Both sheets, zero matches |
+| Warning | The telemetry subsheet has no sheet pins; all cross-sheet connectivity rides on global labels and power symbols. Functional, but every net is effectively global, and the I²C buses are named `12C1_*`/`12C2_*` (digit "12"), which text searches for "I2C" will miss. | Sheet definition + label scan |
+| Warning | `pcb/sym-lib-table` is empty — the `custom-symbols` and DigiKey/PCM libraries are not registered project-locally and resolve only through the embedded symbol cache and the user's global table. Both lib tables are untracked in git. | `pcb/sym-lib-table`, `git status` |
 
 ## What is present
 
-The schematic contains 10 physical components across 56 parsed nets:
+Roughly 158 components across 82 named nets on two sheets.
 
-| Type | Count | Notes |
-|---|---:|---|
-| MCU | 1 | STM32F103R8T6, LQFP-64 footprint assigned |
-| Capacitors | 8 | Six 100 nF, one 4.7 uF, one 1 uF |
-| Inductor | 1 | `L1`, currently valued `27nF`; intent unresolved |
+**Sheet 1 — flight controller core** (`drone-flight-controller.kicad_sch`, 88 components):
 
-Only three supply domains are named: `+3.3V`, `VDDA`, and `GND`. All GPIOs, `NRST`, and `BOOT0` are otherwise unconnected, with no explicit no-connect markers.
+| Subsystem | Parts |
+|---|---|
+| MCU | `U1` STM32F103R8T6, LQFP-64, footprint assigned |
+| IMU | `U2` MPU-6050 (QFN-24) on I²C bus `12C2_*` |
+| Clocks | `Y1` 8 MHz HSE (20 pF loads), `Y2` 32.768 kHz LSE (10 pF loads) |
+| Power | `J8` XT-60 → `SW4` master switch → `U10` LM7805 (TO-220) → `U11` AMS1117-3.3 (SOT-223); `FB1`/`FB2` ferrites, `D1`/`D2` B5819W Schottkys, `R17`/`R18` 47k/15k battery divider → `ADC_Vbat` |
+| Reset/boot | `SW1` + `R1` 10k + `C9` 100 nF on NRST; `J2` boot jumper + `R3` 10k on BOOT0 |
+| USB | `J3` micro-B with `D3` SRV05-4A ESD array (LCSC C20615829) |
+| I/O | `J1` SWD, `J4`–`J7` ESC/motor, `J9` TF-Luna LIDAR, `J10` RC receiver (`MANDO_1..6`), `J11` OLED, `J12`–`J14` SPI/I²C/USART expansion |
+| Misc | Status LEDs, `SW2` user button (`BOTON`), `H1`–`H4` mounting pads on `+12V`, `H5`–`H8` on `GND` |
 
-## MCU power network
+**Sheet 2 — telemetry** (`ATMEGA238P-plus-components.kicad_sch`, hierarchical subsheet, 70 components):
+
+| Subsystem | Parts |
+|---|---|
+| MCU | `U3` ATMEGA328P-AU (TQFP-32), `Y3` 16 MHz, `J15` ICSP, `SW3` reset |
+| Radio | `U7` nRF24L01P (QFN-20), `J17` coaxial antenna, `L2`–`L4` matching, `Y5` 16 MHz |
+| USB-serial | `U4` CH340G (SOIC-16), `J16` micro-B, `Y4` 12 MHz |
+| Level shift | `U6` 74HC245, `U9` 74AHC1G125 (5 V ↔ 3.3 V SPI) |
+| Storage | `U8` microSD socket (LCSC C164170), SPI-mode wired: CS=`CS_SD_74HC245`, MOSI/CLK from the 74HC245, MISO=`MISO_SD_OUT` via `U9`, VDD=+3.3V, VSS+shell=GND, DAT1/DAT2 no-connected |
+| Analog | `U5` LM358 dual op-amp on the RX/TX path |
+
+## Power network
 
 ```text
-external 3.3 V source (missing)
-          |
-          +-- VDD x4 + VBAT
-          |     +-- C1..C5: 100 nF bypass network
-          |     `-- C6: 4.7 uF bulk
-          |
-          `-- L1: value/type unresolved --> VDDA
-                                         +-- C7: 1 uF
-                                         `-- C8: 100 nF
-
-GND ----------------------------------------- VSS x4 + VSSA
+J8 XT-60 (+12V) --- SW4 --- (+12C) --- FB1 --- U10 LM7805 --- (+5V) --- U11 AMS1117-3.3 --- (+3.3V)
+      |                                                          |                             |
+      R17/R18 divider -> ADC_Vbat                                FB2 -> Vdrive (5 V)           L1 (?) -> VDDA
+                                                                                                +-- C7: 1 uF
+GND ---------------------------------------------------------------------------------------- +-- C8: 100 nF
 ```
 
-The digital decoupling is directionally good. The included manufacturer datasheet, Figure 14 on page 36, calls for five 100 nF capacitors plus one 4.7 uF capacitor, with the 4.7 uF device connected to VDD3. The schematic has the corresponding quantities, but PCB placement cannot yet be checked.
-
-For the analog rail, the same figure recommends VDDA decoupling of 10 nF plus 1 uF. The schematic uses 100 nF plus 1 uF after `L1`. This may work, but it differs from the cited network and should be an intentional choice supported by the selected filter component and expected ADC/PLL noise environment.
+- The STM32 digital decoupling matches the datasheet: Figure 14 on page 36 calls for five 100 nF
+  capacitors plus one 4.7 uF on VDD3, and the schematic has the corresponding quantities.
+- For VDDA the same figure recommends 10 nF + 1 uF; the schematic uses 100 nF + 1 uF after `L1`. This
+  may work but remains an unjustified deviation, and `L1` itself is unresolved (see findings).
+- `+12C` is the switched 12 V node between `SW4` and `FB1` — intentional naming, not a stray net.
+- No `PWR_FLAG` symbols anywhere; two GND symbol libraries are mixed (`power:GND` and
+  `PCM_SparkFun-PowerSymbol:GND`), which is cosmetic only.
 
 ## Reset and boot
 
-- The analyzer's “NRST missing pull-up” warning is a false positive. The STM32F103 has a permanent internal NRST pull-up of 30–50 kΩ (datasheet Table 39, page 66).
-- The datasheet's recommended NRST protection adds 0.1 uF to ground (Figure 31, page 67). Add it if the expected reset-noise environment warrants it and ensure an external debugger can still pull NRST low.
-- `BOOT0` needs an explicit default. Use a pull-down for normal boot from user Flash and provide a controlled way to pull it high only if system-memory boot is needed.
+Both prior blockers are resolved in the schematic:
+
+- NRST: internal 30–50 kΩ pull-up (datasheet Table 39, page 66) plus external `R1` 10 kΩ to +3.3 V,
+  `C9` 100 nF (matching the recommended Figure 31, page 67 protection), and reset button `SW1`.
+- BOOT0: `U1` pin 60 runs through `R3` 10 kΩ to the center pin of boot-select jumper `J2`, whose outer
+  pins sit on +3.3 V and GND. Per `decisions.md`, the default strap must be the GND (user-Flash)
+  position — confirm the shipped jumper orientation at assembly.
 
 ## PCB and EMC
 
-The PCB analysis is not meaningful as a layout review because the board is empty. The EMC analyzer reports no ground plane and no stitching vias; these are true descriptions, but they are consequences of the absent layout rather than isolated routing defects. Its numerical risk score should not be interpreted as readiness.
-
-Once placement begins, use a continuous ground plane, place each bypass capacitor adjacent to its associated VDD/VSS pair, keep the VDDA filter local to the MCU, and keep sensor/analog return paths away from noisy motor and switching-current loops.
+Unchanged: the board file is empty, so no layout or EMC review is possible. Once placement begins, use
+a continuous ground plane, place each bypass capacitor adjacent to its VDD/VSS pair, keep the VDDA
+filter local to the MCU, keep the nRF24 antenna matching and feed clear of the power section, and keep
+motor/ESC return currents away from the IMU and `ADC_Vbat` sensing.
 
 ## Project rules and compatibility
 
-- The project defines only the default net class: 0.20 mm clearance, 0.20 mm track width, 0.60/0.30 mm via diameter/drill, and 0.50 mm copper-to-edge clearance.
-- There are no dedicated power, high-current, analog, clock, or controlled-impedance net classes yet.
-- The files were saved by KiCad 10.0 using schematic format `20260306` and PCB format `20260206`. Local KiCad CLI 9.0.9 could not load them, so native ERC and DRC were not run in this review.
-- The root `AGENTS.md` makes the repository directly understandable to Codex and records safe edit/verification expectations. A project `.codex/config.toml` is intentionally omitted because no repository-specific model, sandbox, MCP, or hook setting is required.
+- Only the default net class exists: 0.20 mm clearance, 0.20 mm track, 0.60/0.30 mm via, 0.50 mm
+  copper-to-edge. No power, RF, analog, or clock classes yet.
+- Files are KiCad 10 (schematic `20260306`, PCB `20260206`). The local `kicad-cli` 9.0.9 cannot load
+  them; native ERC/DRC require a KiCad 10 CLI.
+- `pcb/fp-lib-table` registers the `easyeda` footprint library; `pcb/sym-lib-table` is empty (see
+  findings). Both are untracked in git and should be committed with the design.
 
 ## Analyses performed
 
-- KiCad structural schematic analysis: performed
-- KiCad full PCB/proximity analysis: performed
-- Schematic/PCB cross-analysis: performed
-- EMC pre-compliance heuristic: performed; limited by empty PCB
-- Thermal heuristic: performed; zero power-dissipating parts could be assessed
-- Raw schematic/PCB inspection: performed
-- Included STM32 datasheet inspection: performed for power and reset/boot behavior
+- Structural s-expression inspection of both schematic sheets: performed
+- Net connectivity extraction (KiCad parser): performed — 82 named nets
+- Pin-geometry verification of `U8` attachments (wires, labels, no-connects, power symbols): performed
+- Footprint/MPN property scan across all components: performed
+- Raw PCB inspection: performed (file is at defaults)
+- STM32 datasheet cross-check of power, reset, and boot networks: performed (carried forward and
+  re-verified against the current schematic)
 
 ## Not performed / review limits
 
-- Native ERC and DRC: not performed because the installed KiCad 9.0.9 cannot read KiCad 10 files.
-- SPICE: not performed because no supported simulator is installed and there are no meaningful analog subcircuits yet.
-- Gerber/DFM analysis: not applicable; no fabrication outputs or PCB geometry exist.
-- Lifecycle/sourcing audit: not meaningful; MPN coverage is 0%.
-- Full pin-level verification: limited to the MCU power pins and included datasheet. Interfaces and their parts have not been designed.
-- Previous-review delta: no earlier review or analyzer run was present.
+- Native ERC and DRC: blocked by the KiCad 9.0.9 CLI; run both as soon as a KiCad 10 CLI is available.
+- Pin-level datasheet verification of the telemetry subsheet (ATmega328P, nRF24L01P, CH340G, 74HC245,
+  74AHC1G125, microSD): not performed — only the STM32 power/reset/boot network is formally checked.
+- SPICE, Gerber/DFM, lifecycle/sourcing: not applicable yet (no layout; MPN coverage is one part).
 
 ## Recommended next sequence
 
-1. Settle requirements: battery/input voltage, sensor set, receiver and telemetry protocols, ESC interface, USB/debug needs, dimensions, mounting pattern, and layer count.
-2. Add the input protection and 3.3 V power tree with a current and noise budget.
-3. Fix the VDDA filter definition, add BOOT0/reset/debug circuitry, and assign footprints/MPNs.
-4. Add IMU and remaining flight-control interfaces with explicit pin mapping and datasheet verification.
-5. Run KiCad 10 ERC, then update the PCB from the schematic.
-6. Define the outline, stackup, net classes, placement constraints, ground plane, and routing.
-7. Run KiCad 10 DRC, cross-domain/EMC review, BOM review, and Gerber/DFM checks before fabrication.
+1. Fix the microSD symbol's pin electrical types, resolve `L1` (real inductor or ferrite value plus
+   footprint), and add `PWR_FLAG`s to the rails.
+2. Register the project symbol libraries in `pcb/sym-lib-table` and commit both lib tables.
+3. Assign footprints and MPNs to every remaining part (~148 passives, connectors, crystals, switches,
+   LEDs, plus `U6`/`U9`).
+4. Run KiCad 10 ERC to zero, verifying the telemetry-subsheet pinouts against the local datasheets
+   while working through the report.
+5. Update the PCB from the schematic; define outline, stackup, net classes, ground plane, and routing.
+6. Run KiCad 10 DRC, cross-domain/EMC review, BOM/MPN review, and Gerber/DFM checks before fabrication.

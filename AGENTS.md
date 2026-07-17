@@ -5,8 +5,10 @@
 This repository contains a KiCad 10 hardware design for a drone flight controller. The editable design lives in `pcb/`:
 
 - `drone-flight-controller.kicad_pro` — project settings and design rules
-- `drone-flight-controller.kicad_sch` — source schematic
-- `drone-flight-controller.kicad_pcb` — source PCB layout
+- `drone-flight-controller.kicad_sch` — source schematic, root sheet (STM32 core and power tree)
+- `ATMEGA238P-plus-components.kicad_sch` — source schematic, telemetry subsheet (ATmega328P, nRF24L01P, CH340G, microSD)
+- `drone-flight-controller.kicad_pcb` — source PCB layout (currently empty)
+- `libs/`, `sym-lib-table`, `fp-lib-table` — project-local libraries (custom microSD symbol, EasyEDA footprint and 3D model)
 - `datasheets/` — local manufacturer documentation used as review evidence
 
 Treat `.kicad_sch`, `.kicad_pcb`, and `.kicad_pro` as source files. Do not edit generated backups or `.kicad_prl` unless the task specifically requires it.
@@ -20,7 +22,7 @@ Treat `.kicad_sch`, `.kicad_pcb`, and `.kicad_pro` as source files. Do not edit 
 
 ## Required workflow
 
-Before editing, inspect `README.md` and `DESIGN_REVIEW.md` and identify whether the task affects the schematic, PCB, or both.
+Before editing, inspect `README.md` and `agents/DESIGN_REVIEW.md` and identify whether the task affects the schematic, PCB, or both.
 
 For schematic changes:
 
@@ -42,10 +44,10 @@ For changes touching both domains, cross-check every schematic pin/net against i
 
 ## Design constraints and review priorities
 
-- The present design is an early MCU power-supply fragment, not a complete flight controller.
-- `BOOT0` must have a defined startup state. Keep user-Flash boot as the default unless requirements say otherwise.
+- The design is a complete two-sheet schematic — STM32F103R8T6 flight-controller core with power tree, plus an ATmega328P telemetry subsheet — but the PCB is empty and open items remain; see `agents/DESIGN_REVIEW.md` before claiming any milestone.
+- `BOOT0` is strapped through `R3` to the boot-select jumper `J2` (+3.3 V / GND). Keep user-Flash boot as the default strap unless requirements say otherwise.
 - Preserve one 100 nF bypass capacitor per VDD pin and the 4.7 uF bulk capacitor placement specified for VDD3.
-- Keep VDDA/VSSA tied to the digital supply domains through an intentional, documented filter. Validate the filter component type and value.
+- Keep VDDA/VSSA tied to the digital supply domains through an intentional, documented filter. `L1` still carries the invalid value `27nF`; its component type and value remain unresolved.
 - Give external connectors ESD protection and explicit ground-return paths.
 - Keep high-current motor/ESC power paths separate from sensitive IMU/ADC supplies and provide a continuous ground reference.
 - Do not claim fabrication readiness without completed ERC, DRC, BOM/MPN coverage, Gerber review, and schematic-to-PCB synchronization.
