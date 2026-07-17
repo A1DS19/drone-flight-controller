@@ -17,9 +17,8 @@ sensors, ESC/motor and receiver/telemetry I/O, SWD debug, and a clean ERC/DRC + 
       RC-receiver header, LIDAR, OLED, and SPI/I²C/USART expansion headers.
 - [x] Add the telemetry subsystem: ATmega328P subsheet with nRF24L01P radio, CH340G USB-serial,
       microSD logging, and 5 V ↔ 3.3 V level shifting.
-- [ ] Resolve the `L1` VDDA filter definition; fix the microSD symbol's pin electrical types; add
-      `PWR_FLAG`s to the rails; assign footprints + MPNs to every part (today: footprints on the ten
-      major ICs only, one LCSC number).
+- [ ] Resolve the `L1` VDDA filter definition; add `PWR_FLAG`s to the rails; assign footprints + MPNs
+      to every part (today: footprints on the ten major ICs only, one LCSC number).
 - [ ] Run KiCad 10 ERC clean (needs a KiCad 10 `kicad-cli` — 9.0.9 cannot load the files), then
       update the PCB from the schematic.
 - [ ] Define board outline, stackup, net classes, placement constraints, ground plane, and routing.

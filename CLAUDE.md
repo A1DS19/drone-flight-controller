@@ -5,9 +5,8 @@ essentially complete across a two-page hierarchical schematic: sheet 1 holds the
 IMU, ESC/receiver/LIDAR I/O, SWD debug, USB with ESD protection) and the XT-60 → LM7805 → AMS1117-3.3
 power tree; sheet 2 ("ATMEGA238P") holds an ATmega328P telemetry co-processor with an nRF24L01P radio,
 CH340G USB-serial, level shifting, and a microSD socket. The PCB layout has not been started, and open
-items remain before it can — footprint/MPN coverage stops at the major ICs, the custom microSD
-symbol's pin types are wrong, and native ERC has never run (see
-[agents/DESIGN_REVIEW.md](agents/DESIGN_REVIEW.md)). It is a hardware
+items remain before it can — footprint/MPN coverage stops at the major ICs and native ERC has never
+run (see [agents/DESIGN_REVIEW.md](agents/DESIGN_REVIEW.md)). It is a hardware
 design, not software — there is no build; "test" means running KiCad's electrical and design rule
 checks.
 

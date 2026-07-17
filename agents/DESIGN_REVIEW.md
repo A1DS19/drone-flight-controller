@@ -12,7 +12,6 @@ all stand in the way.
 |---|---|---|
 | Blocker | The PCB contains no outline, footprints, nets, tracks, vias, or zones. All ~158 schematic components are absent from the board. | `drone-flight-controller.kicad_pcb` (91 lines, defaults only) |
 | Blocker | Footprints are assigned only to the ten major ICs (`U1`–`U5`, `U7`, `U8`, `U10`, `U11`, `D3`). Every passive, connector, crystal, switch, and LED (~148 parts) has none, and LCSC/MPN coverage is a single part (`D3`, C20615829). | Schematic property scan |
-| Blocker | The custom microSD symbol declares all twelve pins as `input`. VDD/VSS should be `power_in`, the data pins `bidirectional`, the shell pins `passive`. ERC results are unreliable until fixed. | `pcb/libs/custom-symbols.kicad_sym` |
 | Blocker | Native ERC has never run. The installed `kicad-cli` 9.0.9 fails with "Failed to load" on the KiCad 10 files; a KiCad 10 CLI is required. | `kicad-cli sch erc` exit 3 |
 | Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
 | Warning | No `PWR_FLAG` exists on any rail, so ERC will report every power input as undriven even where the topology is correct. | Both sheets, zero matches |
@@ -110,8 +109,8 @@ motor/ESC return currents away from the IMU and `ADC_Vbat` sensing.
 
 ## Recommended next sequence
 
-1. Fix the microSD symbol's pin electrical types, resolve `L1` (real inductor or ferrite value plus
-   footprint), and add `PWR_FLAG`s to the rails.
+1. Resolve `L1` (real inductor or ferrite value plus footprint) and add `PWR_FLAG`s to the rails.
+   (The microSD symbol's pin electrical types were fixed on 2026-07-16.)
 2. Register the project symbol libraries in `pcb/sym-lib-table` and commit both lib tables.
 3. Assign footprints and MPNs to every remaining part (~148 passives, connectors, crystals, switches,
    LEDs, plus `U6`/`U9`).

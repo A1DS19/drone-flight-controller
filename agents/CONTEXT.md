@@ -23,8 +23,8 @@ The nRF24L01P 2.4 GHz transceiver (`U7`) with coaxial antenna connector `J17` an
 
 **microSD socket**:
 `U8`, LCSC C164170 — project-local symbol `custom-symbols:MICROSD_C164170`, footprint
-`easyeda:TF-SMD_472192001`. Wired for SPI-mode access with a grounded shell, but the symbol declares
-every pin as `input`; the electrical types are wrong and will confuse ERC.
+`easyeda:TF-SMD_472192001`. Wired for SPI-mode access with a grounded shell; pin electrical types are
+set per function (VDD/VSS `power_in`, DAT0 `output`, CMD/DAT `bidirectional`, shell tabs `passive`).
 
 **Level shifting**:
 74HC245 (`U6`) and 74AHC1G125 (`U9`) moving the SPI bus between the 5 V and 3.3 V domains.
