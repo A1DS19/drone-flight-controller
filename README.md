@@ -41,8 +41,6 @@ power rails; the subsheet has no sheet pins.
 
 The design is not ready for PCB layout or fabrication yet:
 
-- The custom microSD symbol (U8) declares all twelve pins as `input`; the electrical types
-  (power, bidirectional, passive) need correcting before ERC results are meaningful.
 - `L1` in the VDDA filter still carries the invalid value `27nF`.
 - No `PWR_FLAG` symbols exist, so ERC will warn on every rail.
 - Footprints exist only for the major ICs; every passive, connector, crystal, switch, and LED
