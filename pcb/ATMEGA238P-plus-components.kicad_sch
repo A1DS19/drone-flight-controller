@@ -14093,7 +14093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RST"
+		(property "Value" "TS24CA_C393942"
 			(at 33.02 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14104,7 +14104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda:SW-SMD_2P-TS24CA"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14115,7 +14115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14126,7 +14126,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "-20℃~+70℃ 1.6N 1.9mm 12V 20,000 cycles 3.5mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle Without Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14137,6 +14137,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C393942" (at 29.21 39.37 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "TS24CA" (at 29.21 39.37 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "SHOU HAN" (at 29.21 39.37 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "8969b14f-b544-497f-9ea8-f5330924c714")
 		)

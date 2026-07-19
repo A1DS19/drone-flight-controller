@@ -11,7 +11,7 @@ all stand in the way.
 | Severity | Finding | Evidence |
 |---|---|---|
 | Blocker | The PCB contains no outline, footprints, nets, tracks, vias, or zones. All ~158 schematic components are absent from the board. | `drone-flight-controller.kicad_pcb` (91 lines, defaults only) |
-| Blocker | Footprints are assigned only to the ten major ICs (`U1`–`U5`, `U7`, `U8`, `U10`, `U11`, `D3`). Every passive, connector, crystal, switch, and LED (~148 parts) has none, and LCSC/MPN coverage is a single part (`D3`, C20615829). | Schematic property scan |
+| Blocker | Footprints are assigned only to the ten major ICs (`U1`–`U5`, `U7`, `U8`, `U10`, `U11`, `D3`) and the three tact switches (`SW1`–`SW3`, TS24CA). Every passive, connector, crystal, and LED (~145 parts) has none, and LCSC/MPN coverage is four parts (`D3` C20615829, `SW1`–`SW3` C393942). `SW4`, the master power switch, is deliberately still unsourced — a momentary tact part is unsuitable there. | Schematic property scan |
 | Blocker | Native ERC has never run. The installed `kicad-cli` 9.0.9 fails with "Failed to load" on the KiCad 10 files; a KiCad 10 CLI is required. | `kicad-cli sch erc` exit 3 |
 | Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
 | Warning | No `PWR_FLAG` exists on any rail, so ERC will report every power input as undriven even where the topology is correct. | Both sheets, zero matches |
@@ -30,16 +30,16 @@ Roughly 158 components across 82 named nets on two sheets.
 | IMU | `U2` MPU-6050 (QFN-24) on I²C bus `12C2_*` |
 | Clocks | `Y1` 8 MHz HSE (20 pF loads), `Y2` 32.768 kHz LSE (10 pF loads) |
 | Power | `J8` XT-60 → `SW4` master switch → `U10` LM7805 (TO-220) → `U11` AMS1117-3.3 (SOT-223); `FB1`/`FB2` ferrites, `D1`/`D2` B5819W Schottkys, `R17`/`R18` 47k/15k battery divider → `ADC_Vbat` |
-| Reset/boot | `SW1` + `R1` 10k + `C9` 100 nF on NRST; `J2` boot jumper + `R3` 10k on BOOT0 |
+| Reset/boot | `SW1` (TS24CA, LCSC C393942) + `R1` 10k + `C9` 100 nF on NRST; `J2` boot jumper + `R3` 10k on BOOT0 |
 | USB | `J3` micro-B with `D3` SRV05-4A ESD array (LCSC C20615829) |
 | I/O | `J1` SWD, `J4`–`J7` ESC/motor, `J9` TF-Luna LIDAR, `J10` RC receiver (`MANDO_1..6`), `J11` OLED, `J12`–`J14` SPI/I²C/USART expansion |
-| Misc | Status LEDs, `SW2` user button (`BOTON`), `H1`–`H4` mounting pads on `+12V`, `H5`–`H8` on `GND` |
+| Misc | Status LEDs, `SW2` user button (`BOTON`, TS24CA), `H1`–`H4` mounting pads on `+12V`, `H5`–`H8` on `GND` |
 
 **Sheet 2 — telemetry** (`ATMEGA238P-plus-components.kicad_sch`, hierarchical subsheet, 70 components):
 
 | Subsystem | Parts |
 |---|---|
-| MCU | `U3` ATMEGA328P-AU (TQFP-32), `Y3` 16 MHz, `J15` ICSP, `SW3` reset |
+| MCU | `U3` ATMEGA328P-AU (TQFP-32), `Y3` 16 MHz, `J15` ICSP, `SW3` reset (TS24CA) |
 | Radio | `U7` nRF24L01P (QFN-20), `J17` coaxial antenna, `L2`–`L4` matching, `Y5` 16 MHz |
 | USB-serial | `U4` CH340G (SOIC-16), `J16` micro-B, `Y4` 12 MHz |
 | Level shift | `U6` 74HC245, `U9` 74AHC1G125 (5 V ↔ 3.3 V SPI) |
@@ -105,15 +105,15 @@ motor/ESC return currents away from the IMU and `ADC_Vbat` sensing.
 - Native ERC and DRC: blocked by the KiCad 9.0.9 CLI; run both as soon as a KiCad 10 CLI is available.
 - Pin-level datasheet verification of the telemetry subsheet (ATmega328P, nRF24L01P, CH340G, 74HC245,
   74AHC1G125, microSD): not performed — only the STM32 power/reset/boot network is formally checked.
-- SPICE, Gerber/DFM, lifecycle/sourcing: not applicable yet (no layout; MPN coverage is one part).
+- SPICE, Gerber/DFM, lifecycle/sourcing: not applicable yet (no layout; MPN coverage is four parts).
 
 ## Recommended next sequence
 
 1. Resolve `L1` (real inductor or ferrite value plus footprint) and add `PWR_FLAG`s to the rails.
    (The microSD symbol's pin electrical types were fixed on 2026-07-16.)
 2. Register the project symbol libraries in `pcb/sym-lib-table` and commit both lib tables.
-3. Assign footprints and MPNs to every remaining part (~148 passives, connectors, crystals, switches,
-   LEDs, plus `U6`/`U9`).
+3. Assign footprints and MPNs to every remaining part (~145 passives, connectors, crystals, LEDs,
+   plus `U6`/`U9`, and a latching, adequately rated part for the `SW4` master switch).
 4. Run KiCad 10 ERC to zero, verifying the telemetry-subsheet pinouts against the local datasheets
    while working through the report.
 5. Update the PCB from the schematic; define outline, stackup, net classes, ground plane, and routing.
