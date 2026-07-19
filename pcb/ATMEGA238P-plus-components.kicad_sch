@@ -1240,7 +1240,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13645,7 +13645,7 @@
 		(pin "1"
 			(uuid "8a77080e-0e91-4acf-a244-9e0f10fd896c")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "09781516-f0d4-4396-a3bc-ef874e02d1a2")
 		)
 		(pin "4"
@@ -21631,4 +21631,36 @@
 			)
 		)
 	)
+  (symbol (lib_id "power:GND") (at 36.83 256.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "72b76ea3-0997-480e-9e27-45d9f287beb1")
+    (property "Reference" "#PWR0143" (at 36.83 250.19 0.0)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Value" "GND" (at 36.83 252.73 0.0)
+      (effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+    )
+    (property "Footprint" "" (at 36.83 256.54 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Datasheet" "~" (at 36.83 256.54 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
+      (project "project"
+        (path "/"
+          (reference "#PWR0143")
+          (unit 1)
+        )
+      )
+    )
+  )
 )
