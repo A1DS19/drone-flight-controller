@@ -17405,7 +17405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BOTON"
+		(property "Value" "TS24CA_C393942"
 			(at 385.064 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17416,7 +17416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda:SW-SMD_2P-TS24CA"
 			(at 387.35 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17427,7 +17427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf"
 			(at 387.35 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17438,7 +17438,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "-20℃~+70℃ 1.6N 1.9mm 12V 20,000 cycles 3.5mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle Without Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17449,6 +17449,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C393942" (at 382.27 161.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "TS24CA" (at 382.27 161.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "SHOU HAN" (at 382.27 161.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "f6f8c564-c950-4a4f-b04c-f0c2e86c2654")
 		)
@@ -22853,7 +22862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RST"
+		(property "Value" "TS24CA_C393942"
 			(at 25.4 199.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22864,7 +22873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda:SW-SMD_2P-TS24CA"
 			(at 26.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -22875,7 +22884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf"
 			(at 26.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -22886,7 +22895,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "-20℃~+70℃ 1.6N 1.9mm 12V 20,000 cycles 3.5mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle Without Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -22897,6 +22906,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C393942" (at 21.59 198.12 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "TS24CA" (at 21.59 198.12 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "SHOU HAN" (at 21.59 198.12 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "cfda5f35-ec1d-4c9f-9fe3-6257c1771c52")
 		)
