@@ -1,20 +1,22 @@
 # Drone Flight Controller Design Review
 
-**Date:** 2026-07-16
+**Date:** 2026-07-19
 **Design format:** KiCad 10, two-sheet hierarchical schematic, nominal two-layer PCB
-**Verdict:** Schematic capture is complete across both sheets. Not ready for PCB layout or
-fabrication: footprint/MPN coverage, the microSD symbol's pin types, `L1`, and a first native ERC run
-all stand in the way.
+**Verdict:** Schematic capture is complete, the first native ERC ran clean (0/0, 2026-07-19), and
+footprints are assigned to every component and imported into the board. Layout (outline, placement,
+routing) can begin. Fabrication is still blocked by LCSC/MPN coverage (4 parts), `L1`, two netlist
+gaps from the import (USB shield pads, nRF24 exposed pad), and DRC.
 
 ## Critical findings
 
 | Severity | Finding | Evidence |
 |---|---|---|
-| Blocker | The PCB contains no outline, footprints, nets, tracks, vias, or zones. All ~158 schematic components are absent from the board. | `drone-flight-controller.kicad_pcb` (91 lines, defaults only) |
-| Blocker | Footprints are assigned only to the ten major ICs (`U1`–`U5`, `U7`, `U8`, `U10`, `U11`, `D3`) and the three tact switches (`SW1`–`SW3`, TS24CA). Every passive, connector, crystal, and LED (~145 parts) has none, and LCSC/MPN coverage is four parts (`D3` C20615829, `SW1`–`SW3` C393942). `SW4`, the master power switch, is deliberately still unsourced — a momentary tact part is unsuitable there. | Schematic property scan |
-| Blocker | Native ERC has never run. The installed `kicad-cli` 9.0.9 fails with "Failed to load" on the KiCad 10 files; a KiCad 10 CLI is required. | `kicad-cli sch erc` exit 3 |
+| Blocker | The PCB has all 158 footprints imported (2026-07-19) but no outline, placement, routing, or zones yet. | `drone-flight-controller.kicad_pcb` |
+| Blocker | LCSC/MPN coverage is four parts (`D3` C20615829, `SW1`–`SW3` C393942) — the BOM is not orderable. Footprints, by contrast, are now assigned to all ~158 components (2026-07-19). `SW4`, the master power switch, is deliberately still unsourced (a momentary tact part is unsuitable); it carries a placeholder `easyeda:Switch_Slide` footprint. | Schematic property scan, netlist import log |
+| Warning | The Update-PCB import left two nets off the board: the USB shield — J3/J16 symbols use pin "SH" but the `MICRO-USB-SMD_5P-P0.65-H-F` footprint numbers its shell pads "6", so the shells are floating — and `U7`'s exposed pad (footprint pad 21, no symbol pin), which Nordic's layout guidance ties to GND. Fix the numbering / add the EP pin, then re-import. | Netlist import log 2026-07-19: 2 errors, 19 warnings |
+| Warning | `kicad-cli` is still 9.0.9 and cannot load these KiCad 10 files — ERC/DRC only run from the KiCad 10 GUI, so there is no headless/CI check path. | `kicad-cli sch erc` exit 3 |
 | Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
-| Warning | No `PWR_FLAG` exists on any rail, so ERC will report every power input as undriven even where the topology is correct. | Both sheets, zero matches |
+| Resolved | First native ERC ran clean on 2026-07-19 (0 errors / 0 warnings, KiCad 10 GUI) after: `PWR_FLAG`s on the passive-fed rails (`+12V`, `+12C`, `VDDA`, the FB1→LM7805 node, `Vdrive`) and one on `GND`; a no-connect on `SW4`'s unused throw; the USB shell GND pins retyped to passive; and a real bug fix — `U4` (CH340G) had VCC and V3 cross-wired, leaving the chip unpowered with its internal 3.3 V node tied to 5 V. | `pcb/ERC.rpt` 2026-07-19T16:54 |
 | Warning | The telemetry subsheet has no sheet pins; all cross-sheet connectivity rides on global labels and power symbols. Functional, but every net is effectively global, and the I²C buses are named `12C1_*`/`12C2_*` (digit "12"), which text searches for "I2C" will miss. | Sheet definition + label scan |
 | Warning | `pcb/sym-lib-table` is empty — the `custom-symbols` and DigiKey/PCM libraries are not registered project-locally and resolve only through the embedded symbol cache and the user's global table. Both lib tables are untracked in git. | `pcb/sym-lib-table`, `git status` |
 
@@ -96,25 +98,29 @@ motor/ESC return currents away from the IMU and `ADC_Vbat` sensing.
 - Net connectivity extraction (KiCad parser): performed — 82 named nets
 - Pin-geometry verification of `U8` attachments (wires, labels, no-connects, power symbols): performed
 - Footprint/MPN property scan across all components: performed
-- Raw PCB inspection: performed (file is at defaults)
+- Native ERC (KiCad 10 GUI): performed 2026-07-19 — clean after the seven initial errors were fixed
+- Update-PCB-from-schematic import of all 158 footprints: performed 2026-07-19 (2 errors / 19
+  warnings logged; see findings)
 - STM32 datasheet cross-check of power, reset, and boot networks: performed (carried forward and
   re-verified against the current schematic)
 
 ## Not performed / review limits
 
-- Native ERC and DRC: blocked by the KiCad 9.0.9 CLI; run both as soon as a KiCad 10 CLI is available.
+- Native DRC: not yet run (board has no layout); headless ERC/DRC remain blocked by the 9.0.9 CLI.
 - Pin-level datasheet verification of the telemetry subsheet (ATmega328P, nRF24L01P, CH340G, 74HC245,
   74AHC1G125, microSD): not performed — only the STM32 power/reset/boot network is formally checked.
 - SPICE, Gerber/DFM, lifecycle/sourcing: not applicable yet (no layout; MPN coverage is four parts).
 
 ## Recommended next sequence
 
-1. Resolve `L1` (real inductor or ferrite value plus footprint) and add `PWR_FLAG`s to the rails.
-   (The microSD symbol's pin electrical types were fixed on 2026-07-16.)
-2. Register the project symbol libraries in `pcb/sym-lib-table` and commit both lib tables.
-3. Assign footprints and MPNs to every remaining part (~145 passives, connectors, crystals, LEDs,
-   plus `U6`/`U9`, and a latching, adequately rated part for the `SW4` master switch).
-4. Run KiCad 10 ERC to zero, verifying the telemetry-subsheet pinouts against the local datasheets
-   while working through the report.
-5. Update the PCB from the schematic; define outline, stackup, net classes, ground plane, and routing.
+1. Fix the two import gaps and re-run Update PCB: renumber the USB shield (symbol pin "SH" vs
+   footprint pads "6" on J3/J16) and give `U7`'s exposed pad a grounded pin 21.
+2. Resolve `L1` (real inductor or ferrite value; it now carries an L_0402 footprint but the `27nF`
+   value is still invalid).
+3. Register the project symbol libraries in `pcb/sym-lib-table` and note the board's new external
+   footprint-library dependencies (`digikey-footprints`, `PCM_JLCPCB`) resolve only through the
+   global table.
+4. Assign MPNs/LCSC to the remaining ~154 parts, including a latching, adequately rated part for
+   the `SW4` master switch.
+5. Define outline, stackup, net classes, ground plane; place and route.
 6. Run KiCad 10 DRC, cross-domain/EMC review, BOM/MPN review, and Gerber/DFM checks before fabrication.
