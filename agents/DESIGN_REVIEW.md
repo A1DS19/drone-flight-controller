@@ -13,7 +13,7 @@ gaps from the import (USB shield pads, nRF24 exposed pad), and DRC.
 |---|---|---|
 | Blocker | The PCB has all 158 footprints imported (2026-07-19) but no outline, placement, routing, or zones yet. | `drone-flight-controller.kicad_pcb` |
 | Blocker | LCSC/MPN coverage is four parts (`D3` C20615829, `SW1`–`SW3` C393942) — the BOM is not orderable. Footprints, by contrast, are now assigned to all ~158 components (2026-07-19). `SW4`, the master power switch, is deliberately still unsourced (a momentary tact part is unsuitable); it carries a placeholder `easyeda:Switch_Slide` footprint. | Schematic property scan, netlist import log |
-| Warning | The Update-PCB import left two nets off the board: the USB shield — J3/J16 symbols use pin "SH" but the `MICRO-USB-SMD_5P-P0.65-H-F` footprint numbers its shell pads "6", so the shells are floating — and `U7`'s exposed pad (footprint pad 21, no symbol pin), which Nordic's layout guidance ties to GND. Fix the numbering / add the EP pin, then re-import. | Netlist import log 2026-07-19: 2 errors, 19 warnings |
+| Resolved | The USB shield gap from the Update-PCB import is fixed (2026-07-19): J3/J16's shield pin was renumbered "SH" → "6" to match the footprint's shell pads and tied to GND (`#PWR0142`/`#PWR0143`). Re-run Update PCB to carry it onto the board. `U7`'s exposed pad (footprint pad 21, no symbol pin) is **intentionally unconnected**: the nRF24L01+ Product Specification v1.0, page 65, recommends keeping the die attach pad unconnected — the recurring import warning for pad 21 is expected and benign, as are the SW1–SW3 pad 3/4 warnings (TS24CA mechanical tabs). | Netlist import log, nRF24L01+ PS v1.0 p. 65 |
 | Warning | `kicad-cli` is still 9.0.9 and cannot load these KiCad 10 files — ERC/DRC only run from the KiCad 10 GUI, so there is no headless/CI check path. | `kicad-cli sch erc` exit 3 |
 | Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
 | Resolved | First native ERC ran clean on 2026-07-19 (0 errors / 0 warnings, KiCad 10 GUI) after: `PWR_FLAG`s on the passive-fed rails (`+12V`, `+12C`, `VDDA`, the FB1→LM7805 node, `Vdrive`) and one on `GND`; a no-connect on `SW4`'s unused throw; the USB shell GND pins retyped to passive; and a real bug fix — `U4` (CH340G) had VCC and V3 cross-wired, leaving the chip unpowered with its internal 3.3 V node tied to 5 V. | `pcb/ERC.rpt` 2026-07-19T16:54 |
@@ -113,8 +113,8 @@ motor/ESC return currents away from the IMU and `ADC_Vbat` sensing.
 
 ## Recommended next sequence
 
-1. Fix the two import gaps and re-run Update PCB: renumber the USB shield (symbol pin "SH" vs
-   footprint pads "6" on J3/J16) and give `U7`'s exposed pad a grounded pin 21.
+1. Re-run Update PCB from Schematic to carry the USB-shield fix onto the board, and re-run ERC
+   (expected to stay clean; the two new GND symbols sit on the already-driven GND net).
 2. Resolve `L1` (real inductor or ferrite value; it now carries an L_0402 footprint but the `27nF`
    value is still invalid).
 3. Register the project symbol libraries in `pcb/sym-lib-table` and note the board's new external

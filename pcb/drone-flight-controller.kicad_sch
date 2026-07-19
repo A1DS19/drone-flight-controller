@@ -371,7 +371,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7564,7 +7564,109 @@
 			)
 			(embedded_fonts no)
 		)
-	)
+	
+        	(symbol "power:GND"
+    		(power)
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(property "Reference" "#PWR"
+    			(at 0 -6.35 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "Value" "GND"
+    			(at 0 -3.81 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "ki_keywords" "global power"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(symbol "GND_0_1"
+    			(polyline
+    				(pts
+    					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "GND_1_1"
+    			(pin power_in line
+    				(at 0 0 270)
+    				(length 0)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+  )
 	(text_box "Voltage divider for reading battery\n"
 		(exclude_from_sim no)
 		(at 288.29 13.97 0)
@@ -18498,7 +18600,7 @@
 		(pin "1"
 			(uuid "bce70e49-f411-425f-bd9e-ff8af3a4c090")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "27959f5b-295a-4f6d-9eec-37284af06069")
 		)
 		(pin "4"
@@ -26654,7 +26756,39 @@
 			)
 		)
 	)
-	(sheet_instances
+	  (symbol (lib_id "power:GND") (at 113.03 259.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "cf0a491f-6e6b-41b7-8904-d9ff21f521ab")
+    (property "Reference" "#PWR0142" (at 113.03 252.73 0.0)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    )
+    (property "Value" "GND" (at 113.03 255.27 0.0)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    )
+    (property "Footprint" "" (at 113.03 259.08 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Datasheet" "~" (at 113.03 259.08 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
+      (project "project"
+        (path "/"
+          (reference "#PWR0142")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
 		(path "/"
 			(page "1")
 		)
