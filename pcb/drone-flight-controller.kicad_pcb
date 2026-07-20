@@ -17143,7 +17143,7 @@
 	(footprint "easyeda:SW-TH_SHOU-HAN_SS12D10G4"
 		(layer "F.Cu")
 		(uuid "8a8e31bc-c305-49b8-b817-272bdf810a2d")
-		(at 152.0698 71.12 180)
+		(at 151.3586 71.1962 180)
 		(property "Reference" "SW4"
 			(at 2.159 -0.127 90)
 			(layer "F.SilkS")
@@ -25974,7 +25974,7 @@
 		(property "Reference" "J11"
 			(at 0 8 90)
 			(layer "Dwgs.User")
-			(uuid "6c1dbbd4-ad51-41d6-a62a-4df890cbe349")
+			(uuid "e96f1520-f32b-4fe5-8c46-ef496a2ef80b")
 			(effects
 				(font
 					(size 1 1)
@@ -25985,7 +25985,7 @@
 		(property "Value" "OLED"
 			(at 0 6 90)
 			(layer "F.Fab")
-			(uuid "b84f67b0-fec3-49ff-be49-8aa8aef585eb")
+			(uuid "b080e476-4365-4b71-9ac3-6bd64cd026f6")
 			(effects
 				(font
 					(size 1 1)
@@ -25997,7 +25997,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19158409-df1e-4973-9ed8-88e53c7fcd21")
+			(uuid "2ea9590a-69ac-4837-acf6-29da8deec13b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26008,7 +26008,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "280495b6-d5be-4330-8e4f-cc3cdeb256cf")
+			(uuid "1546465c-6844-4b40-8c7c-88f41129e83b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26073,7 +26073,7 @@
 		)
 		(fp_text user "Vcc"
 			(at -1.27508 1.51016 0)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "c50af348-d61c-4a04-b973-f643b0734740")
 			(effects
 				(font
@@ -26084,7 +26084,7 @@
 		)
 		(fp_text user "SCL"
 			(at 1.26 1.63 0)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "ab86a2b4-cd6d-483f-a8fd-1378575308f4")
 			(effects
 				(font
@@ -26095,7 +26095,7 @@
 		)
 		(fp_text user "SDA"
 			(at 3.79 1.7 0)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "acef76ad-3388-4a9b-8237-31b54f13743a")
 			(effects
 				(font
@@ -26106,7 +26106,7 @@
 		)
 		(fp_text user "GND"
 			(at -3.7592 1.71844 0)
-			(layer "Dwgs.User")
+			(layer "F.SilkS")
 			(uuid "a3c276f2-4213-4519-9a2b-460123a58cc9")
 			(effects
 				(font
@@ -26350,7 +26350,7 @@
 	(footprint "easyeda:MICRO-USB-SMD_MICROXNJ_1"
 		(layer "F.Cu")
 		(uuid "cf493d2b-9d5c-4031-9a97-4e0791df379b")
-		(at 140.5382 72.5932 90)
+		(at 140.2466 72.6886 90)
 		(property "Reference" "J3"
 			(at 1.3208 -0.0762 180)
 			(layer "F.SilkS")
