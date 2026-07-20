@@ -2,6 +2,22 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### USB connectors — J3 (STM32 USB), J16 (CH340G USB): MicroXNJ (C404969)
+- **Key specs:** micro-B 5P female, right-angle SMD, shell on 4 THT legs; 1.8 A/contact, 30 V DC,
+  ≤50 mΩ contact, 5,000 mating cycles
+- **Price/stock:** $0.037 @ qty 1, stock 144,146, Extended
+- **Rationale:** the previous footprint had unknown provenance, no 3D model, and no MPN — this
+  closes all three at once with a high-stock part
+- **Alternatives considered:** keep the mystery footprint and hunt for a matching model — rejected
+  (no provenance is no basis for fab); SHOU HAN MICRO 5.9ZB5.0 (C2765187) — different shell-leg
+  arrangement from the incumbent pad pattern
+- **Design notes:** footprint `easyeda:MICRO-USB-SMD_MICROXNJ_1`; shell legs renumbered 7/8/9 → "6"
+  so all four land on the symbols' Shield pin (GND) — same convention as the earlier SH→6 fix.
+  Signal pads 1–5 at 0.65 mm pitch match the drawing's Pin1…Pin5. Model path set to
+  `${KIPRJMOD}/libs/easyeda.3dshapes/`. Reflow ≤250 °C/10 s (datasheet §5.6).
+- **Datasheet:** pcb/datasheets/C404969-MicroXNJ.pdf — 1.8 A / 30 V vs USB 5 V loads: ample;
+  pin map and land pattern verified against the p. 1 drawing
+
 ### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TC-6610 -6*6*9-260g (C7528713) — supersedes TS24CA below
 - **Key specs:** SPST momentary, 50 mA / 12 VDC, 2.6 N (260 gf), 50,000 cycles, 6×6 mm THT body,
   tall 9 mm round actuator, pin grid 6.5 × 4.5 mm (4-Ø1.5 holes suggested)
