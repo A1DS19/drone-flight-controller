@@ -47,7 +47,7 @@ For changes touching both domains, cross-check every schematic pin/net against i
 - The design is a complete two-sheet schematic — STM32F103R8T6 flight-controller core with power tree, plus an ATmega328P telemetry subsheet — but the PCB is empty and open items remain; see `agents/DESIGN_REVIEW.md` before claiming any milestone.
 - `BOOT0` is strapped through `R3` to the boot-select jumper `J2` (+3.3 V / GND). Keep user-Flash boot as the default strap unless requirements say otherwise.
 - Preserve one 100 nF bypass capacitor per VDD pin and the 4.7 uF bulk capacitor placement specified for VDD3.
-- Keep VDDA/VSSA tied to the digital supply domains through an intentional, documented filter. `L1` still carries the invalid value `27nF`; its component type and value remain unresolved.
+- Keep VDDA/VSSA tied to the digital supply domains through the intentional, documented filter: `L1` is a 600 Ω@100 MHz ferrite bead (Murata BLM15AG601SN1D) with 10 nF + 1 µF on VDDA per DS5319 Figure 14 — see `agents/decisions.md` before altering it.
 - Give external connectors ESD protection and explicit ground-return paths.
 - Keep high-current motor/ESC power paths separate from sensitive IMU/ADC supplies and provide a continuous ground reference.
 - Do not claim fabrication readiness without completed ERC, DRC, BOM/MPN coverage, Gerber review, and schematic-to-PCB synchronization.

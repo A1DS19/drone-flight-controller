@@ -16814,7 +16814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM15AG601SN1D_C76884.pdf"
 			(at 25.4 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16825,7 +16825,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "1 300mA 520mΩ 600Ω@100MHz ±25% 0402 Ferrite Beads ROHS"
 			(at 25.4 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16836,6 +16836,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C76884" (at 25.4 157.48 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "BLM15AG601SN1D" (at 25.4 157.48 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Murata Electronics" (at 25.4 157.48 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "f355c0e6-3f1b-405d-8a67-1499300171bd")
 		)

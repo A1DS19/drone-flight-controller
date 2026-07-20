@@ -4,17 +4,18 @@
 **Design format:** KiCad 10, two-sheet hierarchical schematic, nominal two-layer PCB
 **Verdict:** Schematic capture is complete, the first native ERC ran clean (0/0, 2026-07-19), and
 footprints are assigned to every component and imported into the board. Layout (outline, placement,
-routing) can begin. Fabrication is still blocked by LCSC/MPN coverage (4 parts), `L1`, and DRC.
+routing) can begin. Fabrication is still blocked by the remaining jellybean LCSC/MPN coverage
+(~150 passives, connectors, crystals, LEDs) and DRC.
 
 ## Critical findings
 
 | Severity | Finding | Evidence |
 |---|---|---|
 | Blocker | The PCB has all 158 footprints imported (2026-07-19) but no outline, placement, routing, or zones yet. | `drone-flight-controller.kicad_pcb` |
-| Blocker | LCSC/MPN coverage is seven refs (`D3` C20615829, `SW1`–`SW3` C7528713, `J3`/`J16` C404969, `SW4` C7431054) — the rest of the BOM is not yet orderable. Footprints are assigned to all ~158 components (2026-07-19); every named open sourcing item is now closed. | Schematic property scan, netlist import log |
+| Blocker | LCSC/MPN coverage is eight refs (`D3` C20615829, `SW1`–`SW3` C7528713, `J3`/`J16` C404969, `SW4` C7431054, `L1` C76884) — the rest of the BOM is not yet orderable. Footprints are assigned to all ~158 components (2026-07-19); every named open sourcing item is now closed. | Schematic property scan, netlist import log |
 | Resolved | The USB shield gap from the Update-PCB import is fixed (2026-07-19): J3/J16's shield pin was renumbered "SH" → "6" to match the footprint's shell pads and tied to GND (`#PWR0142`/`#PWR0143`). Re-run Update PCB to carry it onto the board. `U7`'s exposed pad (footprint pad 21, no symbol pin) is **intentionally unconnected**: the nRF24L01+ Product Specification v1.0, page 65, recommends keeping the die attach pad unconnected — the recurring import warning for pad 21 is expected and benign. (The former SW1–SW3 pad-3/4 warnings disappeared with the TC-6610 swap: the official footprint's paired 1,1,2,2 pads all map.) | Netlist import log, nRF24L01+ PS v1.0 p. 65 |
 | Resolved | Headless KiCad 10 checks are available after all: the AppImage bundles `kicad-cli` 10.0.4 at `/home/dev/Applications/kicad-10/AppDir/bin/kicad-cli` (discovered 2026-07-19; ERC verified working). The system `kicad-cli` 9.0.9 still cannot load these files — use the AppImage path. | `kicad-cli version` → 10.0.4 |
-| Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
+| Resolved | `L1` is now a Murata BLM15AG601SN1D 600 Ω@100 MHz ferrite bead (LCSC C76884, 0402), and `C8` was corrected 100 nF → 10 nF so VDDA carries the datasheet-exact 10 nF + 1 µF (DS5319 Rev 20, Figure 14, p. 36). The bead itself is ST application practice (AN2586 / ST eval boards), not a Figure-14 element — recorded in `agents/decisions.md`. | Root schematic, Murata ref spec p. 1 |
 | Resolved | First native ERC ran clean on 2026-07-19 (0 errors / 0 warnings, KiCad 10 GUI) after: `PWR_FLAG`s on the passive-fed rails (`+12V`, `+12C`, `VDDA`, the FB1→LM7805 node, `Vdrive`) and one on `GND`; a no-connect on `SW4`'s unused throw; the USB shell GND pins retyped to passive; and a real bug fix — `U4` (CH340G) had VCC and V3 cross-wired, leaving the chip unpowered with its internal 3.3 V node tied to 5 V. | `pcb/ERC.rpt` 2026-07-19T16:54 |
 | Warning | The telemetry subsheet has no sheet pins; all cross-sheet connectivity rides on global labels and power symbols. Functional, but every net is effectively global, and the I²C buses are named `12C1_*`/`12C2_*` (digit "12"), which text searches for "I2C" will miss. | Sheet definition + label scan |
 | Warning | `pcb/sym-lib-table` is empty — the `custom-symbols` and DigiKey/PCM libraries are not registered project-locally and resolve only through the embedded symbol cache and the user's global table. Both lib tables are untracked in git. | `pcb/sym-lib-table`, `git status` |
@@ -52,15 +53,15 @@ Roughly 158 components across 82 named nets on two sheets.
 ```text
 J8 XT-60 (+12V) --- SW4 --- (+12C) --- FB1 --- U10 LM7805 --- (+5V) --- U11 AMS1117-3.3 --- (+3.3V)
       |                                                          |                             |
-      R17/R18 divider -> ADC_Vbat                                FB2 -> Vdrive (5 V)           L1 (?) -> VDDA
+      R17/R18 divider -> ADC_Vbat                                FB2 -> Vdrive (5 V)           L1 600R bead -> VDDA
                                                                                                 +-- C7: 1 uF
 GND ---------------------------------------------------------------------------------------- +-- C8: 100 nF
 ```
 
 - The STM32 digital decoupling matches the datasheet: Figure 14 on page 36 calls for five 100 nF
   capacitors plus one 4.7 uF on VDD3, and the schematic has the corresponding quantities.
-- For VDDA the same figure recommends 10 nF + 1 uF; the schematic uses 100 nF + 1 uF after `L1`. This
-  may work but remains an unjustified deviation, and `L1` itself is unresolved (see findings).
+- VDDA now matches the figure exactly: 10 nF (`C8`) + 1 uF (`C7`) behind `L1`, a 600 Ω@100 MHz
+  ferrite bead per ST application practice (see `agents/decisions.md`).
 - `+12C` is the switched 12 V node between `SW4` and `FB1` — intentional naming, not a stray net.
 - `PWR_FLAG`s were added 2026-07-19 on the passive-fed rails (`+12V`, `+12C`, `VDDA`, FB1→LM7805,
   `Vdrive`) and once on `GND`. Two GND symbol libraries remain mixed (`power:GND` and

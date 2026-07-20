@@ -2,6 +2,20 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### VDDA filter bead — L1: BLM15AG601SN1D (C76884)
+- **Key specs:** 600 Ω @ 100 MHz ±25 %, 300 mA rated, 0.52/0.62 Ω DCR, 0402, −55~+125 °C
+- **Price/stock:** $0.005 @ qty 1, stock 234,099, Extended
+- **Rationale:** resolves the `27nF` placeholder; canonical ST-practice analog-rail bead; keeps
+  the already-assigned `Inductor_SMD:L_0402_1005Metric` footprint. Paired change: `C8`
+  100 nF → 10 nF so VDDA carries the datasheet-exact 10 nF + 1 µF (DS5319 Fig. 14 p. 36).
+- **Alternatives considered:** Sunlord GZ2012D601TF (C1017, 0805, Basic, no feeder fee, matches
+  FB1/FB2's size) — user preferred the smaller canonical Murata; deleting L1 for the
+  datasheet-literal direct VDD tie — rejected, see decisions.md.
+- **Design notes:** symbol stays `Device:L_Small` (a FerriteBead symbol swap risks the
+  label-on-pin wiring for zero electrical gain); DCR drop at ~1.5 mA VDDA draw is < 1 mV.
+- **Datasheet:** pcb/datasheets/C76884-BLM15AG601SN1D.pdf — p. 1 rating table row verified
+  (600 Ω ±25 %, 300 mA, DCR 0.52/0.62 Ω); p. 3 temp range
+
 ### Master power switch — SW4: SS12D10G5 (C7431054)
 - **Key specs:** SPDT vertical slide, non-shorting, THT 12.7 × 6.7 mm, AC 125 V / 2 A, −25~+70 °C,
   3,000 cycles, 2.2 mm travel, 250 gf
