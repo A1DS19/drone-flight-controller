@@ -18568,7 +18568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda:MICRO-USB-SMD_5P-P0.65-H-F_MICRO5.9MMUSB"
+		(property "Footprint" "easyeda:MICRO-USB-SMD_MICROXNJ_1"
 			(at 106.68 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -18579,7 +18579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204151400_SHOU-HAN-MicroXNJ_C404969.pdf"
 			(at 106.68 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -18590,7 +18590,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Micro Type B connector"
+		(property "Description" "-20℃~+85℃ 1 1.8A 30V 5,000 times 5P Black Female Micro-B Surface Mount, Right Angle USB 2.0 SMD USB Connectors ROHS"
 			(at 110.49 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -18601,6 +18601,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C404969" (at 110.49 269.24 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "MicroXNJ" (at 110.49 269.24 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "SHOU HAN" (at 110.49 269.24 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "3"
 			(uuid "ea467295-f56e-4324-8daa-989eae98e106")
 		)
