@@ -17727,15 +17727,39 @@
 				)
 			)
 		)
-    (property "LCSC" "C76884" (at 25.4 157.48 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Part" "BLM15AG601SN1D" (at 25.4 157.48 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Murata Electronics" (at 25.4 157.48 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "LCSC" "C76884"
+			(at 25.4 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "BLM15AG601SN1D"
+			(at 25.4 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 25.4 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f355c0e6-3f1b-405d-8a67-1499300171bd")
 		)

@@ -178,7 +178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -205,6 +205,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "df2c3739-8cb6-4972-b596-cae893b0a6fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5ae74ff-3b35-4052-8a85-19c9078c18f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a240877-1ba6-456e-8e8b-f72567ef59d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c95b1c61-e256-4b05-8e6c-6805e916a359")
 			(effects
 				(font
 					(size 1 1)
@@ -336,7 +375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -363,6 +402,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "71e0e797-2b90-4039-a957-79683073e5f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f185327-95e5-49c1-9e4f-e6541612f6fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1000T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "160798a6-c49f-4373-976e-bc91813dda22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bee3b3b-d3da-44db-9d77-3203c40726f0")
 			(effects
 				(font
 					(size 1 1)
@@ -494,7 +572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -521,6 +599,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fb02bc51-e91d-4a6c-8533-e7f8f1bf7cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "765afad4-6c77-4c9a-a6ec-3f659db82c55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a32b82fc-5a46-4afb-9358-cb7e02a6dc49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69403b37-61f5-4e77-b1bd-a05375feaddc")
 			(effects
 				(font
 					(size 1 1)
@@ -650,7 +767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/472/47219/472192001_sd.pdf?inline\\"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -661,7 +778,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-20℃~+85℃ 1.9mm Connector and Ejector Hinged Lid MicroSD Card (TF Card) No SMD SD Card / Memory Card Connector ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -680,6 +797,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164170"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6769277f-7b29-44fc-9474-e410004ce957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "472192001"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9336334c-5187-411b-9534-53c7db40436c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6d02369-2121-4728-babf-f3549f5a487c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1306,7 +1462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1333,6 +1489,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ac4cbbe-00c7-4054-965d-a707bb0da6c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22843"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee7de600-2d92-49f6-a8de-89f2b8019a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1501T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2da850df-8d88-4037-9cdb-6854a57644f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f3f05dc-66ba-4827-9c22-992170eb5730")
 			(effects
 				(font
 					(size 1 1)
@@ -1464,7 +1659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1491,6 +1686,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2cca3333-617d-4400-bcc8-65af4f357bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74cd67b1-d570-4c4f-b5ca-99cf98ced0bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed6e3c9f-a699-4264-ba38-cb9f5f695c6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e71012-1b9f-46e5-a1d7-6d231d42da31")
 			(effects
 				(font
 					(size 1 1)
@@ -1622,7 +1856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121800_XFCN-PZ254V-11-03P_C2937625.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1649,6 +1883,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7424263d-e801-4b38-9b78-b0ca34dda496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3362aec9-fb6e-42fc-9977-236788db8833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-03P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc5de3c-2b97-42dd-88f9-b8c60e6f0a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9ffd38b-8759-4cb1-8d30-18e13f2c7292")
 			(effects
 				(font
 					(size 1 1)
@@ -1874,7 +2147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B472K500NT_C1538.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1901,6 +2174,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ef14f569-8fa0-4154-95ad-89412a425d9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1538"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8658477-135b-4fcf-8a72-8d964614e3b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402B472K500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "661d28a7-6c30-4b56-ac0c-a1459646e673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "661a980c-486e-494c-8c87-2b0b1646f116")
 			(effects
 				(font
 					(size 1 1)
@@ -2032,7 +2344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301641_Sunlord-SDCL1005C3N9STDF_C14033.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2043,7 +2355,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "200mΩ 3.9nH 300mA 4GHz 8@100MHz Multilayer inductor 0402 Inductors (SMD) ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2059,6 +2371,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0d0db725-219f-4f33-afee-8d27265db612")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14033"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a50c55f-94cc-49b8-b7a3-85ef129b18b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "SDCL1005C3N9STDF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85f9dc17-0182-42c0-8bcb-35636acedbad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a1b6b50-a75f-4281-969b-3ebd57ecacee")
 			(effects
 				(font
 					(size 1 1)
@@ -2170,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2181,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2210,6 +2561,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fabadb5e-a74e-47f6-b94b-48741c26b630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d7b75b9-dcca-47ba-bfb8-a4b920c4b02e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241f2628-0727-4148-9f8b-cbb5dfac2790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaaee5ed-cf96-48a3-bd63-c78554b7fc8a")
 			(effects
 				(font
 					(size 1 1)
@@ -2392,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003191006_XFCN-PZ254V-12-8P_C492421.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2419,6 +2809,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "da4babbd-ea62-4b7b-bd82-28901f664d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492421"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ec36622-6f2e-4ddf-8833-6981c429b011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-12-8P"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9933ab88-531d-4628-a7e3-53cc784d439b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc43e0bf-ea28-49b9-b2b6-975200e610bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2719,7 +3148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2746,6 +3175,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "59998073-75d8-45f9-a714-1f678e3030fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0549b875-489c-42bf-8c73-ab6f0d237b7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2022385-6340-4a89-b026-6850a8700443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40e9bb2e-95c3-4f4c-b3db-1830733cb177")
 			(effects
 				(font
 					(size 1 1)
@@ -2877,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B222K500NT_C1531.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2904,6 +3372,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1c553412-8c08-4709-8131-b1d170c19d27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1531"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d724e46e-b6df-40a1-8b24-a11af7638e1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402B222K500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "010e8753-b5d4-4762-b65b-a1049e851677")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbe5aca9-e294-49e8-98b8-96b764a13364")
 			(effects
 				(font
 					(size 1 1)
@@ -3035,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3062,6 +3569,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4c12e31a-ed42-423d-ac6e-09f1b0acbe1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22843"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d42499b9-fc72-4fce-8106-1a5002543174")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1501T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8edd3b7b-3ea4-44e1-908f-f63e2e9f2ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c16ee0e-ecdd-4c4b-842c-9084ab07fa29")
 			(effects
 				(font
 					(size 1 1)
@@ -3193,7 +3739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301641_Sunlord-SDCL1005C2N7STDF_C27123.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3204,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "2.7nH 200mΩ 6GHz 800mA 8@100MHz Multilayer inductor 0402 Inductors (SMD) ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3220,6 +3766,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2dd24f11-1d50-4b5f-8faa-3042b54c7a09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C27123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc67114a-657f-4e57-a19d-354f534c0c65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "SDCL1005C2N7STDF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4540ebb0-0841-487d-a722-1c1975e178ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8987beea-4b59-4d83-ae0e-c0961315c4ed")
 			(effects
 				(font
 					(size 1 1)
@@ -3331,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3358,6 +3943,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4522e9f6-796f-4e1c-923f-b850a2475f37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82112878-f4f3-4b63-8f2d-6a4ffaf1bb57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93061a1a-e27b-48b2-affb-358df33c4e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d880996e-d7ba-4a0c-960a-df4c22993ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -3489,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3500,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 100mW 120° 3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3529,6 +4153,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21b73df2-e100-4126-86df-409091d22c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12624"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e22b60da-5f68-4395-8ed9-fbb6d8e68fc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f76aa761-b280-4055-9b2d-b95778c16888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3486020-0211-405f-845e-c1b3dfe607de")
 			(effects
 				(font
 					(size 1 1)
@@ -3711,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3722,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 100mW 120° 3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3751,6 +4414,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ecb1cb1-8efc-4dd9-9adb-c95687e638cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12624"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b9e44ce-f6b2-4076-a2e8-efc27b595451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94daf17f-67b3-45aa-8d40-487f5d95409b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65d35b0c-45dc-4cf4-884c-0f8e7dfd523e")
 			(effects
 				(font
 					(size 1 1)
@@ -4315,7 +5017,7 @@
 				)
 			)
 		)
-		(property "Value" "27nF"
+		(property "Value" "600R@100MHz"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "4eed805c-082a-4528-b76f-eb6e3749ebed")
@@ -4326,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM15AG601SN1D_C76884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4337,7 +5039,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "1 300mA 520mΩ 600Ω@100MHz ±25% 0402 Ferrite Beads ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4353,6 +5055,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b63a82b8-102c-4bfd-bd65-e4cd04c16f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C76884"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da8179d0-402a-49f3-b830-e0e7fc2f0195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BLM15AG601SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a09096b-2772-4787-abfc-27c25da80816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38f50d2e-5549-4131-9a53-5acb30a3d518")
 			(effects
 				(font
 					(size 1 1)
@@ -4464,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4491,6 +5232,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d7b008c7-836b-4906-ab66-4a9215e591eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81fa51c3-f13d-47c3-b597-2cfeb2aef8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd41de07-b353-4938-b347-cf423619c2af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "032cbc5a-6c57-4c74-b4a1-7fe5696b37fe")
 			(effects
 				(font
 					(size 1 1)
@@ -4622,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4649,6 +5429,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bfad31e9-e152-48d0-aee6-973a55566992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3374034-a0b0-48aa-af93-53a6399808c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a929bf06-6ebf-4e46-b0cf-c3e5f7863e58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82db4508-53c2-42ef-907e-d975ad90e6d6")
 			(effects
 				(font
 					(size 1 1)
@@ -4780,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4807,6 +5626,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bda530a1-2f6e-4c5c-bc71-03afa14b7a14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25867"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1042d01-2ecb-4be4-b72d-c49ff4c195e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1501TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa398472-93df-4121-94f7-35c8793b5883")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e567576a-c0ed-4c23-9529-3be9c0ccc415")
 			(effects
 				(font
 					(size 1 1)
@@ -4938,7 +5796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4965,6 +5823,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9bf32360-d88c-4ce8-bb3b-40d1eeec2fbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15839edc-cfad-44d7-b643-8b98d0608bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40135671-881a-4664-83ad-07f43d28a49e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3195c0-04db-47bf-8311-ae3370c4e448")
 			(effects
 				(font
 					(size 1 1)
@@ -5096,7 +5993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5123,6 +6020,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "94635e04-82d8-447e-a878-c5b4c70cb05f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8751d91-ed80-4bbd-868d-7e8e149fbf0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1001T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b381ae8a-9fdb-4c55-82f6-7a5ec09c3e18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8958ac63-1128-4955-977a-d482c3ff9b72")
 			(effects
 				(font
 					(size 1 1)
@@ -5254,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5281,6 +6217,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e737313f-0c49-43f2-9835-bb545e78db70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8eebf8-a612-4b9e-ae4e-d2fd4c4bd1f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "041757ec-19f6-4b46-969a-21037136d6eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e461f64-c49f-4e7a-beb3-4d42bb30ab30")
 			(effects
 				(font
 					(size 1 1)
@@ -5412,7 +6387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5439,6 +6414,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "41c69a7e-0504-43dc-9927-547313a5d13c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11223b03-649e-4bcd-9615-eb62b2007154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6e2d99e-cb77-4643-a123-c77ef62f03b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a01623be-c6e9-47e0-b6ae-5e1111a3edf8")
 			(effects
 				(font
 					(size 1 1)
@@ -5570,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121800_XFCN-PZ254V-11-03P_C2937625.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5597,6 +6611,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9256ba28-0cd9-466a-8ada-345d17b11190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f7b578e-3c8a-45ee-a640-abc97f96fe0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-03P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d69c5f3d-2e6f-49dd-ad21-938a69a346c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a18c119-eb82-47b9-a660-867902d037ad")
 			(effects
 				(font
 					(size 1 1)
@@ -5822,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5849,6 +6902,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20b61d14-201a-4a87-a18b-1df1b0d64989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43b1c8ed-2070-496b-ad14-8c0e569a0068")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a96f32a8-dbc1-49cb-a718-8b04f71505dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b78c5ea-b5e6-4d3a-9be0-74a2e29dcd63")
 			(effects
 				(font
 					(size 1 1)
@@ -5980,7 +7072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407291648_MDD-Microdiode-Semiconductor-B5819W_C64885.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5993,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "-55℃~+125℃ 1A 1mA@40V 25A 40V 600mV@1A Independent SOD-123 Schottky Diodes ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6025,6 +7117,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20dc1b3b-b2c1-4006-8fdb-ed090415b4ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64885"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af5be3c2-5f60-49fb-8d09-fa4b9f689ac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "B5819W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333bf199-6466-458e-bd74-815569607b08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57a4dbcc-6c6e-428f-a65b-3bbf58c9727f")
 			(effects
 				(font
 					(size 1 1)
@@ -6296,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF2200T5E_C22962.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6323,6 +7454,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "253da26e-e89a-49ef-94c7-7b57203f9b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22962"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e85428f-b795-4d04-8c46-bb9e64193cda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF2200T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad3d4f8a-08fc-477f-8d99-0668edf71b85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbeb72eb-827b-4498-bd76-f07e4154f592")
 			(effects
 				(font
 					(size 1 1)
@@ -6454,7 +7624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF7500T5E_C23241.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6481,6 +7651,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0a6ca68f-62d0-41eb-aa21-8cfddaea8810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23241"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4ad9086-2a68-4409-89d5-1892cb79073d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF7500T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79f96384-8e27-4b20-a83f-37f9c553e65d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2241397a-8ed1-4dcd-9311-31ddc85d8720")
 			(effects
 				(font
 					(size 1 1)
@@ -6612,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6639,6 +7848,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a8024f19-22e4-41d6-ac07-7d81b38bbd08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C32949"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "651f2547-f7e0-408f-be7d-0505848e4cb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05C100JB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f4d2cc6-ba0e-4d9f-95e9-2958ad3084a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdd8de95-bbed-4dd4-9b1f-9c5f810ec4df")
 			(effects
 				(font
 					(size 1 1)
@@ -6770,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6797,6 +8045,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b586c229-48f7-4119-a63c-91258d629699")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bab4b081-91c0-4348-88b4-591cf8ae3a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65b0caa4-5b30-4dfa-b1ae-434612dea1c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a6020fb-7f48-4589-b255-f290ed1db2be")
 			(effects
 				(font
 					(size 1 1)
@@ -6928,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6955,6 +8242,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e8b7dd6a-73db-438f-8aa3-d234a61cc233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1481d488-f5d9-446d-95cd-830bb2681918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "864e1e99-0494-414c-a5e4-a62cbb0d3397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c233f6c-27b8-471b-b0a2-36c885fb4403")
 			(effects
 				(font
 					(size 1 1)
@@ -7086,7 +8412,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7097,7 +8423,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 100mW 120° 3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7126,6 +8452,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b300637b-a799-4707-b38b-4b88240004a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12624"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "924692da-1c57-47a0-b2ab-cf694690ccde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35586132-e04a-439e-9137-e144cceeb26e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5f1a947-340d-4c27-96b9-f9fefcda7f1e")
 			(effects
 				(font
 					(size 1 1)
@@ -7308,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7335,6 +8700,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b47fdeae-fb44-46c0-8046-74786f9523c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b38e602-92d8-40f2-8bbe-743112f5d5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-04P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "303ea0a4-5580-4d5c-829d-8108b889caba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c526fca4-f01c-4434-9759-c9109e7f4b9d")
 			(effects
 				(font
 					(size 1 1)
@@ -7571,7 +8975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7598,6 +9002,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d6b74cf4-f45b-45d4-a19d-c87e91361f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e403c43-21df-4077-af7e-412104b09002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "402303b2-eb3b-4f64-987c-550e0893726c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7fb7a89-20ce-434a-a9c1-4a136467e5c7")
 			(effects
 				(font
 					(size 1 1)
@@ -7837,7 +9280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG1R5C500NT_C1552.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7864,6 +9307,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a9bf7a40-baa2-445c-b512-11c4977dd9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1552"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cf24f2-d4b5-4476-b779-82c477a941a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG1R5C500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07dc48b4-18a0-4f6e-8743-4dade393ac28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f753dccf-4d92-4b7c-ae7d-c0d09a83c145")
 			(effects
 				(font
 					(size 1 1)
@@ -7995,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8006,7 +9488,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8035,6 +9517,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "acc55d6f-2340-40ec-8b82-5334645f680d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d770a72-b336-469c-9a93-e53eff466219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "310c8374-a19e-41b6-a917-247d366d9149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13261612-2371-4bed-b0cb-6b718d9b12b6")
 			(effects
 				(font
 					(size 1 1)
@@ -8481,7 +10002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8508,6 +10029,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8e79ad66-2cdb-4697-8c88-256450367993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "570bf2a6-f09e-4a85-ac3d-77af6ccb978e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79a8f228-b2ac-4779-b4ee-de55c777ad9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "542667b6-3f87-4ff4-8fd2-b1d173c5bd5e")
 			(effects
 				(font
 					(size 1 1)
@@ -8639,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG1R0C500NT_C1550.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8666,6 +10226,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a1b78fbd-e8b6-462b-964e-3732de432cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1550"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f921008-7b65-49e9-aa99-5343e31da50b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG1R0C500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bffa9fe-d40a-4367-9bbe-32870b92724c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b086365c-8fd0-44f9-b4f4-0f668153e6ad")
 			(effects
 				(font
 					(size 1 1)
@@ -8797,7 +10396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF7500T5E_C23241.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8824,6 +10423,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a5413c0f-5241-4c68-a551-3e8ba00ec995")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23241"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7f24e1e-2596-4ad0-af20-59d15344eb2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF7500T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce178b38-5370-4a5f-9d20-1b0bdbd6b3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7506950c-6eb9-43f0-880f-37b7f48eb97e")
 			(effects
 				(font
 					(size 1 1)
@@ -8955,7 +10593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8982,6 +10620,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5332db2b-021e-4d24-badd-ce6399e315d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1554"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d1190a-a4fc-465c-99d3-f04b30365972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG200J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dc7cdba-2afd-4113-994f-6024f85490a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ddc81e4-a3cc-4229-9fc8-f879379f033a")
 			(effects
 				(font
 					(size 1 1)
@@ -9113,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231822_Samsung-Electro-Mechanics-CL05A475MQ5NRNC_C307423.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9140,6 +10817,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "55bfc1fa-d183-4b83-beaf-dffc3cb1ccb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307423"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a6392e3-6123-4598-91c0-4da00070379a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05A475MQ5NRNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a230a182-cc72-423a-ad2a-ee23eeb8ff5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac51b58b-50cf-4549-bb67-fe7a31f8a2c8")
 			(effects
 				(font
 					(size 1 1)
@@ -9271,7 +10987,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05C100JB5NNNC_C32949.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9298,6 +11014,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3ec06bb4-1bd3-4876-adb0-7b688745defa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C32949"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e14ee5ef-5856-4d8f-97ff-862d64ea0a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05C100JB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e2dce04-862d-476b-9bec-f4539155947e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d09c7a96-6f34-41ea-b0e1-4db9e1125c78")
 			(effects
 				(font
 					(size 1 1)
@@ -9428,7 +11183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322516MLB4SI_C13738.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9439,7 +11194,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "-40℃~+85℃ 16MHz 9pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9455,6 +11210,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a4e951a2-1520-4b6e-a92e-823f7f1d8de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C13738"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753b5302-17d1-4968-b7f4-fd809cb0e069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "X322516MLB4SI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fb1f1d0-3e1b-4e9e-b1b3-be8361c1432e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yangxing Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3dca77d-749e-47b6-863c-3bc51179c2ad")
 			(effects
 				(font
 					(size 1 1)
@@ -9609,7 +11403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF4702TCE_C25792.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9636,6 +11430,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0f5d7741-89fe-44dd-bd27-acbcb06080af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "990a52ec-4516-43db-bc6a-de0b4ec5cd02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4702TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca502fcd-9567-4ffc-97b9-ef443f19ebb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd36f4f6-8b6d-41cd-96fb-93f3676b2ac2")
 			(effects
 				(font
 					(size 1 1)
@@ -9875,7 +11708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103r8.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-STM32F103R8T6_C46034.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9886,7 +11719,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64"
+		(property "Description" "-40℃~+85℃ 12bit 20KB 2V~3.6V 32 Bit 51 64KB 72MHz ARM Cortex-M3 Built-in FLASH LQFP-64(10x10) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9902,6 +11735,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bf1ee68f-8700-412d-9015-3b6d3a2d8f8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C46034"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c915941b-b6a9-4b17-9011-e11063ebf456")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "STM32F103R8T6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38bd36c9-e23a-41a3-8ac1-2accefef4636")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab2ad904-035d-4713-91d4-b24a02460a5a")
 			(effects
 				(font
 					(size 1 1)
@@ -10922,7 +12794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10949,6 +12821,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25d32a7d-a63b-4e48-bcd5-2758a09e35ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1188d0-dc55-4c1a-9e95-bf6b32921022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e38bc3bf-23c5-4ef8-b8d0-5bd81cd3a530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e151c857-286d-4b82-b003-fc1514ec53e4")
 			(effects
 				(font
 					(size 1 1)
@@ -11080,7 +12991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF1004TCE_C26083.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11107,6 +13018,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bded7175-1175-41b2-a8b4-8c370c59757b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "890ec280-a94a-4299-9459-2de690ba2a58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1004TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2c25c38-a13a-4ac2-87c8-6957a7045d68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f774445-2e56-45f8-8df4-91fd67b9e581")
 			(effects
 				(font
 					(size 1 1)
@@ -11227,7 +13177,7 @@
 				)
 			)
 		)
-		(property "Value" "100Uhm @ 100Mhz"
+		(property "Value" "120R@100MHz"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "e4d6f149-ea28-4595-9405-fa546f4bde85")
@@ -11238,7 +13188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-BLM21PG121SN1D_C79382.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11249,7 +13199,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" "1 120Ω@100MHz 30mΩ 3A ±25% 0805 Ferrite Beads ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11265,6 +13215,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "259ee463-2c8c-46b0-8812-69f01433e34b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C79382"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abe5c43a-8012-4461-8776-89eefb777fe2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BLM21PG121SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0678bf5-d0e4-4c3b-a55f-3155af553e15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7e74fd9-a6b8-42d5-a363-c0d22e427872")
 			(effects
 				(font
 					(size 1 1)
@@ -11396,7 +13385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11423,6 +13412,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4118f55f-82b8-4e83-b63d-8cb14e61d650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d017fce5-9787-48a6-b34e-2b1557e9f254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46bc796d-5d76-4c54-bb3a-b9f6448715d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a7b4b3a-d947-4422-bf72-ba6ef3e9a966")
 			(effects
 				(font
 					(size 1 1)
@@ -11554,7 +13582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11581,6 +13609,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9737b72a-44ca-4c78-b527-1b32cfd735c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e158148-97a5-48e3-b0db-816c875e1941")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e08268-8685-454a-97e5-1db63665372d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a5d09f6-8268-4443-aaad-8871049b04ef")
 			(effects
 				(font
 					(size 1 1)
@@ -11712,7 +13779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010226_Texas-Instruments-SN74AHC1G125DCKR_C151890.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11723,7 +13790,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+		(property "Description" "-40℃~+125℃ 1 1 10uA 2V~5.5V 5.5ns@5V,15pF 74AHC 8mA 8mA Tri-State Unidirectional SC-70-5 Buffers, Drivers, Receivers, Transceivers ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11739,6 +13806,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4fbb2a60-586e-403e-809e-99c99955b174")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C151890"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f0abb6b-eb42-4be4-b6f6-aec3596de6a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "SN74AHC1G125DCKR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "674284b0-b131-4647-905f-164a60b2354a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb974484-2691-4d1c-a73c-c59729a7ae5a")
 			(effects
 				(font
 					(size 1 1)
@@ -12083,6 +14189,534 @@
 			)
 		)
 	)
+	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(layer "F.Cu")
+		(uuid "66367bd4-a6b2-462c-b7fb-6c7ca7c14624")
+		(at 3.725 2.86)
+		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
+		(tags "SOIC SO")
+		(property "Reference" "U5"
+			(at 0 -3.4 0)
+			(layer "F.SilkS")
+			(uuid "a9608a90-1a39-4867-8492-eb3bb50500f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LM358DR"
+			(at 0 3.4 0)
+			(layer "F.Fab")
+			(uuid "eaf61e28-5fd7-4295-ab36-573a847261dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181640_Texas-Instruments-LM358DR_C5423.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27ac1708-3732-4849-b4d7-84354406153b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-16V~16V 0℃~+70℃ 10pA/℃ 2 20mA 20nA 2nA 300V/ms 32V 3V~32V 3mV 40nV/√Hz@1kHz 700kHz 700uA 7uV/℃ 99dB SOIC-8 Operational Amplifier ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc7d3b19-93b3-4884-ac84-23613cc4c48c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "325edf49-4925-4fab-b75b-8020cea12c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key_PN" "296-1014-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d70c23e-5968-49be-9ee2-9ffa0decf7e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LM358DR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d4b0eb-22ee-413b-ba42-5ba49d452a2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb7d2488-4dee-4b9d-8879-cd0f4c85ef2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Family" "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9dc3c66-554d-4942-9e8c-a87686c8317a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5f26514-504d-4c1b-8a0b-4ef771408f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/texas-instruments/LM358DR/296-1014-1-ND/404838"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9522a64b-fcbb-42e1-84ca-59d9e3a934c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fd82fe3-35a3-4540-b0b7-0bbafb547572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cc20746-0733-48da-a55d-ff27cfde3f9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb33b4f5-c689-41e3-97c1-5172294178ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5423"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "480cf935-bcfd-4207-8781-ba64414fc99c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "LM358DR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b91b541-3c13-4462-b5a6-711c52705f97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3ba11137-7aba-429f-b0d2-26d56a1546d6/e21f6f6f-5202-41e2-a3e6-a2e1d0057330")
+		(sheetname "/ATMEGA238P/")
+		(sheetfile "ATMEGA238P-plus-components.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "8" "4" "1")
+			)
+			(unit
+				(name "B")
+				(pins "6" "5" "8" "4" "7")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.06 -2.56)
+			(end 2.06 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0972ca12-ed74-4ebc-930a-17d052daa5ea")
+		)
+		(fp_line
+			(start -2.06 -2.465)
+			(end -2.06 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37c4da6a-ac93-46cb-a46f-46905a7ad46c")
+		)
+		(fp_line
+			(start -2.06 2.56)
+			(end -2.06 2.465)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bc436694-d311-4c13-bbc1-f53e36ab9465")
+		)
+		(fp_line
+			(start 2.06 -2.56)
+			(end 2.06 -2.465)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a4e0091-5556-4542-bbef-4a5482c89bcc")
+		)
+		(fp_line
+			(start 2.06 2.465)
+			(end 2.06 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5a666d2-16e9-4c3c-a5a3-99d0065d66bd")
+		)
+		(fp_line
+			(start 2.06 2.56)
+			(end -2.06 2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f5e5419-c148-4a87-8dd6-b23531e5cab7")
+		)
+		(fp_poly
+			(pts
+				(xy -2.6 -2.47) (xy -2.84 -2.8) (xy -2.36 -2.8)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "87ad76e8-4eb5-408d-a8f3-115ed642716f")
+		)
+		(fp_line
+			(start -3.7 -2.46)
+			(end -2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bad08e64-9562-4e3c-ac88-f505ca425475")
+		)
+		(fp_line
+			(start -3.7 2.46)
+			(end -3.7 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "299f73a8-b5f9-466f-99ed-7e762d997621")
+		)
+		(fp_line
+			(start -2.2 -2.7)
+			(end 2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5038e8ca-41e4-4c93-8981-e2c63b1bcb39")
+		)
+		(fp_line
+			(start -2.2 -2.46)
+			(end -2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f59c9500-ae79-4494-a166-953c099199f2")
+		)
+		(fp_line
+			(start -2.2 2.46)
+			(end -3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "976e4c3c-1d3e-440a-b96a-431568846c6a")
+		)
+		(fp_line
+			(start -2.2 2.7)
+			(end -2.2 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "747d723b-d7d8-439a-8c88-1c5d8604eb1a")
+		)
+		(fp_line
+			(start 2.2 -2.7)
+			(end 2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb51ab12-4cf4-4702-b0a7-a3c15edc8139")
+		)
+		(fp_line
+			(start 2.2 -2.46)
+			(end 3.7 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06434269-0861-4f33-bc51-1eff4634a1f4")
+		)
+		(fp_line
+			(start 2.2 2.46)
+			(end 2.2 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "594b4ec6-b097-46f2-bb55-2be1b082456b")
+		)
+		(fp_line
+			(start 2.2 2.7)
+			(end -2.2 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9d517d16-6845-49aa-9e84-32886e2b570b")
+		)
+		(fp_line
+			(start 3.7 -2.46)
+			(end 3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "665a20c5-073d-4018-aaec-8fb5239cb9b8")
+		)
+		(fp_line
+			(start 3.7 2.46)
+			(end 2.2 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7eb87dc8-ad08-4b76-85e5-e7b0cac42edc")
+		)
+		(fp_poly
+			(pts
+				(xy -0.975 -2.45) (xy 1.95 -2.45) (xy 1.95 2.45) (xy -1.95 2.45) (xy -1.95 -1.475)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2c25e3d3-48a3-40c2-8744-1ca387dacb05")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "fd9e666d-4498-4ae3-99c6-193b1d39828c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.475 -1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D11-K)")
+			(pinfunction "~_1")
+			(pintype "output")
+			(uuid "12d2897b-6a97-473e-97a0-1e8a29b92e9a")
+		)
+		(pad "2" smd roundrect
+			(at -2.475 -0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D11-K)")
+			(pinfunction "~_2")
+			(pintype "input")
+			(uuid "a80a0b0c-65f7-4343-86a6-16495dc5745a")
+		)
+		(pad "3" smd roundrect
+			(at -2.475 0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "RX_ATM328P")
+			(pinfunction "~_3")
+			(pintype "input")
+			(uuid "fe307407-b81f-417c-9f93-9960257d5a36")
+		)
+		(pad "4" smd roundrect
+			(at -2.475 1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_4")
+			(pintype "power_in")
+			(uuid "3514c17b-968c-4990-a266-d74aaf3ca2f6")
+		)
+		(pad "5" smd roundrect
+			(at 2.475 1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "TX_ATM328P")
+			(pinfunction "~_5")
+			(pintype "input")
+			(uuid "81f22347-4796-4313-8d72-d25161dddf73")
+		)
+		(pad "6" smd roundrect
+			(at 2.475 0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D12-K)")
+			(pinfunction "~_6")
+			(pintype "input")
+			(uuid "026a34e9-94d1-4b74-9add-96cce29610dc")
+		)
+		(pad "7" smd roundrect
+			(at 2.475 -0.635)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D12-K)")
+			(pinfunction "~_7")
+			(pintype "output")
+			(uuid "186d10e5-4fca-4b0f-8896-9636af4235a4")
+		)
+		(pad "8" smd roundrect
+			(at 2.475 -1.905)
+			(size 1.95 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Vdrive")
+			(pinfunction "VCC_8")
+			(pintype "power_in")
+			(uuid "fcd2616d-c1c4-4462-b0ea-b8c9f6be9f6c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "easyeda:MountingHole_3.5mm_5.5mm"
 		(layer "F.Cu")
 		(uuid "66834c25-e245-4339-9d11-ca6923f941c0")
@@ -12191,13 +14825,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "67c6e359-b1d8-43c7-bc79-91db41305198")
 		(at 359.6964 118.2382)
-		(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, http://txccrystal.com/images/pdf/9ht11.pdf")
+		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
+		(tags "SMD SMT Crystal")
 		(property "Reference" "Y2"
-			(at 0 -1.8 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "857473c5-dea0-4024-828c-6880e2f61353")
 			(effects
@@ -12208,7 +14843,7 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 0 1.8 0)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "8f8e2ea6-a6ac-49c0-9d13-21c2b2e77cca")
 			(effects
@@ -12218,33 +14853,64 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f0a791f-401c-47e4-a398-ddb7102e1de6")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" "-40℃~+85℃ 12.5pF 32.768kHz 70kΩ Crystal Oscillator ±20ppm SMD3215-2P Crystals ROHS"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51c8e07a-d994-4a72-b363-ee3bd8fbdfb4")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(property "LCSC" "C32346"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "79bf06db-0dec-4602-ae62-acb10f9ba32e")
+			(uuid "d5fe5ca3-7b9a-4b3c-b290-9525b70a30a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "Q13FC13500004"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53ebfc42-3c39-4d46-a9b5-5adae7ca5750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "234a3817-59b3-46b6-8b06-44b7af869f4f")
 			(effects
 				(font
 					(size 1 1)
@@ -12265,8 +14931,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.26 -0.86)
-			(end -1.26 0.86)
+			(start -0.675 -0.875)
+			(end 0.675 -0.875)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12275,8 +14941,8 @@
 			(uuid "afc68fc3-8571-4ae2-89eb-0ac12000950f")
 		)
 		(fp_line
-			(start -1.26 0.86)
-			(end 1.26 0.86)
+			(start -0.675 0.875)
+			(end 0.675 0.875)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12285,82 +14951,116 @@
 			(uuid "7cd39404-0386-4585-9107-f8bcd1d0658b")
 		)
 		(fp_line
-			(start 1.26 -0.86)
-			(end -1.26 -0.86)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6340ca8c-bc04-4448-aac6-7c624ed6e68a")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "d7e2a919-f441-40eb-8ed9-ffcbbe91e8a6")
-		)
-		(fp_rect
-			(start -1.5 -1.1)
-			(end 1.5 1.1)
+			(start -2 -1.15)
+			(end -2 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6a8c84a5-576c-4e51-aeac-73d4cf360d2e")
+			(uuid "6340ca8c-bc04-4448-aac6-7c624ed6e68a")
 		)
-		(fp_poly
-			(pts
-				(xy 1 -0.6) (xy 1 0.6) (xy -0.7 0.6) (xy -1 0.3) (xy -1 -0.6)
+		(fp_line
+			(start -2 -1.15)
+			(end 2 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
 			)
+			(layer "F.CrtYd")
+			(uuid "73731160-528c-4574-9302-2e714eb5fa0a")
+		)
+		(fp_line
+			(start -2 1.15)
+			(end 2 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49c19e20-23b8-420e-abf9-af34022555c0")
+		)
+		(fp_line
+			(start 2 -1.15)
+			(end 2 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f463039-3776-4a93-9fc4-f3abd146beb5")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end -1.6 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.Fab")
-			(uuid "dec1ea5d-0405-4d23-8515-950287b2a027")
+			(uuid "a87b9fd4-a6f9-4b42-9b4d-cfef677ee68b")
+		)
+		(fp_line
+			(start -1.6 -0.75)
+			(end 1.6 -0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24f31f55-0944-4c7b-b8d7-6d5390eeb254")
+		)
+		(fp_line
+			(start -1.6 0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "90621b6b-9db7-4788-8806-82e5054c94bd")
+		)
+		(fp_line
+			(start 1.6 -0.75)
+			(end 1.6 0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "42412fdc-390f-4849-afb1-a5c05be268f8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "f2f96908-1a3b-4b77-bbd0-ec86417b79a0")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.7 0)
-			(size 0.6 1.1)
+		(pad "1" smd rect
+			(at 1.25 0)
+			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
 			(net "/LSE_IN")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ccc0b650-0daa-41c0-bf1a-70e48465df40")
 		)
-		(pad "2" smd roundrect
-			(at 0.7 0)
-			(size 0.6 1.1)
+		(pad "2" smd rect
+			(at -1.25 0)
+			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
 			(net "/LSE_OUT")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "9798fd4c-aca3-414b-85da-1577f385aebd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12400,7 +15100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12427,6 +15127,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f7a844c3-1954-4aa2-a646-7a91baebdfb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c291dffc-067b-47f0-bb7a-ad88a0d2fe28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "550036d0-7ac9-4fd4-a9cc-1c30e30314e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de96613e-ec4f-4ddd-9c10-6eaa2426ed44")
 			(effects
 				(font
 					(size 1 1)
@@ -12558,7 +15297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12585,6 +15324,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "36a4621d-236d-4270-a9af-ca7b0be4aa34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee79942-451f-4240-9a11-f5fcce51039b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c4834f-701b-44e0-8347-b05f295ffe0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1a64f40-a62c-4a0d-85c1-7f0ec814dde6")
 			(effects
 				(font
 					(size 1 1)
@@ -12716,7 +15494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810220913_Hubei-KENTO-Elec-KT-0603B_C2288.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12727,7 +15505,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "100mW 120° 175mcd 3.1V 460nm~475nm 469nm 5mA Blue Discrete Diode Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12756,6 +15534,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34fdcfb4-55af-472b-89b3-1b761057dcf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2288"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c95e03cd-8e39-49bb-84b5-fa4a8b55bbac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dbe154d-f609-4dc1-8246-b83a15e2e7b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f1a61ee-f903-410a-974b-0c42ef7cbbd4")
 			(effects
 				(font
 					(size 1 1)
@@ -12937,7 +15754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322512MSB4SI_C9002.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12948,7 +15765,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "-40℃~+85℃ 12MHz 20pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12964,6 +15781,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "22fc8390-0edb-4aa5-ab84-9461a2bb93ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf7f2d5-04c2-4392-b38e-45cb986ca584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "X322512MSB4SI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ef200e8-e765-40c8-96e1-21ecb83b482b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yangxing Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f407aac-234e-40c8-9343-6a79f2a8d8bf")
 			(effects
 				(font
 					(size 1 1)
@@ -13117,7 +15973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322516MLB4SI_C13738.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13128,7 +15984,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "-40℃~+85℃ 16MHz 9pF Crystal Oscillator ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13144,6 +16000,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb3f7cce-4af2-42d2-8757-7815523e30c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C13738"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17e4e58e-d0f8-4117-a69d-c3e8a4aa543f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "X322516MLB4SI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbba735d-c145-4b11-b03d-61b5e22249fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yangxing Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "284630f3-2079-46f4-a6f4-58db3223d5cd")
 			(effects
 				(font
 					(size 1 1)
@@ -13298,7 +16193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121342_Murata-Electronics-LQG15HS8N2J02D_C98003.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13309,7 +16204,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "240mΩ 3.7GHz 550mA 8.2nH 8@100MHz ±5% 0402 Inductors (SMD) ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13325,6 +16220,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb4043ff-f1d4-42c5-84ae-4eddf3a9d466")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98003"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "647fa82b-0c33-476f-af8c-a4727acb1044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "LQG15HS8N2J02D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74ebb901-3408-44d1-8f0b-979a2425a7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1739f841-02cf-42fb-9073-183f9b8fe8a7")
 			(effects
 				(font
 					(size 1 1)
@@ -13436,7 +16370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407291648_MDD-Microdiode-Semiconductor-B5819W_C64885.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13449,7 +16383,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "-55℃~+125℃ 1A 1mA@40V 25A 40V 600mV@1A Independent SOD-123 Schottky Diodes ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13481,6 +16415,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c3e3b6e-f5bc-4efb-82c0-a6460b0abbc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64885"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8600ede0-0ced-46f2-9571-e66561205113")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "B5819W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "499ccee6-bec6-498b-bf4e-5ec1bb2aeddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89d9d10-68b7-4f5d-8587-8725a2f8e696")
 			(effects
 				(font
 					(size 1 1)
@@ -13752,7 +16725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13779,6 +16752,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "397b8373-2f4c-4dd2-bca2-b1520587277b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95186085-796b-4200-ad50-40447867f6b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d2e4ae-477f-467a-a93b-e76a069a9bc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8feec789-3d41-48f3-b8f5-b9286fecd428")
 			(effects
 				(font
 					(size 1 1)
@@ -14303,7 +17315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192015_Nordic-Semicon-NRF24L01P-R_C8791.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14314,7 +17326,7 @@
 				)
 			)
 		)
-		(property "Description" "nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm"
+		(property "Description" "-40℃~+85℃ -82dBm 0dBm 1.9V~3.6V 11.3mA 13.5mA 2.4GHz 2.4GHz~2.525GHz 2Mbps ISM SPI transceiver QFN-20-EP(4x4) RF Transceiver ICs ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14330,6 +17342,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e78b0349-ade6-4ce0-8f37-2bc4dcd30113")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C8791"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d30824-8d1e-4a28-844c-9061cfd4b085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "NRF24L01P-R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86398073-9f35-469f-a106-dc21a321cc46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nordic Semicon"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfab67ee-600a-409a-9faa-8218eb66d6aa")
 			(effects
 				(font
 					(size 1 1)
@@ -14943,7 +17994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14970,6 +18021,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4ff80a1d-d91f-4b72-a078-d69cc41d2d3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "901075c6-6b69-4c89-a74b-af1479e81dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a935aa-a44e-45c2-bcdf-9f4de4b660bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc8b6570-5a8a-4fd1-8251-9111ebfbce8c")
 			(effects
 				(font
 					(size 1 1)
@@ -15101,7 +18191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003191006_XFCN-PZ254V-11-06P_C492405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15128,6 +18218,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0aab6216-43e6-40b0-a368-238d35d5d78a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c01331f3-e4c5-43b6-bbed-6b9ec8b45a96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-06P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe92d304-d134-4c70-947c-3d289676a7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bb118fd-8c60-4ee0-9034-ec7201464313")
 			(effects
 				(font
 					(size 1 1)
@@ -16048,7 +19177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16075,6 +19204,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a55d9f03-94d3-48a3-83bf-d2f368c25261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e416ec1e-ff05-46b8-b352-c2ceab01604e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aa03fec-4527-4cb9-9359-df49edf8be74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92e10ceb-c7f5-47f6-8881-93c90919e987")
 			(effects
 				(font
 					(size 1 1)
@@ -16206,7 +19374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF7500T5E_C23241.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16233,6 +19401,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "28cacfb2-6c8b-4f69-bc88-c4a471622ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23241"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3c58361-e5d5-4003-a542-8c997e6cc62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF7500T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dfe2837-da49-4cd7-a2c3-5aae31033e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7a785ad-4c36-4c4e-aefd-f26df7bb0d0c")
 			(effects
 				(font
 					(size 1 1)
@@ -16364,7 +19571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003191006_XFCN-PZ254V-12-6P_C492420.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16391,6 +19598,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "56b69f2b-be1e-46b8-9209-f71b833674e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492420"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70344131-a989-454b-b645-b23ba7ffa886")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-12-6P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4449eb82-a605-4347-b79a-453965e8487c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "636e4075-ede1-4922-97e1-a105dbd6a812")
 			(effects
 				(font
 					(size 1 1)
@@ -16669,7 +19915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF2200T5E_C22962.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16696,6 +19942,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "646fb433-863c-41ad-a5a5-7b3e5158d654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22962"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92777daa-f72b-48ba-b1f6-91a692131f7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF2200T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ecb1758-476f-48c4-9632-322af979a0d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "583b50e0-cd81-482a-a49d-af62e1ee3325")
 			(effects
 				(font
 					(size 1 1)
@@ -16827,7 +20112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16854,6 +20139,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f6db57e2-43e9-4cb8-ad7d-8b7db2838bac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c131693-1d5d-4c59-897f-b2106934835e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF3300TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b65a38b5-8775-4af8-a163-39c9aa05f6e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc5c1246-9a0a-4ad3-b544-b9e0ad44943d")
 			(effects
 				(font
 					(size 1 1)
@@ -16983,7 +20307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310171703_BAT-WIRELESS-BWSMA-KWE-Z001_C496551.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16994,7 +20318,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "1 5.3mm 50Ω Board Side Elbow Inner Bore SMA 插件 Coaxial Connectors (RF) ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17002,6 +20326,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C496551"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e48e88-768c-4a97-8ff5-95cd11ec1a6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BWSMA-KWE-Z001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4912fd-3b62-4147-9a57-a9a186f12492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac7697f-7707-49ae-bcfb-e420186bf678")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17196,6 +20559,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17703,7 +21067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17730,6 +21094,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "875a6c61-c703-48a0-a620-dc282f7c1814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6c16a3a-fc8e-4168-bbca-2de170726193")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "192e06d8-6b81-4318-b7ab-67c70ae2499b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "680e837a-23c3-4995-bf3b-762a7dea56da")
 			(effects
 				(font
 					(size 1 1)
@@ -17861,7 +21264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121800_XFCN-PZ254V-11-03P_C2937625.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17888,6 +21291,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ba558766-8d32-4454-8416-b6c008a33269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "761f3661-99d7-40e4-b2a5-b7f12a90a929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-03P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0403ed68-fcf7-4d32-9b04-2524ba17f7f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05b083fc-dd81-4338-9e13-1e2e1c8b0af6")
 			(effects
 				(font
 					(size 1 1)
@@ -18113,7 +21555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18140,6 +21582,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2c84b0d7-f5d9-4562-beb9-efb484cff633")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0a0a8a3-6c3f-42ba-a283-2e94526eeec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "945112c3-7055-4122-b02d-8897bb01db09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37cfd743-123f-495f-bd2c-361e0a3702a7")
 			(effects
 				(font
 					(size 1 1)
@@ -18271,7 +21752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18298,6 +21779,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8fae64cc-ffc3-443d-a70b-4063d985a941")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "935c9c7f-8b4a-4f29-9e04-e77e60aae746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13d8b4ad-d5a4-46ee-97aa-31449b492c58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d18bfb0-a59c-4159-9c9b-408e93dbde9a")
 			(effects
 				(font
 					(size 1 1)
@@ -18429,7 +21949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18456,6 +21976,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d3f8c577-7bef-4adf-a420-df325be31e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23179"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c6cc903-ac22-461a-9297-358f1024f003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF4700T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2cc011b-7285-43cb-9287-1963e810de2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81bca934-6077-44f0-b08e-ab72e45111a9")
 			(effects
 				(font
 					(size 1 1)
@@ -18587,7 +22146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121800_XFCN-PZ254V-11-03P_C2937625.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18614,6 +22173,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4c4c4345-88c9-45d4-8499-a5998d075342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ead1fae6-4968-475e-a229-924c2c8cd407")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-03P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3378b956-b9a1-4e7a-abe4-f21f5d125b1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f023c7d-f051-4257-8afb-970d9eafb3ad")
 			(effects
 				(font
 					(size 1 1)
@@ -18839,7 +22437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18850,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18866,6 +22464,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "832a4375-7e63-482a-aa9c-ac236d47c199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7171"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f44c47a0-ff8c-4743-93af-d9b3c76f5ec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TAJA106K016RNJ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c435f1c9-10af-46cc-adce-3ff52fed85a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "587731d7-cfe7-4e15-bb18-f8eaa5613136")
 			(effects
 				(font
 					(size 1 1)
@@ -18997,7 +22634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19024,6 +22661,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d695891e-3153-4589-9df0-411fd2103ea8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b72a7fb-d3ad-4076-a39f-520c31925b98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d91fc3-4191-4351-b61d-1aeb9afd4c87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd8b6bed-0d71-40cc-876b-06ee031c5e97")
 			(effects
 				(font
 					(size 1 1)
@@ -19155,7 +22831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Kyocera-AVX-TAJA106K016RNJ_C7171.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19166,7 +22842,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "-55℃~+125℃ 10uF 16V 3Ω@100kHz ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19182,6 +22858,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fa759d51-2f22-45fa-af88-5070c0db158b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7171"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14fe4f1a-5cd7-40de-9abc-609e9187fc47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "TAJA106K016RNJ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa603fb2-ece7-43c0-b4a1-5662adc33850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0ce842a-b09d-4032-8b51-e4bba19c6318")
 			(effects
 				(font
 					(size 1 1)
@@ -19313,7 +23028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19340,6 +23055,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "01b47cb0-f8a0-4b82-b6f8-48640eed9de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc7bb22b-94ba-4e6f-aa61-15e2c6783375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e636b9-f481-4709-8da8-5af4bb4b3a64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a753351-c4b2-4834-8d46-6bd8390ea445")
 			(effects
 				(font
 					(size 1 1)
@@ -19471,7 +23225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG200J500NT_C1554.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19498,6 +23252,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cf4284b7-34f3-4941-94b8-64e0eb8c6065")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1554"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d39e566-7acd-408e-9200-c976cb48835e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG200J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2e2220a-928c-47de-9fef-cf3911751ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "804df86f-5660-4801-8d3f-8a0496d819fb")
 			(effects
 				(font
 					(size 1 1)
@@ -20224,7 +24017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20251,6 +24044,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7be9d828-696a-4d0e-9065-905d757e7616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e88d0224-e577-4db0-b685-8705faca72e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b1462fa-0329-437d-a04b-ab5fdb489061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f193d24d-93ef-4ed9-83c7-c84d97c77b19")
 			(effects
 				(font
 					(size 1 1)
@@ -20382,7 +24214,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20409,6 +24241,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fe67437d-dce2-49a2-ac70-331179002c65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22d94074-e730-4dd4-9a63-2272b14de3df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a4774ca-ae2f-4057-bd85-b9f3bec22a68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0a5530e-a53b-4ce3-8de0-8ad61098b113")
 			(effects
 				(font
 					(size 1 1)
@@ -20540,7 +24411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20567,6 +24438,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdd20a17-3af1-453d-a581-5c598e882c92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe72fd7e-9ad3-4998-93dc-c6fd8a2e358d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL31A106KBHNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deac210f-0d62-45e6-9f78-b60db78640ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "541e21d5-3826-4250-9b34-e3eaa0b3d1f7")
 			(effects
 				(font
 					(size 1 1)
@@ -20698,7 +24608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121800_XFCN-PZ254V-11-03P_C2937625.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20725,6 +24635,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d6058199-5955-4859-aecc-a776453c8cfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2937625"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22dc775c-5ca2-4652-8dc5-aecb87c11a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-03P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4d43ebb-2fe9-49f8-9532-355f72627f48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3cc1c31-ca47-41bf-8bf9-e2da1751a4ec")
 			(effects
 				(font
 					(size 1 1)
@@ -20950,7 +24899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20977,6 +24926,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c9a38d19-b426-41c1-9d08-2f8be8dc5143")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a698888f-f087-4d34-9a61-04a9f2e1fafb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1001TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b970cf1e-bc12-49ca-a813-54bcfae004c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7461fa50-116b-44e8-8c27-c1e540e4d364")
 			(effects
 				(font
 					(size 1 1)
@@ -21108,7 +25096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21135,6 +25123,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "37b64a85-54d9-4962-bbfc-9588f93197cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea81c7ac-88db-4e52-962b-02b2d605f66c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d70be24-deb7-4340-9e0f-bbfb2af4ca58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d632e87-a698-4212-9b09-d363e05fb6e1")
 			(effects
 				(font
 					(size 1 1)
@@ -21374,7 +25401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21401,6 +25428,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5e8a7a33-d3d6-411c-90aa-b46d481faa2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3983c0c6-8ac5-4807-b3f9-98f715163f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1001TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f90a578-fb40-4468-9a22-6b5645b2ac4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fa30583-1284-40fc-90a6-0244b5678575")
 			(effects
 				(font
 					(size 1 1)
@@ -21532,7 +25598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407291648_MDD-Microdiode-Semiconductor-B5819W_C64885.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21545,7 +25611,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "-55℃~+125℃ 1A 1mA@40V 25A 40V 600mV@1A Independent SOD-123 Schottky Diodes ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21577,6 +25643,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3cd21ad-3aa7-4978-bdfd-fd73a3bf8ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64885"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "087680ba-0f33-4375-8008-ce40d105ad54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "B5819W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a99c260-b604-4a54-a728-70e559544350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD（Microdiode Electronics）"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c966c9db-f072-4f7e-8ead-9a92c8489a57")
 			(effects
 				(font
 					(size 1 1)
@@ -21848,7 +25953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21875,6 +25980,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8068b6a4-c39b-41f5-955a-76f6d7da289f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cec2f34-c76e-4cee-b39c-f28438bacf36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6850d247-8a32-4a7e-9c49-6301e58c96ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26148881-9685-4375-a7ca-b8506e49d583")
 			(effects
 				(font
 					(size 1 1)
@@ -22006,7 +26150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22033,6 +26177,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f595ea1f-1e5c-41b4-8892-ed5d252b6d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "864e7a91-9116-47a1-95a1-9e03138c6e05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-04P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf4eba8f-2a25-4f44-89f6-4861d6c867ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2782ad53-aac2-48e3-a61e-3c543a8fee8a")
 			(effects
 				(font
 					(size 1 1)
@@ -22269,7 +26452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22296,6 +26479,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "56c53858-8e44-4cab-bf67-e73bf8ddc414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66006e07-4637-4b37-b6c9-df7499fa460a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55d3c706-b484-4e31-9511-d6ff920d177c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "716ad7db-0521-44cd-82ae-301c4153688c")
 			(effects
 				(font
 					(size 1 1)
@@ -22427,7 +26649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003191006_XFCN-PZ254V-11-06P_C492405.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22454,6 +26676,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6614738a-9f44-49e1-8021-1aa89d7e2310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C492405"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ac9cde6-f5ae-4dd3-95cd-1a9d2a63d1d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-06P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db78d50a-c705-4c8e-a911-9fad5f262463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20b3563e-6305-4643-97a7-36c2dbd2cee0")
 			(effects
 				(font
 					(size 1 1)
@@ -23180,7 +27441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23207,6 +27468,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2cda5ad2-b05f-4393-9fc2-7ec703210aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47997b5e-7649-4aa5-a61f-48769108ed10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c660d4de-e3d4-4856-8cee-b510131bca2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fac89fb-ca95-444a-9a4d-bd7dc305a805")
 			(effects
 				(font
 					(size 1 1)
@@ -23338,7 +27638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23349,7 +27649,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23378,6 +27678,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa42b50f-c83e-4e75-899a-ad2e6cb2e22b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d475ce5-1f0f-4981-ab98-120ad4d4408b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "786b0c14-fbaf-4e2d-a1e2-732de0c59214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a90543e-8af6-4e89-b582-67336b8f52f6")
 			(effects
 				(font
 					(size 1 1)
@@ -23560,7 +27899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23571,7 +27910,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 100mW 120° 3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23600,6 +27939,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3cc0ab46-2691-44d3-b983-fbf169045552")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12624"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abd3c869-1a3d-43aa-94e5-6a58ce383829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "186585fb-9cba-412b-b01e-01538fb3b68e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3107bc61-7462-4f9b-8013-beba54b9b7d6")
 			(effects
 				(font
 					(size 1 1)
@@ -23782,7 +28160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23809,6 +28187,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9b624c36-e125-41b3-8c3f-164af0a842ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d883f1a8-a41f-490e-b703-6a393e1dc1b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a750f5-3554-4615-ac4d-de901910a70a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee1cc240-8b60-45d8-a61d-9245a2f42e21")
 			(effects
 				(font
 					(size 1 1)
@@ -23940,7 +28357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23967,6 +28384,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bedc3f6d-c310-4302-9d4f-8bcc8923fdaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c63c0dfc-ab0c-470f-93b0-f79e79a90704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29884ded-fc8f-4793-b84a-5af55d2ec691")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "654a41ac-bbed-4de4-be04-a45a655ae22a")
 			(effects
 				(font
 					(size 1 1)
@@ -24098,7 +28554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231822_Samsung-Electro-Mechanics-CL05A475MQ5NRNC_C307423.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24125,6 +28581,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f0d1a279-d2d0-4b8d-ae5a-f8f0ebe3fa18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307423"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0663a3c-5df4-496d-b3dc-584e9e01b434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05A475MQ5NRNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6412ad88-714b-4fa7-9a69-7af4aebc5720")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc6963f5-c9e4-439e-9793-8fa666b27c1a")
 			(effects
 				(font
 					(size 1 1)
@@ -24364,7 +28859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24391,6 +28886,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "76b5fd55-4327-4587-82c6-ff87cfbfe475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07efadd8-0b48-4637-9720-67dce8af4494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a18f168-da0f-4b71-b8b3-4c5e2ae4cf4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6ecf18f-d7ee-4178-aa10-468b06f06f4c")
 			(effects
 				(font
 					(size 1 1)
@@ -24522,7 +29056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1502TCE_C25756.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24549,6 +29083,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c3ce9837-6b3f-4b17-8310-1ef7b93be7e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25756"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48875795-0a35-4a4f-941c-092c0e21bf9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1502TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39972fe2-101e-4543-a3d2-329b92bb830a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b0730e8-aa77-417e-a13f-418a84ea16c7")
 			(effects
 				(font
 					(size 1 1)
@@ -24680,7 +29253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24707,6 +29280,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "16e53947-fda1-46aa-b645-0a89205e110f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eedbb47-beab-4bc0-9653-4043a3b5784c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d1e381-b77c-4596-aa10-3e5ea4c119a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba816017-5457-4ecc-b350-4a19077dbc76")
 			(effects
 				(font
 					(size 1 1)
@@ -24838,7 +29450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010303_Microchip-Tech-ATMEGA328P-AU_C14877.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -24849,7 +29461,7 @@
 				)
 			)
 		)
-		(property "Description" "IC MCU 8BIT 32KB FLASH 32TQFP"
+		(property "Description" "-40℃~+85℃ 1.8V~5.5V 10bit 1KB 20MHz 23 2KB 32KB 8 Bit AVR Built-in FLASH TQFP-32(7x7) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -24963,7 +29575,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Microchip Technology"
+		(property "Manufacturer" "Microchip Tech"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24982,6 +29594,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4e7f028-5ea7-4298-8d2c-9cae89c93664")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14877"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f69f4347-88f9-4c21-939b-4cb2bd68d5b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "ATMEGA328P-AU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "831f8d21-77bf-4bb0-bb11-756a57e72739")
 			(effects
 				(font
 					(size 1 1)
@@ -25679,7 +30317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25706,6 +30344,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "72ed8776-38f6-4cf7-aee8-1ee58afb11e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5638c4d-7a44-4da3-883c-f44fa0b611b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d444d44b-4713-440a-9629-3975ced2b17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c4b364d-ac60-4f22-b972-0e03358ee5a1")
 			(effects
 				(font
 					(size 1 1)
@@ -25837,7 +30514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25864,6 +30541,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "87d2bb14-89b5-41a6-9c85-f648378e3f63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a383049-8105-40df-a562-e6cb200828e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402CG120J500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26967ae7-cb9d-44ff-ae1a-e62d8efa8acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f368a91-9925-4099-ab4f-88c3fc7a8d49")
 			(effects
 				(font
 					(size 1 1)
@@ -25993,7 +30709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26012,6 +30728,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94827094-ee7a-4fe5-9568-4ebcfa9b1b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-04P"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8543a46-c73b-4845-9c46-862de69b1063")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "905c96df-bdca-405f-a9ae-f92080051f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26217,7 +30972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26244,6 +30999,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9b71e628-fbe2-4f34-8fc6-569d8002aeb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a836a2e6-078e-4e5d-ba15-b41f3ccdbceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1000TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "331d9cef-e59d-4b96-9c4c-116d4a68b592")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dd7d630-77d9-4b08-8f22-61f1bdf3041a")
 			(effects
 				(font
 					(size 1 1)
@@ -26970,7 +31764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26997,6 +31791,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f5cebf9a-41f0-44f2-88ea-9ef912b3e3e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45bdb634-f3db-436c-a929-b9093795d50d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1001T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca7b43f3-e566-4b81-8946-e75f8d298508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b3541b-3fd1-4260-9feb-e5968910945c")
 			(effects
 				(font
 					(size 1 1)
@@ -27128,7 +31961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B222K500NT_C1531.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27155,6 +31988,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7231f6b4-bddf-42aa-8656-8d516c164998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1531"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8eea6153-685d-4c75-9d93-8fc64802e4e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402B222K500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44576148-0cdf-48ba-8071-65abdccba55c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d325527-46ab-42d5-b359-aa98ccafb8db")
 			(effects
 				(font
 					(size 1 1)
@@ -27286,7 +32158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27313,6 +32185,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "45c99ee5-b708-4e7f-8e53-39cabbf2f913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fee8ed9-0a85-4d07-8c09-8cc907a7be70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d18905ee-96f2-4f54-a19a-95241891f618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56ac3507-f217-4d4c-9d32-496e64908ed6")
 			(effects
 				(font
 					(size 1 1)
@@ -27444,7 +32355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27471,6 +32382,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e4007bd1-26bc-4fd2-ba40-e56b34bfb26f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88545486-ae58-4e80-abfe-8a977852321e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27af6233-0379-4902-9088-2d70d561a6e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7acd3280-4da1-4b73-996a-28b833416468")
 			(effects
 				(font
 					(size 1 1)
@@ -27602,7 +32552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27613,7 +32563,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27642,6 +32592,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6612c3d-6ee5-4d51-9f06-8f83d6f4111a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "543952af-9b46-4845-bb50-6cd81bff0c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519d7417-02e9-4c86-891f-2966c4e98907")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f8aaef-d549-41f5-ac9d-3c4cbc09d164")
 			(effects
 				(font
 					(size 1 1)
@@ -27824,7 +32813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27835,7 +32824,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 100mW 120° 3.1V 430mcd 513nm~528nm 525nm 5mA Discrete Diode Emerald Green Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27864,6 +32853,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "adb5b9f8-0c13-4388-8981-b55f3d03752f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12624"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01cb0778-c84f-4a4f-a165-877186eecf0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e250f5d4-10d2-42dd-bd2b-e6ba58852727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6102f02b-0098-4e66-aa88-d4e910246e3e")
 			(effects
 				(font
 					(size 1 1)
@@ -28046,7 +33074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B224K500NT_C1857.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28073,6 +33101,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "38f4ecb6-363d-4edb-8d9e-f5fc16fd8a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1857"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9478197-19b5-4141-85c4-11eda92108c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "1206B224K500NT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67a5f72-80f2-49e8-b783-48d13c919bb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11568af5-33fd-40c7-a127-777e107c50e7")
 			(effects
 				(font
 					(size 1 1)
@@ -28204,7 +33271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28231,6 +33298,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "088dabf5-e99e-40e8-8528-7e57ffb37e74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9645a2a4-549d-48c0-bd86-352ba79907e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0603WAF1001T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1ff52a5-1d02-446f-8a13-b6a08b386904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5cbc918-87f2-4604-839d-d6701a285064")
 			(effects
 				(font
 					(size 1 1)
@@ -28755,7 +33861,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28766,7 +33872,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "-40℃~+85℃ 1.8V~2.4V 120° 20mA 300mcd 40mW 615nm~630nm 645nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28795,6 +33901,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dab3219c-edc2-4b45-b27f-83224a44593f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75093b77-e8fd-4ba3-bee1-10fce1145491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "562e591a-1eb5-4033-8124-1bc9e9f568ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a061107-6c7a-4d53-be0b-15fbe14bd4b1")
 			(effects
 				(font
 					(size 1 1)
@@ -28977,7 +34122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XFCN-PZ254V-11-04P_C2691448.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29004,6 +34149,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e958f6ec-e1ff-4c4a-82d6-f8952eb22b9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "660b176c-3215-4101-bdaf-ee3d49df0711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "PZ254V-11-04P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e862881-9086-4bbf-b791-60f8807156b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f089b61-e635-49a7-ae5b-1f33db8c22db")
 			(effects
 				(font
 					(size 1 1)
@@ -29662,7 +34846,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29689,6 +34873,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1a1d7bb4-1c8e-41cd-9e91-c161e24e5d67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5abc849-ee0f-42a7-8a52-e5029962cf7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48d2bed6-ad35-4d0e-932b-b113d7dffafd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e21dec5e-23d9-422b-b572-44fea87f5b01")
 			(effects
 				(font
 					(size 1 1)
@@ -29820,7 +35043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29847,6 +35070,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ff9f97d1-63ab-4c0a-9bf1-a59c4d9aaea8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2394425-0454-4dcf-b262-ba52e0fab0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5f15e11-01d8-44d9-b838-9613b4c08ace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cf4bf4e-85f2-4b98-927f-6c327fd4e098")
 			(effects
 				(font
 					(size 1 1)
@@ -29978,7 +35240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30005,6 +35267,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bb0f68dc-8938-4647-89dd-2784850d3267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "938ac76d-7c7b-47d1-bef3-b9d31b54477f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dfc191e-9dec-409c-8a2a-9c2d03012c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bf1b02f-29e3-4eef-bee2-661fa197cc6b")
 			(effects
 				(font
 					(size 1 1)
@@ -30136,7 +35437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30163,6 +35464,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eee1eb26-f593-487b-bba1-f4bf996d9c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b42db37e-e85c-40e8-a9a2-a82eaea1cf46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c47ff175-67e7-4931-9130-89804b026ef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49a4cbc5-7aa1-4c66-a2d9-275217530bb4")
 			(effects
 				(font
 					(size 1 1)
@@ -30294,7 +35634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810220913_Hubei-KENTO-Elec-KT-0603B_C2288.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30305,7 +35645,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "100mW 120° 175mcd 3.1V 460nm~475nm 469nm 5mA Blue Discrete Diode Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30334,6 +35674,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dc31543-890c-42fa-8bb8-32d399ab942f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2288"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69beb1ca-5fa7-4a75-91e8-46b1346fa17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9709d3-2632-463a-b6db-e4811f5255ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ad3239d-169c-4d49-ae7e-cad10b7f42ee")
 			(effects
 				(font
 					(size 1 1)
@@ -30516,7 +35895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231822_Samsung-Electro-Mechanics-CL05A475MQ5NRNC_C307423.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30543,6 +35922,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f72c840b-2eba-4471-8599-3fa4df18c215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307423"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c3d3221-303b-4aea-9660-9b3fc285e25a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05A475MQ5NRNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fc376f4-6441-4a82-bdc7-124fb0c146ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cc5ea75-ae56-4fe4-85e5-5041073e1eb7")
 			(effects
 				(font
 					(size 1 1)
@@ -30663,7 +36081,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "ce895e92-73f1-4fe9-8668-cb563564ed44")
@@ -30674,7 +36092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30701,6 +36119,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e6c41b3b-f065-46a1-969a-8488a0c25dbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb72d4f-593a-42ac-a651-f32e06c89437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B103KB5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37380129-a2a7-465a-8a56-b7f0e58cec60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd813c1b-e9f2-43b3-b93d-0ab515181357")
 			(effects
 				(font
 					(size 1 1)
@@ -30940,7 +36397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30967,6 +36424,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "50ae83a1-b552-4172-a813-3d3f6f1b8d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f9f8518-6afd-4633-abd6-c521ddf2c690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ad04919-da6a-4f0e-9ff3-a03006eb9c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42f55f51-0bab-4614-bc58-36b576656ddf")
 			(effects
 				(font
 					(size 1 1)
@@ -31249,7 +36745,6 @@
 				)
 			)
 		)
-		(path "/3ba11137-7aba-429f-b0d2-26d56a1546d6/e21f6f6f-5202-41e2-a3e6-a2e1d0057330")
 		(sheetname "/ATMEGA238P/")
 		(sheetfile "ATMEGA238P-plus-components.kicad_sch")
 		(units
@@ -31600,7 +37095,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31627,6 +37122,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25ec58bb-7729-4d56-b0cc-657965184e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "699b9753-b1b0-4a0c-8d7e-95254a19dc55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b097621-e576-4ac2-af54-56e0f69dcb08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "487e4794-1ed2-422e-8069-84191c5afd93")
 			(effects
 				(font
 					(size 1 1)
@@ -31758,7 +37292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC245"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811141412_Texas-Instruments-SN74HC245DWR_C10093.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31769,7 +37303,7 @@
 				)
 			)
 		)
-		(property "Description" "Octal BUS Transceivers, 3-State outputs"
+		(property "Description" "-40℃~+85℃ 1 21ns@4.5V,50pF 2V~6V 7.8mA 7.8mA 74HC 8 80uA Bidirectional Tri-State SOIC-20-300mil Buffers, Drivers, Receivers, Transceivers ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31785,6 +37319,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6a09f489-9e5d-4b52-8181-c99a6557d4da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C10093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1099389c-136b-4025-b80f-2a142ca00971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "SN74HC245DWR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb61e6b7-8b02-4481-9758-781f404bb550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faaa9648-7920-4b50-8859-458ee32e7208")
 			(effects
 				(font
 					(size 1 1)
@@ -32251,7 +37824,7 @@
 				)
 			)
 		)
-		(property "Value" "100Uhm @ 100Mhz"
+		(property "Value" "120R@100MHz"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "ee4027f6-3ad1-4ad9-8250-c26552e8bf38")
@@ -32262,7 +37835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-BLM21PG121SN1D_C79382.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32273,7 +37846,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" "1 120Ω@100MHz 30mΩ 3A ±25% 0805 Ferrite Beads ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32289,6 +37862,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25026acf-2056-46c9-a9a2-16a5797da8dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C79382"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9aedc06-fc4e-4fa7-8631-b7144432e655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BLM21PG121SN1D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad012d49-5218-4105-ab9f-baefec5cd4b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b0fef5-9d7b-4b1a-b553-9a77ba4cba6c")
 			(effects
 				(font
 					(size 1 1)
@@ -32418,7 +38030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810251322_Changzhou-Amass-Elec-XT60_C98733.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32429,7 +38041,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "-、Banana Connector 3.5mm Male Yellow - Power connector / plug connector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32437,6 +38049,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98733"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ae07b3-699f-40df-b7a7-0cfcc5210fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "XT60-M."
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c59fc1c7-df96-443e-b2ce-50271c458fba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Changzhou Amass Elec"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f110bce6-d1bd-4fa8-a80b-21355aa7aa37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32695,7 +38346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810220913_Hubei-KENTO-Elec-KT-0603B_C2288.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32706,7 +38357,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "100mW 120° 175mcd 3.1V 460nm~475nm 469nm 5mA Blue Discrete Diode Water Clear 0603 LED Indication - Discrete ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32735,6 +38386,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de528011-49f2-47cd-9080-f5864aafc068")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2288"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a138c09-48c6-48d9-951f-fced94364140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "KT-0603B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98e9b02e-4467-4042-8e3f-ddc0954fdfbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2285a896-8efb-4ebf-bdb1-4439671e1963")
 			(effects
 				(font
 					(size 1 1)
@@ -32916,7 +38606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X50328MSB2GI_C115962.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32927,7 +38617,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal, small symbol"
+		(property "Description" "-40℃~+85℃ 20pF 8MHz Crystal Oscillator ±10ppm ±20ppm SMD5032-2P Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32943,6 +38633,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d656e8dc-3f58-4a33-a300-0aae0f7dd20e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C115962"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8449c4e-e4e6-494b-8e3f-03f1c1fc05e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "X50328MSB2GI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b37086a3-1802-42fe-8bf4-e67593e71607")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yangxing Tech"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1016bfe9-5c0e-4c2a-9e1c-3be4873e7402")
 			(effects
 				(font
 					(size 1 1)
@@ -33098,7 +38827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121508_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33111,7 +38840,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(property "Description" "-40℃~+125℃ 0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33120,6 +38849,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6186"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "899b6c22-63c2-48c3-8235-340f9c5db323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "AMS1117-3.3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46c8cc39-8d2f-4ff0-bf3b-bbb2c62747b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "958ba5f1-f204-4c49-8165-ea93714b5cba")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33370,7 +39138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0402KRX7R9BB333_C106862.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33397,6 +39165,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8bf175e1-8309-4399-a128-89b7eba41e79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C106862"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67c2ec4-edcf-4ff4-b964-06273ebe248c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CC0402KRX7R9BB333"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2e46e8f-2945-4f88-99f1-de90e93342fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "445923f9-6681-4158-a2d3-6a7adab7b128")
 			(effects
 				(font
 					(size 1 1)
@@ -33528,7 +39335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33555,6 +39362,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "595c91fe-9e04-46e4-acc3-a0ee223ef817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e6d1399-355b-447b-b91a-f2ec6c4c6b9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d59d14df-52a5-40b1-8ad0-e1872d2cb65e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2bc45f0-885b-42df-b8cc-86fa672f306b")
 			(effects
 				(font
 					(size 1 1)
@@ -33686,7 +39532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33713,6 +39559,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "12a4bbdc-5502-40b5-8a5e-92aa2a7900f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2458a22-ee20-47c7-8e90-1e6fbbed4511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc70a584-41e3-4838-a70d-4521c4426150")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94911f88-ee61-4324-aad7-e66e575e50e1")
 			(effects
 				(font
 					(size 1 1)
@@ -33844,7 +39729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33871,6 +39756,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4f94db7c-836f-4fb7-855f-b670c0a4539c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9c12e73-f915-4090-9920-94e6bbe3688a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34116723-ebe9-47f6-9673-47f72dd1247c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44411762-e10f-46bd-86f4-9ba224bd808d")
 			(effects
 				(font
 					(size 1 1)
@@ -34002,7 +39926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34029,6 +39953,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c4e7528d-d09a-4ef2-a7f0-1851f165893e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5044a067-7327-4d0a-9200-970bd5d06d38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31c06874-6404-449e-b97d-36584dc4f8cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98f8ca2b-cc84-4ba1-8e13-0ae825c33d2a")
 			(effects
 				(font
 					(size 1 1)
@@ -34160,7 +40123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.datasheet5.com/pdf-local-2195953"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403131141_WCH-Jiangsu-Qin-Heng-CH340G_C14267.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34171,7 +40134,7 @@
 				)
 			)
 		)
-		(property "Description" "USB serial converter, UART, SOIC-16"
+		(property "Description" "-40℃~+85℃ 2Mbps 3.3V、5V USB 2.0 USB to UART SOP-16 USB Converters ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34187,6 +40150,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "31eed581-525e-4a67-80af-199a1439c3a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14267"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de2abddd-22b9-460a-a3bd-3e582b5dd92e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "CH340G"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ad32e9a-9d37-47bf-9913-f30e0b058a82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "WCH(Jiangsu Qin Heng)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa28c1d0-c3f1-4502-aec1-b39ff0792106")
 			(effects
 				(font
 					(size 1 1)
@@ -34624,7 +40626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811071024_TDK-InvenSense-MPU-6050_C24112.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34637,7 +40639,7 @@
 				)
 			)
 		)
-		(property "Description" "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
+		(property "Description" "-40℃~+85℃ 16bit 1KB 2.375V~3.46V 5uA Accelerometer Gyroscope I2C X,Y,Z X,Y,Z ±16g ±2000dps QFN-24-EP(4x4) Accelerometers ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34646,6 +40648,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C24112"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac198edf-55ed-4be9-821c-c27e9ee28f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "MPU-6050"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d414756-f389-4bdf-9ab2-27b0066e92b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abc12be9-6665-4d39-93c4-16cd7f11cb65")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35214,7 +41255,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401051656_JSMSEMI-L7805CV_C5189702.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -35226,7 +41267,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+		(property "Description" "-40℃~+105℃ 1 1.2A 20V 5V 6mA Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -35243,6 +41284,48 @@
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "37793553-bbd6-41df-83b0-406275080102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C5189702"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "776d65f1-37b9-4d90-ab47-534cc9812171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Part" "L7805CV"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2bcffce-454a-4579-b870-24b9200a10c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "426bd375-1172-469c-a306-72bca9c59037")
 			(effects
 				(font
 					(size 1 1)
