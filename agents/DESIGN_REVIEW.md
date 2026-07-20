@@ -4,15 +4,15 @@
 **Design format:** KiCad 10, two-sheet hierarchical schematic, nominal two-layer PCB
 **Verdict:** Schematic capture is complete, the first native ERC ran clean (0/0, 2026-07-19), and
 footprints are assigned to every component and imported into the board. Layout (outline, placement,
-routing) can begin. Fabrication is still blocked by the remaining jellybean LCSC/MPN coverage
-(~150 passives, connectors, crystals, LEDs) and DRC.
+routing) can begin. The BOM is fully sourced (sourcing gate PASS, 2026-07-20); fabrication now
+waits only on placement, routing, and DRC.
 
 ## Critical findings
 
 | Severity | Finding | Evidence |
 |---|---|---|
 | Blocker | The PCB has all 158 footprints imported (2026-07-19) but no outline, placement, routing, or zones yet. | `drone-flight-controller.kicad_pcb` |
-| Blocker | LCSC/MPN coverage is eight refs (`D3` C20615829, `SW1`–`SW3` C7528713, `J3`/`J16` C404969, `SW4` C7431054, `L1` C76884) — the rest of the BOM is not yet orderable. Footprints are assigned to all ~158 components (2026-07-19); every named open sourcing item is now closed. | Schematic property scan, netlist import log |
+| Resolved | The full BOM is sourced (2026-07-20): all ~150 remaining refs — every IC, passive, LED, diode, crystal, RF inductor, ferrite, and connector — carry LCSC/Part/Manufacturer fields resolved against the offline catalog. `lcsc.py gate --min-stock 100`: **PASS, 0 blocking**, 26 Extended lines (~$78 max setup; THT lines are hand-solder). Physical deltas: `Y2` footprint 2012 → 3215 (Basic Epson FC-135 class), `FB1`/`FB2` value typo fixed to `120R@100MHz` (3 A power bead). Selection rules and notable calls in `pcb/parts-log.md`. | BOM gate 2026-07-20 |
 | Resolved | The USB shield gap from the Update-PCB import is fixed (2026-07-19): J3/J16's shield pin was renumbered "SH" → "6" to match the footprint's shell pads and tied to GND (`#PWR0142`/`#PWR0143`). Re-run Update PCB to carry it onto the board. `U7`'s exposed pad (footprint pad 21, no symbol pin) is **intentionally unconnected**: the nRF24L01+ Product Specification v1.0, page 65, recommends keeping the die attach pad unconnected — the recurring import warning for pad 21 is expected and benign. (The former SW1–SW3 pad-3/4 warnings disappeared with the TC-6610 swap: the official footprint's paired 1,1,2,2 pads all map.) | Netlist import log, nRF24L01+ PS v1.0 p. 65 |
 | Resolved | Headless KiCad 10 checks are available after all: the AppImage bundles `kicad-cli` 10.0.4 at `/home/dev/Applications/kicad-10/AppDir/bin/kicad-cli` (discovered 2026-07-19; ERC verified working). The system `kicad-cli` 9.0.9 still cannot load these files — use the AppImage path. | `kicad-cli version` → 10.0.4 |
 | Resolved | `L1` is now a Murata BLM15AG601SN1D 600 Ω@100 MHz ferrite bead (LCSC C76884, 0402), and `C8` was corrected 100 nF → 10 nF so VDDA carries the datasheet-exact 10 nF + 1 µF (DS5319 Rev 20, Figure 14, p. 36). The bead itself is ST application practice (AN2586 / ST eval boards), not a Figure-14 element — recorded in `agents/decisions.md`. | Root schematic, Murata ref spec p. 1 |
