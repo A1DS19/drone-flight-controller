@@ -1,5 +1,15 @@
 # Decisions
 
+## 2026-07-20 — VDDA filter: 600 Ω ferrite bead + datasheet-exact 10 nF/1 µF
+`L1` (long an invalid `27nF` placeholder) is a Murata BLM15AG601SN1D 600 Ω@100 MHz ferrite bead
+(LCSC C76884, 0402, 300 mA/0.62 Ω max DCR vs ~1.5 mA VDDA draw), and `C8` was corrected
+100 nF → 10 nF so VDDA carries exactly the 10 nF + 1 µF of DS5319 Rev 20 Figure 14 (p. 36).
+Provenance split, deliberately recorded: the capacitor values come from the STM32 datasheet; the
+bead does NOT appear in Figure 14 — it follows ST application practice (AN2586, ST eval-board
+BOMs) and this design's own intent of isolating the ADC reference from digital-rail noise
+(ESC switching near the `ADC_Vbat` battery divider). Removing the bead would be
+datasheet-literal but strictly worse here.
+
 ## 2026-07-14 — Linear power tree: XT-60 battery → LM7805 → AMS1117-3.3
 Battery power enters on an XT-60 connector (J8) through master switch SW4 onto `+12V`, then through
 cascaded linear regulators: LM7805 to `+5V` and AMS1117-3.3 to `+3.3V`, with ferrite-filtered
