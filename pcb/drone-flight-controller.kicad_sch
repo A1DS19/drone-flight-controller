@@ -17763,7 +17763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TS24CA_C393942"
+		(property "Value" "TC-6610_C7528713"
 			(at 385.064 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -17775,7 +17775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda:SW-SMD_2P-TS24CA"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 387.35 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17786,7 +17786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401191746_FG-TC-6610--6-6-9-260g_C7528713.pdf"
 			(at 387.35 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17797,7 +17797,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "-20℃~+70℃ 12V 2.6N 50,000 cycles 50mA 6mm 6mm Black Round Button SPST Through Hole Without Bracket 插件-4P,6x6mm Tactile Switches ROHS"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17808,7 +17808,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393942"
+		(property "LCSC" "C7528713"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17819,7 +17819,7 @@
 				)
 			)
 		)
-		(property "Part" "TS24CA"
+		(property "Part" "TC-6610 -6*6*9-260g"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17830,7 +17830,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN"
+		(property "Manufacturer" "FG"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -23558,7 +23558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TS24CA_C393942"
+		(property "Value" "TC-6610_C7528713"
 			(at 25.4 199.3899 90)
 			(hide yes)
 			(show_name no)
@@ -23570,7 +23570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda:SW-SMD_2P-TS24CA"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 26.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23581,7 +23581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404241539_SHOU-HAN-TS24CA_C393942.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401191746_FG-TC-6610--6-6-9-260g_C7528713.pdf"
 			(at 26.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23592,7 +23592,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "-20℃~+70℃ 12V 2.6N 50,000 cycles 50mA 6mm 6mm Black Round Button SPST Through Hole Without Bracket 插件-4P,6x6mm Tactile Switches ROHS"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23603,7 +23603,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393942"
+		(property "LCSC" "C7528713"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23614,7 +23614,7 @@
 				)
 			)
 		)
-		(property "Part" "TS24CA"
+		(property "Part" "TC-6610 -6*6*9-260g"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -23625,7 +23625,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN"
+		(property "Manufacturer" "FG"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
