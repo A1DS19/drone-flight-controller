@@ -23500,7 +23500,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "SH" "5" "1" "3" "2" "4")
+				(pins "6" "5" "1" "3" "2" "4")
 			)
 		)
 		(attr smd)
@@ -23950,6 +23950,9 @@
 			(drill 0.700024)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "6ccbc630-10b0-42b2-99af-33294c41b648")
 		)
 		(pad "6" thru_hole circle
@@ -23958,6 +23961,9 @@
 			(drill 0.700024)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "589d4271-2fce-4276-9adf-f0fd95f0bd33")
 		)
 		(pad "6" thru_hole oval
@@ -23966,6 +23972,9 @@
 			(drill oval 0.700024 1.099998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "f3d1d8e8-ad49-4291-9da3-d53adfcd1316")
 		)
 		(pad "6" thru_hole oval
@@ -23974,6 +23983,9 @@
 			(drill oval 0.700024 1.099998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "c5b030d9-72a8-4bda-a0bb-767754069156")
 		)
 		(embedded_fonts no)
@@ -31247,7 +31259,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "SH" "5" "1" "3" "2" "4")
+				(pins "6" "5" "1" "3" "2" "4")
 			)
 		)
 		(attr smd)
@@ -31697,6 +31709,9 @@
 			(drill 0.700024)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "3d7acfb7-d14a-4a35-bb8b-787dce30b366")
 		)
 		(pad "6" thru_hole circle
@@ -31705,6 +31720,9 @@
 			(drill 0.700024)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "75e14deb-3d70-4f5e-922a-8fae5a652c01")
 		)
 		(pad "6" thru_hole oval
@@ -31713,6 +31731,9 @@
 			(drill oval 0.700024 1.099998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "a42bf9ca-e639-4d92-a4c1-74a21492bd5f")
 		)
 		(pad "6" thru_hole oval
@@ -31721,6 +31742,9 @@
 			(drill oval 0.700024 1.099998)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Shield_6")
+			(pintype "passive")
 			(uuid "8635e283-1b3f-4010-9a5d-9f4052211bd0")
 		)
 		(embedded_fonts no)
