@@ -1240,7 +1240,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12468,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
 			(at 41.91 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -13664,7 +13664,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+85℃ 1 1.8A 30V 5,000 times 5P Black Female Micro-B Surface Mount, Right Angle USB 2.0 SMD USB Connectors ROHS"
+		(property "Description" "USB Micro Type B connector"
 			(at 39.37 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -13720,7 +13720,7 @@
 		(pin "1"
 			(uuid "8a77080e-0e91-4acf-a244-9e0f10fd896c")
 		)
-		(pin "6"
+		(pin "SH"
 			(uuid "09781516-f0d4-4396-a3bc-ef874e02d1a2")
 		)
 		(pin "4"
@@ -14353,7 +14353,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+70℃ 12V 2.6N 50,000 cycles 50mA 6mm 6mm Black Round Button SPST Through Hole Without Bracket 插件-4P,6x6mm Tactile Switches ROHS"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14845,7 +14845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+		(property "Footprint" "digikey-footprints:TQFP-32_7x7mm"
 			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20178,7 +20178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
 			(at 41.91 180.34 0)
 			(hide yes)
 			(show_name no)

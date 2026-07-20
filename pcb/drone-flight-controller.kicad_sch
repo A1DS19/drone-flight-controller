@@ -371,7 +371,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7705,6 +7705,26 @@
 		)
 		(uuid "723f4d80-c08e-4959-9d06-3743d0eca114")
 	)
+	(text_box "Power\n"
+		(exclude_from_sim no)
+		(at 57.15 245.11 0)
+		(size 72.39 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7c47081e-4290-4a4c-9b14-f815c7f832a5")
+	)
 	(text_box "Programming\n"
 		(exclude_from_sim no)
 		(at 16.51 214.63 0)
@@ -8563,16 +8583,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 241.3) (xy 325.12 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cc51b5-20e6-4e81-b631-ac98be3d6d4a")
-	)
-	(wire
-		(pts
 			(xy 210.82 29.21) (xy 210.82 31.75)
 		)
 		(stroke
@@ -8810,6 +8820,16 @@
 			(type default)
 		)
 		(uuid "534f2a85-6d74-4773-b336-8f0c04fecae0")
+	)
+	(wire
+		(pts
+			(xy 313.69 241.3) (xy 325.12 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53925374-350c-432c-8733-c5e773e7f616")
 	)
 	(wire
 		(pts
@@ -9090,16 +9110,6 @@
 			(type default)
 		)
 		(uuid "7d337965-ebe5-45f1-b5de-ff04badb1ab1")
-	)
-	(wire
-		(pts
-			(xy 307.34 238.76) (xy 325.12 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7df1766c-b300-4114-81e5-5b0d7717d205")
 	)
 	(wire
 		(pts
@@ -9660,6 +9670,16 @@
 			(type default)
 		)
 		(uuid "cb62f75f-fa99-4e59-a6ca-953dac4acf28")
+	)
+	(wire
+		(pts
+			(xy 307.34 238.76) (xy 325.12 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcf4419-4efc-4b55-9389-eda98b29ea56")
 	)
 	(wire
 		(pts
@@ -17756,7 +17776,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+70℃ 12V 2.6N 50,000 cycles 50mA 6mm 6mm Black Round Button SPST Through Hole Without Bracket 插件-4P,6x6mm Tactile Switches ROHS"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 382.27 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18237,7 +18257,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 330.2 236.22 0)
+		(at 330.2 238.76 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18245,10 +18266,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "686a3c90-8dcd-49e8-a9e3-a25ab8f24038")
 		(property "Reference" "J9"
-			(at 332.74 236.2199 0)
+			(at 332.74 238.7601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18259,7 +18279,7 @@
 			)
 		)
 		(property "Value" "LIDAR"
-			(at 332.74 238.7599 0)
+			(at 332.74 236.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18270,7 +18290,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
-			(at 330.2 236.22 0)
+			(at 330.2 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18281,7 +18301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 236.22 0)
+			(at 330.2 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18292,7 +18312,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 330.2 236.22 0)
+			(at 330.2 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18549,7 +18569,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+85℃ 1 1.8A 30V 5,000 times 5P Black Female Micro-B Surface Mount, Right Angle USB 2.0 SMD USB Connectors ROHS"
+		(property "Description" "USB Micro Type B connector"
 			(at 110.49 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -18605,7 +18625,7 @@
 		(pin "1"
 			(uuid "bce70e49-f411-425f-bd9e-ff8af3a4c090")
 		)
-		(pin "6"
+		(pin "SH"
 			(uuid "27959f5b-295a-4f6d-9eec-37284af06069")
 		)
 		(pin "4"
@@ -22517,7 +22537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 59.69 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -23506,7 +23526,7 @@
 				)
 			)
 		)
-		(property "Description" "-20℃~+70℃ 12V 2.6N 50,000 cycles 50mA 6mm 6mm Black Round Button SPST Through Hole Without Bracket 插件-4P,6x6mm Tactile Switches ROHS"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 21.59 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -24431,7 +24451,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 350.52 26.67 0)
+		(at 350.52 29.21 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24439,10 +24460,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbf588c3-2533-4abb-93c5-69ac7ad1ad45")
 		(property "Reference" "J14"
-			(at 353.06 26.6699 0)
+			(at 353.06 29.2101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24453,7 +24473,7 @@
 			)
 		)
 		(property "Value" "STM32 USART"
-			(at 353.06 29.2099 0)
+			(at 353.06 26.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24464,7 +24484,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 350.52 26.67 0)
+			(at 350.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24475,7 +24495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 26.67 0)
+			(at 350.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24486,7 +24506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 350.52 26.67 0)
+			(at 350.52 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
