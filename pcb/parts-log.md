@@ -2,6 +2,27 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TC-6610 -6*6*9-260g (C7528713) — supersedes TS24CA below
+- **Key specs:** SPST momentary, 50 mA / 12 VDC, 2.6 N (260 gf), 50,000 cycles, 6×6 mm THT body,
+  tall 9 mm round actuator, pin grid 6.5 × 4.5 mm (4-Ø1.5 holes suggested)
+- **Price/stock:** $0.030 @ qty 1, stock 17,377, Extended + through-hole (feeder fee, hand-solder at JLC)
+- **Rationale:** user-selected; the tall 9 mm top-actuated button stays reachable above surrounding
+  parts / through the frame, and the 260 gf feel resists accidental presses
+- **Alternatives considered:** TS24CA C393942 (previous pick) — replaced: side-actuated low-profile
+  SMD didn't suit the tall-button requirement; SMD 6×6 tacts — rejected in favor of THT strength
+  for a frequently-pressed panel-style button
+- **Design notes:** **4-pin shorted-pair hazard**: datasheet circuit + PCB drawing show the pins
+  6.5 mm apart are internally connected; switching is across the 4.5 mm span. The easyeda footprint
+  numbers pads 1/2/3/4 distinctly, which with a 2-pin symbol would strap nets across a shorted pair
+  (STM32 held in reset) — so the **official `Button_Switch_THT:SW_PUSH_6mm_H9.5mm`** is used
+  instead: pads numbered 1,1,2,2 with same-numbered pads on the 6.5 mm (shorted) axis; verified
+  drop-in for `Switch:SW_Push`. H9.5 is the closest official height variant to this 9.0 mm part
+  (footprint identical; 3D model 0.5 mm taller). Official drill (1.1 mm class) is tighter than the
+  datasheet's generous Ø1.5 suggestion but standard for the 0.7 mm flat pins.
+- **Datasheet:** pcb/datasheets/C7528713-TC-6610_-6_6_9-260g.pdf — 12 V/50 mA vs µA reset/GPIO
+  switching: fine; contact resistance ≤ 50 mΩ; insulation ≥ 100 MΩ @ 250 VAC; SPST single loop
+  matches the 2-pin symbol; existing C9/C19/C24 debounce networks unchanged
+
 ### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TS24CA (C393942)
 - **Key specs:** SPST momentary, 50 mA / 12 VDC, 1.6 N actuation, 20,000 cycles, side-actuated
   (right-angle), SMD 4.6 × 1.8 mm body with frame tabs
