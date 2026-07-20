@@ -10,7 +10,7 @@
 		(company "JPIndustries")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_B_Micro"
+		(symbol "custom-symbols:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -371,7 +371,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19668,7 +19668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Micro")
+		(lib_id "custom-symbols:USB_B_Micro")
 		(at 110.49 270.51 180)
 		(unit 1)
 		(body_style 1)
@@ -19779,7 +19779,7 @@
 		(pin "1"
 			(uuid "bce70e49-f411-425f-bd9e-ff8af3a4c090")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "27959f5b-295a-4f6d-9eec-37284af06069")
 		)
 		(pin "4"

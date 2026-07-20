@@ -1,3 +1,4 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "custom-symbols")(type "KiCad")(uri "${KIPRJMOD}/libs/custom-symbols.kicad_sym")(options "")(descr "project-local symbols (microSD, corrected USB_B_Micro)"))
 )

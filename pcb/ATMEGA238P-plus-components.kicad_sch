@@ -879,7 +879,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_B_Micro"
+		(symbol "custom-symbols:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1240,7 +1240,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14225,7 +14225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Micro")
+		(lib_id "custom-symbols:USB_B_Micro")
 		(at 39.37 246.38 0)
 		(unit 1)
 		(body_style 1)
@@ -14336,7 +14336,7 @@
 		(pin "1"
 			(uuid "8a77080e-0e91-4acf-a244-9e0f10fd896c")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "09781516-f0d4-4396-a3bc-ef874e02d1a2")
 		)
 		(pin "4"
