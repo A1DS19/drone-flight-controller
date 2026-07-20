@@ -6396,6 +6396,12 @@
 		(uuid "b8249392-712e-441f-9103-de4b3294b95a")
 	)
 	(junction
+		(at 38.1 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be720d81-e82a-45d3-b62f-d9223e4b5373")
+	)
+	(junction
 		(at 177.8 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6476,10 +6482,6 @@
 	(no_connect
 		(at 115.57 254)
 		(uuid "0a623acd-aa52-4b31-b1a1-ae98c8775fc9")
-	)
-	(no_connect
-		(at 36.83 256.54)
-		(uuid "1ec06e02-d4c3-4ec3-ac3a-9d5dafc54103")
 	)
 	(no_connect
 		(at 153.67 80.01)
@@ -6945,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 256.54) (xy 39.37 259.08)
+			(xy 38.1 257.81) (xy 38.1 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7355,6 +7357,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 257.81) (xy 39.37 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dcfe78-c4d8-4413-8fa4-791080edcd62")
+	)
+	(wire
+		(pts
 			(xy 118.11 238.76) (xy 115.57 238.76)
 		)
 		(stroke
@@ -7362,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "733cecc5-55df-436c-9784-16d0a25b7d20")
+	)
+	(wire
+		(pts
+			(xy 38.1 257.81) (xy 39.37 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74495cdf-f1ea-4436-a975-c4c504074ff9")
 	)
 	(wire
 		(pts
@@ -7545,6 +7567,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 257.81) (xy 38.1 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96382d40-79d9-4c1b-8b67-087b4046bb02")
+	)
+	(wire
+		(pts
 			(xy 274.32 241.3) (xy 274.32 243.84)
 		)
 		(stroke
@@ -7572,6 +7604,16 @@
 			(type default)
 		)
 		(uuid "9973c7c8-2d8d-42dd-8351-c37dbfd976ce")
+	)
+	(wire
+		(pts
+			(xy 36.83 256.54) (xy 36.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ddddc8-b70f-4ade-be01-0adc8833b576")
 	)
 	(wire
 		(pts
@@ -13490,7 +13532,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 39.37 259.08 0)
+		(at 38.1 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13501,7 +13543,7 @@
 		(fields_autoplaced yes)
 		(uuid "54e1ee96-d8cf-4c95-bdbb-fe0809f93cdf")
 		(property "Reference" "#PWR079"
-			(at 39.37 265.43 0)
+			(at 38.1 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 262.89 0)
+			(at 38.1 264.16 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13522,7 +13564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 259.08 0)
+			(at 38.1 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13533,7 +13575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 259.08 0)
+			(at 38.1 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,7 +13586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 267.97 0)
+			(at 38.1 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13633,15 +13675,39 @@
 				)
 			)
 		)
-    (property "LCSC" "C404969" (at 39.37 246.38 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Part" "MicroXNJ" (at 39.37 246.38 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "SHOU HAN" (at 39.37 246.38 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "LCSC" "C404969"
+			(at 39.37 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "MicroXNJ"
+			(at 39.37 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 39.37 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "db9448b0-5e78-4b8d-b28b-7e9fc340f17a")
 		)
@@ -15104,84 +15170,6 @@
 			(project "drone-flight-controller"
 				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b/3ba11137-7aba-429f-b0d2-26d56a1546d6"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 256.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72b76ea3-0997-480e-9e27-45d9f287beb1")
-		(property "Reference" "#PWR0143"
-			(at 36.83 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 261.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name GND, ground"
-			(at 36.83 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7310f3c-f020-48ab-9efa-de0c82034287")
-		)
-		(instances
-			(project "drone-flight-controller"
-				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b/3ba11137-7aba-429f-b0d2-26d56a1546d6"
-					(reference "#PWR0143")
 					(unit 1)
 				)
 			)

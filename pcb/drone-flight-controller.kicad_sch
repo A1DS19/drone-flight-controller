@@ -7171,121 +7171,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -7980,26 +7865,6 @@
 		)
 		(uuid "de2b6c32-d7bf-4746-a0b5-a858c2a51212")
 	)
-	(text_box "USB power\n"
-		(exclude_from_sim no)
-		(at 57.15 243.84 0)
-		(size 73.66 39.37)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e2b0e8dd-a980-4ff4-a929-8acc52335c2a")
-	)
 	(text_box "Reset button\n"
 		(exclude_from_sim no)
 		(at 16.51 172.72 0)
@@ -8155,18 +8020,6 @@
 		(uuid "65b84e6d-806f-4aaa-bcce-555d026e3100")
 	)
 	(junction
-		(at 86.36 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6617e6f8-7d65-42ee-84f3-a422a3d2fca2")
-	)
-	(junction
-		(at 110.49 256.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77759610-5811-4bd3-ba11-62fa3ed5f8bd")
-	)
-	(junction
 		(at 260.35 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8207,6 +8060,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88d690ce-7679-4f93-a1f7-4572cf354867")
+	)
+	(junction
+		(at 86.36 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a12dff5-450a-4180-9f45-2aa81995a44c")
 	)
 	(junction
 		(at 161.29 170.18)
@@ -8255,6 +8114,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af819994-f1b9-495a-8e7a-d0ddd26a6543")
+	)
+	(junction
+		(at 86.36 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afef543e-aa48-452b-8fae-74e0959b19b0")
 	)
 	(junction
 		(at 48.26 67.31)
@@ -8311,6 +8176,12 @@
 		(uuid "def9ebee-e742-456b-bf4f-f211588dfd98")
 	)
 	(junction
+		(at 110.49 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09d996d-9faa-484c-82ab-845e95e63509")
+	)
+	(junction
 		(at 87.63 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8345,12 +8216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f32e4f9a-ff8b-4a00-a3a2-ca89144b4952")
-	)
-	(junction
-		(at 86.36 269.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f524041f-5186-4497-8ed8-2c2844dd29cb")
 	)
 	(no_connect
 		(at 219.71 102.87)
@@ -8389,7 +8254,7 @@
 		(uuid "517ed9d7-f6f0-486d-a6db-a4cd7d77d1e2")
 	)
 	(no_connect
-		(at 102.87 264.16)
+		(at 102.87 265.43)
 		(uuid "5eb4334d-37d0-4b16-9ec7-3f999c8a9a5a")
 	)
 	(no_connect
@@ -8427,10 +8292,6 @@
 	(no_connect
 		(at 219.71 153.67)
 		(uuid "e043a193-5d5a-4238-8bf6-16d0042bc390")
-	)
-	(no_connect
-		(at 113.03 259.08)
-		(uuid "ef4c283b-eaf6-4c69-bfb8-38e870de6382")
 	)
 	(no_connect
 		(at 184.15 118.11)
@@ -8472,7 +8333,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 271.78) (xy 86.36 269.24)
+			(xy 86.36 271.78) (xy 86.36 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8782,7 +8643,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 269.24) (xy 102.87 269.24)
+			(xy 86.36 270.51) (xy 102.87 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8673,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 274.32) (xy 102.87 276.86)
+			(xy 102.87 275.59) (xy 102.87 276.86)
 		)
 		(stroke
 			(width 0)
@@ -8872,7 +8733,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 266.7) (xy 102.87 266.7)
+			(xy 86.36 267.97) (xy 102.87 267.97)
 		)
 		(stroke
 			(width 0)
@@ -9582,13 +9443,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 256.54) (xy 110.49 259.08)
+			(xy 86.36 270.51) (xy 86.36 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac7abb77-44d9-4c24-9f93-3ffc0102d3b6")
+		(uuid "ac14b618-ead6-4255-93b7-f5521b389ff5")
 	)
 	(wire
 		(pts
@@ -9599,6 +9460,16 @@
 			(type default)
 		)
 		(uuid "ad10d874-7680-440c-886b-b62f53a320b8")
+	)
+	(wire
+		(pts
+			(xy 86.36 267.97) (xy 86.36 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09f5a2c-2b18-45dc-bdb3-8bf299e376d8")
 	)
 	(wire
 		(pts
@@ -10052,6 +9923,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 256.54) (xy 110.49 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1af316-f2a8-480c-b46c-7038e1b86e50")
+	)
+	(wire
+		(pts
 			(xy 88.9 261.62) (xy 87.63 261.62)
 		)
 		(stroke
@@ -10211,7 +10092,7 @@
 		(uuid "1c611a74-7636-4660-be2d-8c74b672ac44")
 	)
 	(label "USB_CONN_D-"
-		(at 87.63 266.7 0)
+		(at 87.63 267.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10311,7 +10192,7 @@
 		(uuid "dc29b3d6-e4f0-4f27-8474-68a073997669")
 	)
 	(label "USB_CONN_D+"
-		(at 87.63 269.24 0)
+		(at 87.63 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13887,6 +13768,84 @@
 			(project "drone-flight-controller"
 				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 113.03 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da62235-ec56-4b47-8fb3-ce4a69800db1")
+		(property "Reference" "#PWR078"
+			(at 119.38 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 260.35 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2840671-c306-4c12-820e-86ec380d2de6")
+		)
+		(instances
+			(project "drone-flight-controller"
+				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -18536,7 +18495,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 110.49 269.24 180)
+		(at 110.49 270.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18547,7 +18506,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a47eada-35d5-45a0-97f2-daf4d2dcf9e5")
 		(property "Reference" "J3"
-			(at 116.84 267.9699 0)
+			(at 116.84 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18558,7 +18517,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 116.84 270.5099 0)
+			(at 116.84 271.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18569,7 +18528,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:MICRO-USB-SMD_MICROXNJ_1"
-			(at 106.68 267.97 0)
+			(at 106.68 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18580,7 +18539,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204151400_SHOU-HAN-MicroXNJ_C404969.pdf"
-			(at 106.68 267.97 0)
+			(at 106.68 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18591,7 +18550,7 @@
 			)
 		)
 		(property "Description" "-20℃~+85℃ 1 1.8A 30V 5,000 times 5P Black Female Micro-B Surface Mount, Right Angle USB 2.0 SMD USB Connectors ROHS"
-			(at 110.49 269.24 0)
+			(at 110.49 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18601,15 +18560,39 @@
 				)
 			)
 		)
-    (property "LCSC" "C404969" (at 110.49 269.24 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Part" "MicroXNJ" (at 110.49 269.24 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "SHOU HAN" (at 110.49 269.24 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "LCSC" "C404969"
+			(at 110.49 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "MicroXNJ"
+			(at 110.49 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN"
+			(at 110.49 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ea467295-f56e-4324-8daa-989eae98e106")
 		)
@@ -23219,84 +23202,6 @@
 			(project "drone-flight-controller"
 				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 259.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf0a491f-6e6b-41b7-8904-d9ff21f521ab")
-		(property "Reference" "#PWR0142"
-			(at 113.03 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name GND, ground"
-			(at 113.03 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be4cb036-adf4-4019-82eb-fae7f2cc8ced")
-		)
-		(instances
-			(project "drone-flight-controller"
-				(path "/2753c1d5-c5b3-42f6-8923-cca974813b6b"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
