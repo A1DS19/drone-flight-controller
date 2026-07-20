@@ -2672,7 +2672,7 @@
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:TQFP-32_7x7mm"
+			(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
 				(at 5.08 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4949,7 +4949,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 5.08 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12468,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14845,7 +14845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:TQFP-32_7x7mm"
+		(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
 			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -20178,7 +20178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 180.34 0)
 			(hide yes)
 			(show_name no)
