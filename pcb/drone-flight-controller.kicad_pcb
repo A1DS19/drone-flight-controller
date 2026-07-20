@@ -627,7 +627,7 @@
 	(footprint "easyeda:TF-SMD_472192001"
 		(layer "F.Cu")
 		(uuid "064eb6c2-81ff-44b8-a17e-364af3d8981d")
-		(at 98.9936 89.3538 90)
+		(at 99.019 88.9728 90)
 		(property "Reference" "U8"
 			(at 0 -8.15 90)
 			(layer "F.SilkS")
@@ -3908,7 +3908,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 		(layer "F.Cu")
 		(uuid "1e99690a-2f25-48c4-a946-aa67362826e2")
-		(at 120.2702 111.9484)
+		(at 118.924 111.9484)
 		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW3"
@@ -13885,7 +13885,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 		(layer "F.Cu")
 		(uuid "7bf0734c-1f92-444f-9f1b-481587d3e43a")
-		(at 130.6068 112.0098)
+		(at 129.0574 111.9378)
 		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
@@ -24418,7 +24418,7 @@
 	(footprint "digikey-footprints:TQFP-32_7x7mm"
 		(layer "F.Cu")
 		(uuid "c5f6badf-9b86-4c51-bfad-20e93ea2dd6b")
-		(at 112.2082 106.4574 180)
+		(at 112.014 103.2002 180)
 		(descr "http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf")
 		(property "Reference" "U3"
 			(at 0 -6.25 0)
@@ -31130,7 +31130,7 @@
 	(footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "ec81e035-6ced-404b-a860-92d0c24a54f2")
-		(at 112.2408 89.7636 180)
+		(at 112.1936 88.8238 180)
 		(descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U6"
