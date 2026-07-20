@@ -2,6 +2,27 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Jellybean sweep (2026-07-20) — full BOM sourced, ~142 refs across 61 groups
+All remaining ICs, passives, LEDs, diodes, crystals, RF inductors, ferrites, and connectors were
+resolved against the offline catalog (Basic > Preferred > Extended, then stock) and stamped with
+LCSC/Part/Manufacturer/Datasheet fields. Gate: `lcsc.py gate --min-stock 100` → **PASS, 0
+blocking**, 26 Extended lines (~$78 max setup; the THT lines are hand-solder so real SMT feeder
+fees ≈ $40). Full mapping recoverable from the schematic fields; selection rules per the
+pcb-source selection guide. The calls worth remembering:
+- **ICs by exact MPN** (STM32F103R8T6 C46034, MPU-6050 C24112, ATMEGA328P-AU C14877, CH340G
+  C14267, LM358DR C5423 — both units, SN74HC245DWR C10093, NRF24L01P-R C8791, SN74AHC1G125DCKR
+  C151890, L7805CV C5189702, AMS1117-3.3 C6186 Basic; U8 microSD C164170 field added).
+- **Crystals matched on load capacitance** to the repo's original datasheets: Y1 8 MHz 20 pF 5032
+  (C115962), Y3/Y5 16 MHz 9 pF 3225 (C13738), Y4 12 MHz 20 pF 3225 (C9002) — all Basic YXC.
+  **Y2 32.768 kHz**: Basic Epson FC-135 (C32346) is a 3215 body → footprint swapped 2012 → 3215.
+- **C50/C51 polarized 10 µF** → AVX TAJA106K016RNJ (C7171, Basic) — the exact part of the repo's
+  original tantalum datasheet.
+- **nRF matching** L2/L3/L4 → Murata LQG15HS8N2J02D + Sunlord SDCL1005 (multilayer RF); 1/1.5 pF
+  C0G. **FB1/FB2** → Murata BLM21PG121SN1D 120 Ω@100 MHz **3 A** (value typo "100Uhm" fixed).
+- **C23 4.7 µF 6.3 V X5R on the 5 V rail**: derated but accepted as bulk (C307423, 3.8 M stock).
+- **J17 SMA** → BWSMA-KWE-Z001 (C496551): right-angle THT; drawing p. 6 grid 5.1 mm / Ø1.4 legs
+  verified against the existing 5.08 mm footprint. Headers → XFCN PZ254V series; J8 → AMASS XT60.
+
 ### VDDA filter bead — L1: BLM15AG601SN1D (C76884)
 - **Key specs:** 600 Ω @ 100 MHz ±25 %, 300 mA rated, 0.52/0.62 Ω DCR, 0402, −55~+125 °C
 - **Price/stock:** $0.005 @ qty 1, stock 234,099, Extended
