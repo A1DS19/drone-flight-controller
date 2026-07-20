@@ -11,7 +11,7 @@ routing) can begin. Fabrication is still blocked by LCSC/MPN coverage (4 parts),
 | Severity | Finding | Evidence |
 |---|---|---|
 | Blocker | The PCB has all 158 footprints imported (2026-07-19) but no outline, placement, routing, or zones yet. | `drone-flight-controller.kicad_pcb` |
-| Blocker | LCSC/MPN coverage is six refs (`D3` C20615829, `SW1`–`SW3` C7528713, `J3`/`J16` C404969) — the BOM is not orderable. Footprints, by contrast, are now assigned to all ~158 components (2026-07-19). `SW4`, the master power switch, is deliberately still unsourced (a momentary tact part is unsuitable); it carries a placeholder `easyeda:Switch_Slide` footprint. | Schematic property scan, netlist import log |
+| Blocker | LCSC/MPN coverage is seven refs (`D3` C20615829, `SW1`–`SW3` C7528713, `J3`/`J16` C404969, `SW4` C7431054) — the rest of the BOM is not yet orderable. Footprints are assigned to all ~158 components (2026-07-19); every named open sourcing item is now closed. | Schematic property scan, netlist import log |
 | Resolved | The USB shield gap from the Update-PCB import is fixed (2026-07-19): J3/J16's shield pin was renumbered "SH" → "6" to match the footprint's shell pads and tied to GND (`#PWR0142`/`#PWR0143`). Re-run Update PCB to carry it onto the board. `U7`'s exposed pad (footprint pad 21, no symbol pin) is **intentionally unconnected**: the nRF24L01+ Product Specification v1.0, page 65, recommends keeping the die attach pad unconnected — the recurring import warning for pad 21 is expected and benign. (The former SW1–SW3 pad-3/4 warnings disappeared with the TC-6610 swap: the official footprint's paired 1,1,2,2 pads all map.) | Netlist import log, nRF24L01+ PS v1.0 p. 65 |
 | Resolved | Headless KiCad 10 checks are available after all: the AppImage bundles `kicad-cli` 10.0.4 at `/home/dev/Applications/kicad-10/AppDir/bin/kicad-cli` (discovered 2026-07-19; ERC verified working). The system `kicad-cli` 9.0.9 still cannot load these files — use the AppImage path. | `kicad-cli version` → 10.0.4 |
 | Warning | `L1` in the VDDA filter still carries the invalid value `27nF` and has no footprint or MPN. The filter's electrical intent remains unresolved. | Root schematic, `Device:L_Small` |
@@ -30,7 +30,7 @@ Roughly 158 components across 82 named nets on two sheets.
 | MCU | `U1` STM32F103R8T6, LQFP-64, footprint assigned |
 | IMU | `U2` MPU-6050 (QFN-24) on I²C bus `12C2_*` |
 | Clocks | `Y1` 8 MHz HSE (20 pF loads), `Y2` 32.768 kHz LSE (10 pF loads) |
-| Power | `J8` XT-60 → `SW4` master switch → `U10` LM7805 (TO-220) → `U11` AMS1117-3.3 (SOT-223); `FB1`/`FB2` ferrites, `D1`/`D2` B5819W Schottkys, `R17`/`R18` 47k/15k battery divider → `ADC_Vbat` |
+| Power | `J8` XT-60 → `SW4` master switch (SS12D10G5, LCSC C7431054) → `U10` LM7805 (TO-220) → `U11` AMS1117-3.3 (SOT-223); `FB1`/`FB2` ferrites, `D1`/`D2` B5819W Schottkys, `R17`/`R18` 47k/15k battery divider → `ADC_Vbat` |
 | Reset/boot | `SW1` (TC-6610, LCSC C7528713) + `R1` 10k + `C9` 100 nF on NRST; `J2` boot jumper + `R3` 10k on BOOT0 |
 | USB | `J3` micro-B (MicroXNJ, LCSC C404969) with `D3` SRV05-4A ESD array (LCSC C20615829) |
 | I/O | `J1` SWD, `J4`–`J7` ESC/motor, `J9` TF-Luna LIDAR, `J10` RC receiver (`MANDO_1..6`), `J11` OLED, `J12`–`J14` SPI/I²C/USART expansion |

@@ -24388,7 +24388,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_SPDT"
+		(property "Value" "SS12D10G5_C7431054"
 			(at 38.1 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24398,7 +24398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda:Switch_Slide"
+		(property "Footprint" "easyeda:SW-TH_SHOU-HAN_SS12D10G4"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -24409,7 +24409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311301507_SHOU-HAN-SS12D10G5_C7431054.pdf"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -24420,7 +24420,7 @@
 				)
 			)
 		)
-		(property "Description" "Momentary Switch, single pole double throw"
+		(property "Description" "-25℃~+70℃ 12.7mm 125V 2A 3,000 Cycles 6.7mm SPDT Through Hole 插件,12.7x6.7mm Slide Switches ROHS"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -24431,6 +24431,15 @@
 				)
 			)
 		)
+    (property "LCSC" "C7431054" (at 38.1 50.8 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Part" "SS12D10G5" (at 38.1 50.8 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "SHOU HAN" (at 38.1 50.8 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "7b51bff4-4da0-4189-a1f6-bf5dc5913c57")
 		)

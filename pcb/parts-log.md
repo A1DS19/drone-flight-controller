@@ -2,6 +2,23 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Master power switch — SW4: SS12D10G5 (C7431054)
+- **Key specs:** SPDT vertical slide, non-shorting, THT 12.7 × 6.7 mm, AC 125 V / 2 A, −25~+70 °C,
+  3,000 cycles, 2.2 mm travel, 250 gf
+- **Price/stock:** $0.154 @ qty 1, stock 35,124, Extended (THT → hand-solder at JLC)
+- **Rationale:** user-selected; retires the last named unsourced part. ~2 A rating vs the
+  ~0.3–0.4 A logic-tree load through the LM7805 branch: ~5× margin. Latching (unlike the momentary
+  tact parts considered earlier); THT for vibration robustness.
+- **Alternatives considered:** G-Switch SS-12D11-G030 (3 A, right-angle, 10k cycles) and
+  SS-12D01-G040 (1 A) — user preferred this one; 3k-cycle life is a non-issue for a master switch.
+- **Design notes:** footprint `easyeda:SW-TH_SHOU-HAN_SS12D10G4` (EasyEDA shares the footprint
+  name across the SS12D10 G-series lever variants — the part ordered is the **G5**). Pads 1/2/3 at
+  4.8 mm pitch, **pad 2 = middle = common** per the datasheet schematic — matches the existing
+  wiring (pin 1 `+12V` = ON throw, pin 2 `+12C` common, pin 3 unused throw, no-connect flagged).
+  Model path set to `${KIPRJMOD}/libs/easyeda.3dshapes/`.
+- **Datasheet:** pcb/datasheets/C7431054-SS12D10G5.pdf — p. 1 drawing (pins, 4.8/9.6 mm layout,
+  non-shorting SPDT schematic), p. 3 §1.1 rating AC 125 V 2 A, §4.5 hand-solder 270 °C/4 s
+
 ### USB connectors — J3 (STM32 USB), J16 (CH340G USB): MicroXNJ (C404969)
 - **Key specs:** micro-B 5P female, right-angle SMD, shell on 4 THT legs; 1.8 A/contact, 30 V DC,
   ≤50 mΩ contact, 5,000 mating cycles
