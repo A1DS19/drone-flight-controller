@@ -15100,7 +15100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TC-6610_C7528713"
+		(property "Value" "TS-1088-AR02016_C720477"
 			(at 33.02 40.6399 90)
 			(hide yes)
 			(show_name no)
@@ -15112,7 +15112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+		(property "Footprint" "easyeda:SW-SMD_L3.9-W3.0-P4.45"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15123,7 +15123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401191746_FG-TC-6610--6-6-9-260g_C7528713.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15145,7 +15145,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7528713"
+		(property "LCSC" "C720477"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15156,7 +15156,7 @@
 				)
 			)
 		)
-		(property "Part" "TC-6610 -6*6*9-260g"
+		(property "Part" "TS-1088-AR02016"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15167,7 +15167,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FG"
+		(property "Manufacturer" "XUNPU"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
