@@ -26433,7 +26433,7 @@
 				)
 			)
 		)
-		(property "Value" "SS-12D11-G030_C17179526"
+		(property "Value" "K3-1204D_C145861"
 			(at 38.1 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26443,7 +26443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda:SW-TH_5P-P4.70_SS-12D11-G030"
+		(property "Footprint" "easyeda:SW-TH_K3-1204D"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26454,7 +26454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309150915_G-Switch-SS-12D11-G030_C17179526.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131730_Korean-Hroparts-Elec-K3-1204D_C145861.pdf"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26465,7 +26465,7 @@
 				)
 			)
 		)
-		(property "Description" "-40℃~+85℃ 10,000 Cycles 13.4mm 250V 3A 6.6mm 8.4mm Black PC Pin Rectangular Columnar Right Angle SPDT 弯插,13.4x6.6mm Slide Switches ROHS"
+		(property "Description" "-25℃~+80℃ 10mm 120V 2.5mm 50,000 cycles 5A 6mm PC Pin Red SPDT Through Hole 插件,10x2.5mm Slide Switches ROHS"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26476,7 +26476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17179526"
+		(property "LCSC" "C145861"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26487,7 +26487,7 @@
 				)
 			)
 		)
-		(property "Part" "SS-12D11-G030"
+		(property "Part" "K3-1204D"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26498,7 +26498,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "G-Switch"
+		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)

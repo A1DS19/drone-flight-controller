@@ -2,6 +2,31 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Master power switch — SW4: K3-1204D (C145861) — supersedes SS-12D11-G030 below (rejected at placement for size, never reached the board)
+- **Key specs:** SPDT shorting slide (latching), vertical top-actuated, 5 A / 120 V AC, 50,000 cycles,
+  insulation ≥ 100 MΩ, dielectric 1,500 V RMS, −25~+80 °C, 1.6 mm travel; slim 10 × 2.5 mm body,
+  three Ø0.9 pins at 2.55 mm pitch — ~25 mm² of board, 3.4× smaller than the original G5
+- **Price/stock:** $1.03 @ qty 1 (priciest switch considered — irrelevant at qty 1–3), stock **3,067**
+  (19 d-old snapshot; thinnest line in the BOM — re-verify with `parts_db.py --refresh` before ordering),
+  Extended THT
+- **Rationale:** user's hard requirement was minimum board footprint; every full-size slide failed size
+  and every mini slide failed the electrical gate. This is the only part found that passes both:
+  5 A vs the ~0.3–0.4 A logic-tree load ≈ 12× margin, in the smallest mechanical envelope available.
+- **Alternatives considered (the gated hunt):** SS-12D11-G030 — user-rejected, footprint too big;
+  SS12D10G6-WJ C7431059 — same verdict (~12.7 × 12.3 mm strip); MK-12C02 class — 1 A but 6 V rating
+  under the 12 V rail; MINI MSK12CO2 C2681570 — 5 × 2.8 mm but DC 12 V **50 mA** (datasheet §1.1),
+  6–8× under load, only viable gating a P-FET load switch (user declined the circuit change);
+  SK/SS12D07 family C2939726/C431547 — **LCSC description says 500 mA, SHOU HAN datasheet §1.1 says
+  300 mA** — at/over load, killed by the datasheet gate (catalog descriptions are not ratings)
+- **Design notes:** footprint `easyeda:SW-TH_K3-1204D` — pad map CLEAN, exactly 3 pads, **pad 2 =
+  middle = common** at ±2.50 mm (datasheet PCB layout says 2.55 pitch; 0.05 mm offset on Ø1.0 holes
+  for ~0.65 mm pins is inside slop — converted footprint kept). Wiring carries over: pin 1 `+12V`
+  throw, pin 2 `+12C` common, pin 3 unused + no-connect. Shorting (make-before-break) type — 
+  irrelevant here since throw 3 is unconnected. Top-actuated: no board-edge placement constraint.
+- **Datasheet:** pcb/datasheets/C145861-K3-1204D.pdf — typical-specs block: 5 A 120 V AC vs
+  ~0.3–0.4 A @ 12 V load: ~12× margin; 50k cycles; middle-common shorting SPDT schematic; PCB layout
+  3 × Ø0.90 at 2.55 mm
+
 ### Master power switch — SW4: SS-12D11-G030 (C17179526) — supersedes SS12D10G5 below
 - **Key specs:** SPDT (1P2T) latching slide, right-angle/horizontal THT, 3 A / 50 V AC (datasheet §2 —
   the 250 V in the LCSC listing is the description's AC class; datasheet is authoritative), ≤30 mΩ,
