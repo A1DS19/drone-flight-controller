@@ -2,6 +2,28 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Master power switch — SW4: SS-12D11-G030 (C17179526) — supersedes SS12D10G5 below
+- **Key specs:** SPDT (1P2T) latching slide, right-angle/horizontal THT, 3 A / 50 V AC (datasheet §2 —
+  the 250 V in the LCSC listing is the description's AC class; datasheet is authoritative), ≤30 mΩ,
+  10,000 cycles, −40~+85 °C, 250 ±100 gf, 2.2 mm travel, 13.4 × 6.6 mm body, G030 = 3.0 mm shank
+- **Price/stock:** $0.221 @ qty 1, stock **3,533** (19 d-old snapshot — thinnest line in the BOM,
+  re-verify with `parts_db.py --refresh` before ordering), Extended THT (hand-solder, same as the G5)
+- **Rationale:** user swap request. Right-angle lever actuates from the board edge — reachable once
+  the drone is framed/boxed, which the vertical G5 was not; 3 A ≈ 8× margin over the ~0.3–0.4 A
+  logic tree; 10k vs 3k cycle life; was the runner-up in the original SW4 selection
+- **Alternatives considered:** keep SS12D10G5 — vertical actuation loses boxed access; SS-12D11-G040
+  (C17179527) / G050 (C17179529) — longer 4/5 mm shanks if the frame needs more lever, same body
+- **Design notes:** footprint `easyeda:SW-TH_5P-P4.70_SS-12D11-G030` — pads 1/2/3 terminals at
+  4.7 mm pitch with **pad 2 = middle = common** (verified against datasheet PCB layout; matches
+  existing wiring: pin 1 `+12V` throw, pin 2 `+12C` common, pin 3 unused + no-connect). Pads 4/5 are
+  the bracket slots (Ø1.5 drills at 13.2 mm span, 8.4 mm behind the terminal row) — netless
+  mechanical, TS24CA precedent; expect benign "pad 4/5 has no pin" F8 notes. NOT pad-compatible with
+  the G5 footprint (4.7 vs 4.8 mm pitch, extra brackets). Right-angle: place at a board edge with
+  the lever overhanging Edge.Cuts.
+- **Datasheet:** pcb/datasheets/C17179526-SS-12D11-G030.pdf — circuit diagram: middle pole common;
+  3 A / 50 V AC vs the ~0.3–0.4 A @ 12 V LM7805-branch load: fine; ≥100 MΩ insulation, 500 V AC
+  dielectric; height-code table decodes G030 = 3.0 mm
+
 ### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TS-1088-AR02016 (C720477) — supersedes TC-6610 below
 - **Key specs:** SPST momentary, 50 mA / 12 VDC, 160 gf ±50 (1.6 N), 100,000 cycles, SMD 3.9 × 3.0 mm
   body, 2.0 mm height, Ø1.8 mm round top actuator, travel 0.2 ± 0.1 mm, −30~+80 °C
