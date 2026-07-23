@@ -2,6 +2,27 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TS-1088-AR02016 (C720477) — supersedes TC-6610 below
+- **Key specs:** SPST momentary, 50 mA / 12 VDC, 160 gf ±50 (1.6 N), 100,000 cycles, SMD 3.9 × 3.0 mm
+  body, 2.0 mm height, Ø1.8 mm round top actuator, travel 0.2 ± 0.1 mm, −30~+80 °C
+- **Price/stock:** $0.050 @ qty 1, stock 619,530 (catalog snapshot 19 d old — re-verify before order),
+  **Basic** — removes one Extended feeder line and moves all three buttons from hand-solder THT to reflow
+- **Rationale:** user re-prioritized: minimum footprint while keeping a tactile click. Land ~5.6 × 3.0 mm
+  single-side vs the TC-6610's 6×6 body + four Ø1.1 mm through-holes — frees bottom-layer copper under
+  all three buttons on the 2-layer board. The tall-actuator (9 mm through-frame) requirement is dropped.
+- **Alternatives considered:** TS-1187A-B-A-B C318884 (Basic, $0.019, 1.58 M stock) — 7.0 × 4.5 mm land
+  is only a modest XY win and its A-B/C-D shorted-pair topology re-opens the 4-pad trap; TS24CA revert
+  (footprint already in libs) — side-press, Extended; TS-1088R-02026 C455280 — same body in 260 gf but
+  Extended; ALPS SKTAACE010 C358621 — 2.6 × 1.6 mm IP67, smallest, but 0.11 mm travel ≈ no tactile feel
+- **Design notes:** footprint `easyeda:SW-SMD_L3.9-W3.0-P4.45` — pad map CLEAN (pins 1,2 ↔ pads 1,2,
+  no mechanical pads: the 4-pad shorted-pair hazard is structurally gone on this part). Pads
+  1.23 × 1.86 mm at ±2.18 mm (5.59 mm outer span / 3.13 mm gap) vs datasheet welding drawing
+  5.5 / 3.4 / 2.0 — same class, slightly more generous. 3D model `SW-SMD_L3.9-W2.9-H2.0-LS4.8`
+  (H2.0 = 020 height code, LS4.8 lead span). Debounce networks C9/C19/C24 unchanged.
+- **Datasheet:** pcb/datasheets/C720477-TS-1088-AR02016.pdf — 50 mA/12 VDC vs µA reset/GPIO switching:
+  fine; contact ≤ 100 mΩ; insulation ≥ 100 MΩ; dielectric ≥ 250 VAC/1 min; decode AR02016 = stainless
+  spring, no locating posts, 2.0 mm height, 160 gf; SPST single loop matches 2-pin `Switch:SW_Push`
+
 ### Jellybean sweep (2026-07-20) — full BOM sourced, ~142 refs across 61 groups
 All remaining ICs, passives, LEDs, diodes, crystals, RF inductors, ferrites, and connectors were
 resolved against the offline catalog (Basic > Preferred > Extended, then stock) and stamped with
