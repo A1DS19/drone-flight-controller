@@ -2,6 +2,74 @@
 
 Entry format per the pcb-source selection guide (§7).
 
+### Master power switch — SW4: K3-1204D (C145861) — supersedes SS-12D11-G030 below (rejected at placement for size, never reached the board)
+- **Key specs:** SPDT shorting slide (latching), vertical top-actuated, 5 A / 120 V AC, 50,000 cycles,
+  insulation ≥ 100 MΩ, dielectric 1,500 V RMS, −25~+80 °C, 1.6 mm travel; slim 10 × 2.5 mm body,
+  three Ø0.9 pins at 2.55 mm pitch — ~25 mm² of board, 3.4× smaller than the original G5
+- **Price/stock:** $1.03 @ qty 1 (priciest switch considered — irrelevant at qty 1–3), stock **3,067**
+  (19 d-old snapshot; thinnest line in the BOM — re-verify with `parts_db.py --refresh` before ordering),
+  Extended THT
+- **Rationale:** user's hard requirement was minimum board footprint; every full-size slide failed size
+  and every mini slide failed the electrical gate. This is the only part found that passes both:
+  5 A vs the ~0.3–0.4 A logic-tree load ≈ 12× margin, in the smallest mechanical envelope available.
+- **Alternatives considered (the gated hunt):** SS-12D11-G030 — user-rejected, footprint too big;
+  SS12D10G6-WJ C7431059 — same verdict (~12.7 × 12.3 mm strip); MK-12C02 class — 1 A but 6 V rating
+  under the 12 V rail; MINI MSK12CO2 C2681570 — 5 × 2.8 mm but DC 12 V **50 mA** (datasheet §1.1),
+  6–8× under load, only viable gating a P-FET load switch (user declined the circuit change);
+  SK/SS12D07 family C2939726/C431547 — **LCSC description says 500 mA, SHOU HAN datasheet §1.1 says
+  300 mA** — at/over load, killed by the datasheet gate (catalog descriptions are not ratings)
+- **Design notes:** footprint `easyeda:SW-TH_K3-1204D` — pad map CLEAN, exactly 3 pads, **pad 2 =
+  middle = common** at ±2.50 mm (datasheet PCB layout says 2.55 pitch; 0.05 mm offset on Ø1.0 holes
+  for ~0.65 mm pins is inside slop — converted footprint kept). Wiring carries over: pin 1 `+12V`
+  throw, pin 2 `+12C` common, pin 3 unused + no-connect. Shorting (make-before-break) type — 
+  irrelevant here since throw 3 is unconnected. Top-actuated: no board-edge placement constraint.
+- **Datasheet:** pcb/datasheets/C145861-K3-1204D.pdf — typical-specs block: 5 A 120 V AC vs
+  ~0.3–0.4 A @ 12 V load: ~12× margin; 50k cycles; middle-common shorting SPDT schematic; PCB layout
+  3 × Ø0.90 at 2.55 mm
+
+### Master power switch — SW4: SS-12D11-G030 (C17179526) — supersedes SS12D10G5 below
+- **Key specs:** SPDT (1P2T) latching slide, right-angle/horizontal THT, 3 A / 50 V AC (datasheet §2 —
+  the 250 V in the LCSC listing is the description's AC class; datasheet is authoritative), ≤30 mΩ,
+  10,000 cycles, −40~+85 °C, 250 ±100 gf, 2.2 mm travel, 13.4 × 6.6 mm body, G030 = 3.0 mm shank
+- **Price/stock:** $0.221 @ qty 1, stock **3,533** (19 d-old snapshot — thinnest line in the BOM,
+  re-verify with `parts_db.py --refresh` before ordering), Extended THT (hand-solder, same as the G5)
+- **Rationale:** user swap request. Right-angle lever actuates from the board edge — reachable once
+  the drone is framed/boxed, which the vertical G5 was not; 3 A ≈ 8× margin over the ~0.3–0.4 A
+  logic tree; 10k vs 3k cycle life; was the runner-up in the original SW4 selection
+- **Alternatives considered:** keep SS12D10G5 — vertical actuation loses boxed access; SS-12D11-G040
+  (C17179527) / G050 (C17179529) — longer 4/5 mm shanks if the frame needs more lever, same body
+- **Design notes:** footprint `easyeda:SW-TH_5P-P4.70_SS-12D11-G030` — pads 1/2/3 terminals at
+  4.7 mm pitch with **pad 2 = middle = common** (verified against datasheet PCB layout; matches
+  existing wiring: pin 1 `+12V` throw, pin 2 `+12C` common, pin 3 unused + no-connect). Pads 4/5 are
+  the bracket slots (Ø1.5 drills at 13.2 mm span, 8.4 mm behind the terminal row) — netless
+  mechanical, TS24CA precedent; expect benign "pad 4/5 has no pin" F8 notes. NOT pad-compatible with
+  the G5 footprint (4.7 vs 4.8 mm pitch, extra brackets). Right-angle: place at a board edge with
+  the lever overhanging Edge.Cuts.
+- **Datasheet:** pcb/datasheets/C17179526-SS-12D11-G030.pdf — circuit diagram: middle pole common;
+  3 A / 50 V AC vs the ~0.3–0.4 A @ 12 V LM7805-branch load: fine; ≥100 MΩ insulation, 500 V AC
+  dielectric; height-code table decodes G030 = 3.0 mm
+
+### Tact switches — SW1 (STM32 reset), SW2 (user button), SW3 (ATmega reset): TS-1088-AR02016 (C720477) — supersedes TC-6610 below
+- **Key specs:** SPST momentary, 50 mA / 12 VDC, 160 gf ±50 (1.6 N), 100,000 cycles, SMD 3.9 × 3.0 mm
+  body, 2.0 mm height, Ø1.8 mm round top actuator, travel 0.2 ± 0.1 mm, −30~+80 °C
+- **Price/stock:** $0.050 @ qty 1, stock 619,530 (catalog snapshot 19 d old — re-verify before order),
+  **Basic** — removes one Extended feeder line and moves all three buttons from hand-solder THT to reflow
+- **Rationale:** user re-prioritized: minimum footprint while keeping a tactile click. Land ~5.6 × 3.0 mm
+  single-side vs the TC-6610's 6×6 body + four Ø1.1 mm through-holes — frees bottom-layer copper under
+  all three buttons on the 2-layer board. The tall-actuator (9 mm through-frame) requirement is dropped.
+- **Alternatives considered:** TS-1187A-B-A-B C318884 (Basic, $0.019, 1.58 M stock) — 7.0 × 4.5 mm land
+  is only a modest XY win and its A-B/C-D shorted-pair topology re-opens the 4-pad trap; TS24CA revert
+  (footprint already in libs) — side-press, Extended; TS-1088R-02026 C455280 — same body in 260 gf but
+  Extended; ALPS SKTAACE010 C358621 — 2.6 × 1.6 mm IP67, smallest, but 0.11 mm travel ≈ no tactile feel
+- **Design notes:** footprint `easyeda:SW-SMD_L3.9-W3.0-P4.45` — pad map CLEAN (pins 1,2 ↔ pads 1,2,
+  no mechanical pads: the 4-pad shorted-pair hazard is structurally gone on this part). Pads
+  1.23 × 1.86 mm at ±2.18 mm (5.59 mm outer span / 3.13 mm gap) vs datasheet welding drawing
+  5.5 / 3.4 / 2.0 — same class, slightly more generous. 3D model `SW-SMD_L3.9-W2.9-H2.0-LS4.8`
+  (H2.0 = 020 height code, LS4.8 lead span). Debounce networks C9/C19/C24 unchanged.
+- **Datasheet:** pcb/datasheets/C720477-TS-1088-AR02016.pdf — 50 mA/12 VDC vs µA reset/GPIO switching:
+  fine; contact ≤ 100 mΩ; insulation ≥ 100 MΩ; dielectric ≥ 250 VAC/1 min; decode AR02016 = stainless
+  spring, no locating posts, 2.0 mm height, 160 gf; SPST single loop matches 2-pin `Switch:SW_Push`
+
 ### Jellybean sweep (2026-07-20) — full BOM sourced, ~142 refs across 61 groups
 All remaining ICs, passives, LEDs, diodes, crystals, RF inductors, ferrites, and connectors were
 resolved against the offline catalog (Basic > Preferred > Extended, then stock) and stamped with
