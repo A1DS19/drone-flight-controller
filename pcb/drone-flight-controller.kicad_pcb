@@ -43196,6 +43196,7 @@
 		)
 	)
 	(zone
+		(net "+5V")
 		(layer "In2.Cu")
 		(uuid "7ba99b9e-4e08-4dbe-8516-1c19a4a1a63c")
 		(name "5V")
