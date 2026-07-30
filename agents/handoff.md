@@ -1,29 +1,36 @@
-# Session handoff — 2026-07-20
+# Session handoff — 2026-07-27
 
-## What was done (this session, main @ 94f3ab2)
-- First clean native ERC (0/0) — fixed en route: CH340G VCC/V3 cross-wiring (real bug), PWR_FLAGs
-  on all passive-fed rails + GND, SW4 no-connect, USB shell pin types.
-- Footprints assigned to all ~158 parts and imported to the board; 95 mm frame outline placed.
-- Every part sourced: switches (TC-6610), USB (MicroXNJ), SW4 (SS12D10G5), L1 (BLM15 bead +
-  datasheet-exact VDDA caps), full jellybean sweep (142 refs, 61 groups). BOM gate: PASS,
-  0 blocking, 26 Extended (~$78 max setup). See pcb/parts-log.md.
-- 3D models complete (official footprints for U3/U5/U10; converted assets for USB/switches/SD).
-- USB shield fix made structural after two symbol-update regressions: corrected USB_B_Micro
-  lives in pcb/libs/custom-symbols.kicad_sym, registered in sym-lib-table, J3/J16 point at it.
-- Last netlist import: 0 errors, 1 benign warning (U7 exposed pad — unconnected per nRF24L01+
-  datasheet p. 65; ignore it forever).
+## What was done (this session)
+- **Board is now 4-LAYER** (user's zone work, reviewed + gated): In1 solid GND with a
+  deliberate star-ground moat + single join at the battery terminal — verified ONE merged
+  island; In2 split power plane +3.3V/+5V/Vdrive/+12V (the netless 666 mm² zone got its
+  +5V net assigned during review).
+- **New pipeline gates built from this board** (claude-configs, PRs #15–#20 all merged):
+  `pcb-pinmap` (firmware handoff — full U1/U3 pin maps generated, byte-identical from pcb
+  and netlist paths) and `pcb-verify/zones.py` (netless/island/sliver/thermal/return-path).
+  JLCPCB live capabilities captured; DFM profile re-synced.
+- **Logos installed**: project lib `pcb/libs/logos.pretty` (+ `fp-lib-table` entry) and
+  global `jpi-logos`; `logos:jpi_logo_words` (letters-only) placed back-side as G1 in the
+  clear area near U10.
+- Findings acknowledged: `12C*` net spelling is instructor-intentional (PIN-210 warnings
+  stay, non-blocking); MPU-6050 (U2) is on **I2C2**, not I2C1 (I2C1 = U1↔U3 inter-MCU bus).
 
 ## Current state
-Schematic: done (electrically complete, sourced, clean ERC). Board: all footprints + frame
-outline, no placement/routing/zones yet. User is doing placement and routing by hand.
+- Working tree UNCOMMITTED: `.kicad_pcb` (4-layer zones + logo placement),
+  `pcb/libs/logos.pretty/`, `fp-lib-table` entry, new crystal datasheets untracked.
+- Zones gate on this board: PASS — 0 blocking, 13 warnings (11 thermal + 2 sliver groups).
+- Open board items: (1) net `+12C` exists ONLY in the PCB, absent from both schematics —
+  stale board↔schematic sync, resolve before routing; (2) set H1-H8/J8/J17 power pads to
+  SOLID zone connection; (3) sliver islands — set island removal "below area limit" ~2 mm²
+  on GND/In1 and +5V/In2; (4) board 102×49 mm is under JLCPCB's 70×70 Standard-assembly
+  floor → Economic service or panel when ordering PCBA.
+- Still unrouted (1 segment, 0 vias) — planes connect to nothing SMD yet.
+- Standing gotchas: never "Update Symbols from Library" casually; close KiCad before file
+  edits (a stale GUI/MCP save wiped a logo placement once); commit before risky GUI ops.
 
-## Plan / how to help next session
-- User does placement + routing. Support roles: placement review (pcb-placement-review skill),
-  DRC runs via the AppImage CLI (`/home/dev/Applications/kicad-10/AppDir/bin/kicad-cli pcb drc`),
-  net classes / design rules setup, Gerber + BOM/CPL export when ready.
-- Placement constraints (DESIGN_REVIEW "PCB and EMC"): continuous GND plane; each 100 nF at its
-  VDD/VSS pair; VDDA filter (L1/C7/C8) tight to U1 pin 13; nRF24 matching + antenna feed clear of
-  power; ESC/motor returns away from IMU and ADC_Vbat divider; LM7805 tab bolted over GND copper.
-- Gotchas that bit before: never "Update Symbols from Library" casually; F8 needs the
-  replace-footprints checkbox only after footprint changes; close KiCad before I edit files;
-  commit before risky GUI operations.
+## Plan for next session
+1. Commit the WIP (zones + logo) on a feature branch.
+2. Fix open items 1–3, re-run `pcb-verify/scripts/zones.py` (AppImage python recipe in
+   memory) expecting the thermal + sliver warnings to clear.
+3. Then routing: signals on F.Cu over the solid In1 GND; B.Cu short jogs only, never USB
+   D± across In2 splits; after routing → via fanout + `gnd_vias.py` stitch → refill → DRC.
