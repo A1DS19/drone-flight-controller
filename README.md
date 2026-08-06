@@ -3,6 +3,11 @@
 KiCad 10 project for a custom STM32F103R8T6-based drone flight controller with an ATmega328P
 telemetry co-processor.
 
+| Front | Back |
+|-------|------|
+| ![Board front](screenshots/pcb-front.png) | ![Board back](screenshots/pcb-back.png) |
+| OLED, XT60 battery connector, and SMA antenna jack fitted | LM7805 regulator and logo on the back silkscreen |
+
 ## Current state
 
 Schematic capture is complete across a two-page hierarchical schematic, the four-layer PCB is
