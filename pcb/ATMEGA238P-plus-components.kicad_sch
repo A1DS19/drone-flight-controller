@@ -6737,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 241.3) (xy 123.19 241.3)
+			(xy 129.54 241.3) (xy 128.27 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7057,7 +7057,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 238.76) (xy 123.19 238.76)
+			(xy 129.54 238.76) (xy 128.27 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7367,7 +7367,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 238.76) (xy 115.57 238.76)
+			(xy 123.19 238.76) (xy 115.57 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8107,16 +8107,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 241.3) (xy 115.57 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d498bd65-501b-47a8-a20d-7387059ae69a")
-	)
-	(wire
-		(pts
 			(xy 149.86 22.86) (xy 161.29 22.86)
 		)
 		(stroke
@@ -8254,6 +8244,16 @@
 			(type default)
 		)
 		(uuid "e238dc23-8c74-4048-9b41-1cdb274731dd")
+	)
+	(wire
+		(pts
+			(xy 115.57 241.3) (xy 123.19 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32f6854-92b8-4111-9511-feb12d8ebe4d")
 	)
 	(wire
 		(pts
@@ -8719,6 +8719,30 @@
 			)
 		)
 	)
+	(global_label "TX_LED"
+		(shape input)
+		(at 120.65 241.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "196e7b52-8dce-4357-8d2a-7dd40edf177c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 231.723 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "NRF_ANT1"
 		(shape input)
 		(at 331.47 189.23 180)
@@ -9081,7 +9105,7 @@
 	)
 	(global_label "RX_ATM328P"
 		(shape input)
-		(at 127 238.76 0)
+		(at 129.54 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9091,7 +9115,7 @@
 		)
 		(uuid "59568214-d6f2-4cb8-a39b-28bb0cf4b0d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.8384 238.76 0)
+			(at 144.3784 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9439,6 +9463,30 @@
 			)
 		)
 	)
+	(global_label "RX_LED"
+		(shape input)
+		(at 116.84 238.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98e52764-ea82-4ed8-975b-59e69f04681f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 228.8806 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CS_SD_74HC245"
 		(shape input)
 		(at 369.57 133.35 180)
@@ -9487,7 +9535,7 @@
 			)
 		)
 	)
-	(global_label "TX_ATM328P"
+	(global_label "TX_LED"
 		(shape input)
 		(at 29.21 210.82 180)
 		(fields_autoplaced yes)
@@ -9499,7 +9547,7 @@
 		)
 		(uuid "a5ebe9ec-1368-490f-a94f-88afe055a61a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.674 210.82 0)
+			(at 19.633 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +9583,7 @@
 			)
 		)
 	)
-	(global_label "RX_ATM328P"
+	(global_label "RX_LED"
 		(shape input)
 		(at 29.21 187.96 180)
 		(fields_autoplaced yes)
@@ -9547,7 +9595,7 @@
 		)
 		(uuid "a7606daf-aa33-495f-a01a-ac23a652c0a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.3716 187.96 0)
+			(at 19.3306 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9945,7 +9993,7 @@
 	)
 	(global_label "TX_ATM328P"
 		(shape input)
-		(at 127 241.3 0)
+		(at 129.54 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9955,7 +10003,7 @@
 		)
 		(uuid "e3b8d526-a940-4cae-a198-b27f1f482791")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.536 241.3 0)
+			(at 144.076 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11007,7 +11055,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 238.76 90)
+		(at 125.73 238.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11017,7 +11065,7 @@
 		(dnp no)
 		(uuid "1b77e2f1-04ff-4a75-b8fa-9bbd42d8e379")
 		(property "Reference" "R26"
-			(at 120.65 234.188 90)
+			(at 125.73 234.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11027,7 +11075,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 120.65 236.474 90)
+			(at 125.73 236.474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11037,7 +11085,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +11096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,7 +11107,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +11118,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11081,7 +11129,7 @@
 			)
 		)
 		(property "Part" "0402WGF1001TCE"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11092,7 +11140,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 120.65 238.76 0)
+			(at 125.73 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21126,7 +21174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -21990,7 +22038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -23446,7 +23494,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 241.3 270)
+		(at 125.73 241.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23456,7 +23504,7 @@
 		(dnp no)
 		(uuid "fa18c8c9-b077-4c72-a5ad-361dc2f4aa58")
 		(property "Reference" "R27"
-			(at 120.65 245.872 90)
+			(at 125.73 245.872 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23466,7 +23514,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 120.65 243.586 90)
+			(at 125.73 243.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23476,7 +23524,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23487,7 +23535,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23498,7 +23546,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23509,7 +23557,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23520,7 +23568,7 @@
 			)
 		)
 		(property "Part" "0402WGF1001TCE"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23531,7 +23579,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 120.65 241.3 0)
+			(at 125.73 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

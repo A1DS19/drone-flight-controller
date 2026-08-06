@@ -1,36 +1,40 @@
-# Session handoff — 2026-07-27
+# Session handoff — 2026-07-30
 
 ## What was done (this session)
-- **Board is now 4-LAYER** (user's zone work, reviewed + gated): In1 solid GND with a
-  deliberate star-ground moat + single join at the battery terminal — verified ONE merged
-  island; In2 split power plane +3.3V/+5V/Vdrive/+12V (the netless 666 mm² zone got its
-  +5V net assigned during review).
-- **New pipeline gates built from this board** (claude-configs, PRs #15–#20 all merged):
-  `pcb-pinmap` (firmware handoff — full U1/U3 pin maps generated, byte-identical from pcb
-  and netlist paths) and `pcb-verify/zones.py` (netless/island/sliver/thermal/return-path).
-  JLCPCB live capabilities captured; DFM profile re-synced.
-- **Logos installed**: project lib `pcb/libs/logos.pretty` (+ `fp-lib-table` entry) and
-  global `jpi-logos`; `logos:jpi_logo_words` (letters-only) placed back-side as G1 in the
-  clear area near U10.
-- Findings acknowledged: `12C*` net spelling is instructor-intentional (PIN-210 warnings
-  stay, non-blocking); MPU-6050 (U2) is on **I2C2**, not I2C1 (I2C1 = U1↔U3 inter-MCU bus).
+- **Crystal-placement review** (user's request, all 5 crystals): the AN2867 Fig-14 moated
+  In1 islands are sound — tight loops (caps 1.4–2.8 mm, MCU pins 3.3–6.3 mm), full island
+  coverage under every crystal, guard rings + stitching on Y3/Y5, 0 blocking. Found the
+  STM32 islands' single-point bridges sat AWAY from the trace-entry corridor: all four
+  HSE/LSE nets crossed the moat over voids (ZONE-REF worst 0% reference).
+- **Fixed the STM32 bridges** (AppImage pcbnew, not MCP): two micro-bridges replaced by one
+  L-shaped `GND bridge osc stm32` at (122.5,97.2)–(126.5,100.4), top edge stepped to
+  y=97.45 for x>124.2 to clear the +3.3V via at (124.9,96.6). Islands now merge through
+  one neck under U1 pins 3–6. Zones gate 21→17 warnings / 0 blocking; DRC violation
+  histogram byte-identical pre/post (401, all pre-existing).
+- **Skills** (claude-configs branch `feat/osc-bridge-at-entry`, commit 0df4ab8, NOT pushed):
+  CHECKLIST 5.8 (bridge under trace entry) + digest line 6, design-rules 16b extension,
+  zones.py `osc_nets` model key + `[oscillator net]` ZONE-REF annotation with the
+  bridge-at-entry recommendation. Suites 85/3/97 green (+1 new test).
 
 ## Current state
-- Working tree UNCOMMITTED: `.kicad_pcb` (4-layer zones + logo placement),
-  `pcb/libs/logos.pretty/`, `fp-lib-table` entry, new crystal datasheets untracked.
-- Zones gate on this board: PASS — 0 blocking, 13 warnings (11 thermal + 2 sliver groups).
-- Open board items: (1) net `+12C` exists ONLY in the PCB, absent from both schematics —
-  stale board↔schematic sync, resolve before routing; (2) set H1-H8/J8/J17 power pads to
-  SOLID zone connection; (3) sliver islands — set island removal "below area limit" ~2 mm²
-  on GND/In1 and +5V/In2; (4) board 102×49 mm is under JLCPCB's 70×70 Standard-assembly
-  floor → Economic service or panel when ordering PCBA.
-- Still unrouted (1 segment, 0 vias) — planes connect to nothing SMD yet.
-- Standing gotchas: never "Update Symbols from Library" casually; close KiCad before file
-  edits (a stale GUI/MCP save wiped a logo placement once); commit before risky GUI ops.
+- Drone tree UNCOMMITTED: user's zone/crystal/routing WIP plus today's bridge fix in
+  `.kicad_pcb`; `.kicad_pro` modified; crystal datasheets (AN2867, SPMA056) untracked.
+- Osc clusters are locally routed on F.Cu (the 07-27 "1 segment" note is stale).
+- Open board items: (1) NRF_XC1 still 50% covered — Y5's bridge is at the entry but
+  narrow, user scoped today's fix to STM32 only; (2) NEW: `+3.3V` In2 zone splits into
+  2 disconnected regions — resolve before routing; (3) `+12C` PCB-only net (stale sync,
+  from 07-27); (4) H1-H8/J8/J17 pads → SOLID; (5) sliver island-removal limits ~2 mm²
+  (GND/In1 ×3, +5V/In2 ×6); (6) Y4 is 2.1 mm from board edge (noted, course design);
+  (7) two different zones both named "GND bridge osc 1 atm328p" (nRF + CH340G bridges) —
+  rename for auditability; (8) board 102×49 mm under JLCPCB 70×70 Standard-assembly floor.
+- Standing gotchas: KiCAD-MCP-Server process runs in background — MCP edits corrupt the
+  designator cache AND a stale MCP/GUI save can wipe work; close KiCad + avoid MCP for
+  file edits; commit before risky GUI ops. Pre-edit board backup in session scratchpad.
 
 ## Plan for next session
-1. Commit the WIP (zones + logo) on a feature branch.
-2. Fix open items 1–3, re-run `pcb-verify/scripts/zones.py` (AppImage python recipe in
-   memory) expecting the thermal + sliver warnings to clear.
-3. Then routing: signals on F.Cu over the solid In1 GND; B.Cu short jogs only, never USB
-   D± across In2 splits; after routing → via fanout + `gnd_vias.py` stitch → refill → DRC.
+1. Commit the drone WIP on a feature branch (zones + crystal placement + bridge fix).
+2. Push `feat/osc-bridge-at-entry` in claude-configs and open the PR (user to confirm).
+3. Fix open items 1–5 (+7 rename), re-run `pcb-verify/scripts/zones.py` (AppImage recipe
+   in memory) — expect NRF_XC1 and the sliver/thermal warnings to clear.
+4. Then routing per the 07-27 plan: signals on F.Cu over solid In1 GND; B.Cu short jogs
+   only, never USB D± across In2 splits; via fanout → `gnd_vias.py` stitch → refill → DRC.
