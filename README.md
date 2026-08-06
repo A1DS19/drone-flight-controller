@@ -5,8 +5,9 @@ telemetry co-processor.
 
 ## Current state
 
-Schematic capture is essentially complete across a two-page hierarchical schematic. The PCB layout
-has not been started.
+Schematic capture is complete across a two-page hierarchical schematic, the four-layer PCB is
+placed and routed, electrical and design rule checks pass with zero errors, and JLCPCB fabrication
+outputs are generated in [pcb/production/](pcb/production/).
 
 **Sheet 1 — flight controller core** (`pcb/drone-flight-controller.kicad_sch`):
 
@@ -37,18 +38,43 @@ divider feeding `ADC_Vbat` for battery-voltage sensing.
 The two sheets communicate through global labels (I²C, USB pass-through, `DO_COMU`) and shared
 power rails; the subsheet has no sheet pins.
 
-### Open items
+**Board** (`pcb/drone-flight-controller.kicad_pcb`): four-layer, ~102 × 49 mm rounded outline.
+F.Cu carries the signal routing, In1 is a solid ground plane (star ground, with moated oscillator
+islands per ST AN2867 bridged at their trace entries), In2 carries the power planes (`+3.3V`,
+`+5V`, `Vdrive`, and a `+12V` motor region), and B.Cu is reserved for short jogs. Motor mounts
+H1–H8, the drone-frame mounting reference (on User.Drawings), and a logo on the back silkscreen
+round out the mechanicals.
 
-The design is not ready for PCB layout or fabrication yet:
+**Check status** (2026-08-05):
 
-- `L1` in the VDDA filter still carries the invalid value `27nF`.
-- No `PWR_FLAG` symbols exist, so ERC will warn on every rail.
-- Footprints exist only for the major ICs; every passive, connector, crystal, switch, and LED
-  still needs one. LCSC/MPN coverage is a single part (D3).
-- The PCB file is empty: no outline, footprints, copper, or routing.
-- Native ERC/DRC has never run — it requires a KiCad 10 `kicad-cli`.
+- DRC: **0 errors, 0 unconnected items**, 91 reviewed warnings — silkscreen labels in dense
+  component clusters, stitching/fence vias that touch only the internal ground plane (the board
+  has no outer ground pours, so KiCad always flags these), and intentional board-vs-library
+  footprint divergence from deduplicating shared mounting holes.
+- ERC: **0 errors**, 19 known-benign warnings (pin-type artifacts of the ESD-array and
+  level-shifter symbols, power-label net-name overlaps, two deliberate embedded-symbol edits).
 
-See [agents/DESIGN_REVIEW.md](agents/DESIGN_REVIEW.md) for the full assessment and evidence basis.
+### Before ordering
+
+- Review the Gerbers in a viewer and verify symbol/footprint pin numbering against the
+  manufacturer datasheets — clean ERC/DRC is necessary but not sufficient.
+- Hand-tune or accept the 18 reference labels that have no rule-clean home in the dense
+  RF/LED/switch clusters.
+- Confirm the JLCPCB assembly tier and pricing for the 102 × 49 mm outline.
+
+See [agents/DESIGN_REVIEW.md](agents/DESIGN_REVIEW.md) for the engineering assessment history.
+
+## Fabrication outputs
+
+Generated 2026-08-05 into [pcb/production/](pcb/production/):
+
+| File | Contents |
+|------|----------|
+| `drone-flight-controller.zip` | Gerber package: 4 copper layers (F, In1, In2, B), mask/paste/silk both sides, board outline, PTH + NPTH drill files and maps (15 files) |
+| `bom.csv` | Bill of materials, 71 line items with LCSC part numbers |
+| `positions.csv` | Component placements (CPL) for 146 parts |
+| `designators.csv` | Designator index |
+| `netlist.ipc` | IPC-D-356 netlist for electrical test |
 
 ## Open the project
 
@@ -61,7 +87,8 @@ and board.
 
 ## Validate
 
-With KiCad 10 installed (`kicad-cli` from KiCad 9 fails with “Failed to load”):
+With a KiCad 10 `kicad-cli` (KiCad 9 fails with “Failed to load”; an AppImage's bundled CLI at
+`<AppDir>/bin/kicad-cli` works headless):
 
 ```sh
 kicad-cli sch erc pcb/drone-flight-controller.kicad_sch \
@@ -71,31 +98,34 @@ kicad-cli pcb drc pcb/drone-flight-controller.kicad_pcb \
   --output /tmp/drone-flight-controller-drc.rpt
 ```
 
-ERC and DRC are necessary but not sufficient. Verify symbol and footprint pin numbering against the manufacturer datasheet, synchronize the schematic and PCB, and review generated fabrication files before ordering.
+Expected: 0 ERC errors (19 benign warnings) and 0 DRC errors / 0 unconnected items (91 reviewed
+warnings, see **Check status** above).
 
 ## Repository layout
 
 ```text
 .
-├── CLAUDE.md                 Working brief, auto-loaded by Claude Code
-├── AGENTS.md                 Codex repository instructions
+├── CLAUDE.md                 Assistant working brief (auto-loaded by coding agents)
+├── AGENTS.md                 Repository instructions for coding agents
 ├── README.md
-├── .gitignore                KiCad locks, backups, and fabrication outputs
-├── agents/                   Project docs (new-project skill layout)
+├── .gitignore                KiCad locks, backups, and generated outputs
+├── agents/                   Project docs
 │   ├── CONTEXT.md            Domain glossary
 │   ├── roadmap.md            Goals and milestones
 │   ├── decisions.md          Log of hard, costly-to-reverse decisions
-│   └── DESIGN_REVIEW.md      Current engineering assessment
+│   ├── handoff.md            Session-to-session handoff notes
+│   └── DESIGN_REVIEW.md      Engineering assessment
 └── pcb/
-    ├── datasheets/           Local manufacturer references (25 PDFs)
+    ├── datasheets/           Local manufacturer references (47 PDFs)
     ├── libs/                 Project libraries (custom microSD symbol, EasyEDA footprint + 3D model)
+    ├── production/           JLCPCB fabrication outputs (Gerbers, BOM, CPL, IPC netlist)
     ├── sym-lib-table         Project symbol-library table
     ├── fp-lib-table          Project footprint-library table (registers `easyeda`)
     ├── drone-flight-controller.kicad_pro
     ├── drone-flight-controller.kicad_sch          Sheet 1 — STM32 core + power
     ├── ATMEGA238P-plus-components.kicad_sch       Sheet 2 — ATmega328P telemetry
-    └── drone-flight-controller.kicad_pcb          Layout (currently empty)
+    └── drone-flight-controller.kicad_pcb          Routed four-layer board
 ```
 
-For agent-facing context, start with [CLAUDE.md](CLAUDE.md); it links into
-[agents/](agents/) and the repository conventions.
+Project conventions and agent-facing context live in [CLAUDE.md](CLAUDE.md) and
+[agents/](agents/).

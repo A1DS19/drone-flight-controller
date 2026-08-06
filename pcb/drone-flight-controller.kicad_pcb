@@ -17986,6 +17986,17 @@
 			(uuid "61a9107c-86cb-4b08-b296-d8bb9d61df84")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/easyeda.3dshapes/Antena_SMA_142-0701-201.step"
+			(offset
+				(xyz 0 0 11)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
 	)
 	(footprint "easyeda:SW-TH_K3-1204D"
 		(layer "F.Cu")
@@ -27706,6 +27717,17 @@
 			(uuid "1e936772-11b1-424b-b588-da569e76a1b8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/easyeda.3dshapes/0.96 OLED v3.step"
+			(offset
+				(xyz 0 -11.5 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -34167,6 +34189,17 @@
 			(uuid "138a15cf-41a4-45af-8b69-67fd9a357ff6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/easyeda.3dshapes/XT60-M.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 0 90)
+			)
+		)
 	)
 	(footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 		(layer "F.Cu")
